@@ -1,0 +1,73 @@
+{
+  "name": "@putout/minify",
+  "version": "1.0.0",
+  "type": "module",
+  "author": "coderaiser <mnemonic.enemy@gmail.com> (https://github.com/coderaiser)",
+  "description": "🐊Putout-based minifier",
+  "homepage": "https://github.com/putoutjs/minify#readme",
+  "main": "./lib/minify.js",
+  "exports": {
+    ".": "./lib/minify.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/putoutjs/minify.git"
+  },
+  "scripts": {
+    "wisdom": "madrun wisdom",
+    "test": "madrun test",
+    "watch:test": "madrun watch:test",
+    "lint": "madrun lint",
+    "fresh:lint": "madrun fresh:lint",
+    "lint:fresh": "madrun lint:fresh",
+    "fix:lint": "madrun fix:lint",
+    "coverage": "madrun coverage",
+    "coverage:html": "madrun coverage:html",
+    "report": "madrun report"
+  },
+  "dependencies": {
+    "@babel/code-frame": "^7.18.6",
+    "@babel/core": "^7.21.8",
+    "@babel/parser": "^7.19.0",
+    "@babel/plugin-transform-block-scoping": "^7.21.0",
+    "@babel/traverse": "^7.21.2",
+    "@babel/types": "^7.21.3",
+    "@putout/compare": "^9.13.0",
+    "@putout/printer": "^1.83.1",
+    "babel-plugin-transform-merge-sibling-variables": "^6.9.5",
+    "fullstore": "^3.0.0",
+    "just-snake-case": "^3.2.0",
+    "putout": "29",
+    "rendy": "^3.1.1"
+  },
+  "keywords": [
+    "putout",
+    "minify",
+    "AST",
+    "babel",
+    "api",
+    "traverse",
+    "generate"
+  ],
+  "devDependencies": {
+    "@putout/test": "^6.0.1",
+    "c8": "^7.5.0",
+    "eslint": "^8.0.1",
+    "eslint-plugin-n": "^15.2.4",
+    "eslint-plugin-putout": "^17.0.0",
+    "just-kebab-case": "^4.2.0",
+    "madrun": "^9.0.0",
+    "mock-require": "^3.0.3",
+    "montag": "^1.0.0",
+    "nodemon": "^2.0.1",
+    "supertape": "^8.0.0",
+    "try-catch": "^3.0.0"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=16"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
