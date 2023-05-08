@@ -14,9 +14,9 @@ minify(`
     const a = 5;
     const b = 6;
 `);
-
 // returns
-var a=5,b=6;
+const a = 5;
+const b = 6;
 ```
 
 ## License

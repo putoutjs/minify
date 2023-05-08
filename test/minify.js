@@ -7,7 +7,6 @@ import {
     writeFileSync,
     readFileSync,
 } from 'fs';
-
 import {extend} from 'supertape';
 import {minify} from '../lib/minify.js';
 
@@ -41,4 +40,3 @@ test('putout: minify', (t) => {
     t.minify('minify');
     t.end();
 });
-
