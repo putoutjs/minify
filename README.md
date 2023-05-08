@@ -21,6 +21,7 @@ minify(`
     const b = 6;
 `);
 ```
+
 ```
 // returns
 var a=5,b=6;
