@@ -36,7 +36,17 @@ const test = extend({
     minify: minifyExtension,
 });
 
-test('putout: minify', (t) => {
+test('@putout/minify: minify', (t) => {
     t.minify('minify');
+    t.end();
+});
+
+test('@putout/minify: function', (t) => {
+    t.minify('function');
+    t.end();
+});
+
+test('@putout/minify: boolean', (t) => {
+    t.minify('boolean');
     t.end();
 });
