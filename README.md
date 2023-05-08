@@ -5,6 +5,12 @@
 
 🐊[**Putout**](https://github.com/coderaiser/putout)-based JavaScript minifier.
 
+## Install
+
+```sh
+npm i @putout/minify
+```
+
 ## API
 
 ```js
