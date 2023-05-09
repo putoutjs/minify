@@ -1,0 +1,1 @@
+function foo(){}function bar(){f();}function baz(){console.log(1);}export {foo,bar,baz,};

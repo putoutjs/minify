@@ -65,3 +65,13 @@ test('@putout/minify: type', (t) => {
     t.minify('type');
     t.end();
 });
+
+test('@putout/minify: guard', (t) => {
+    t.minify('guard');
+    t.end();
+});
+
+test('@putout/minify: dead-code', (t) => {
+    t.minify('dead-code');
+    t.end();
+});
