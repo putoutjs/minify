@@ -50,3 +50,13 @@ test('@putout/minify: boolean', (t) => {
     t.minify('boolean');
     t.end();
 });
+
+test('@putout/minify: infinity', (t) => {
+    t.minify('infinity');
+    t.end();
+});
+
+test('@putout/minify: unused', (t) => {
+    t.minify('unused');
+    t.end();
+});

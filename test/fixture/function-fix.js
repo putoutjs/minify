@@ -1,1 +1,1 @@
-function hello(){}function getWorld(){if(a)return void 0;return b;}
+function hello(){}function getWorld(){if(a)return void 0;return b;}hello(getWorld());

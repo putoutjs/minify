@@ -8,3 +8,5 @@ function getWorld() {
     
     return b;
 }
+
+hello(getWorld());

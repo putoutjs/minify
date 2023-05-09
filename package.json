@@ -34,6 +34,7 @@
     "@babel/types": "^7.21.3",
     "@putout/compare": "^9.13.0",
     "@putout/printer": "^1.83.1",
+    "babel-plugin-minify-infinity": "^0.4.3",
     "babel-plugin-transform-merge-sibling-variables": "^6.9.5",
     "babel-plugin-transform-minify-booleans": "^6.9.4",
     "babel-plugin-transform-undefined-to-void": "^6.9.4",
