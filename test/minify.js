@@ -75,3 +75,13 @@ test('@putout/minify: dead-code', (t) => {
     t.minify('dead-code');
     t.end();
 });
+
+test('@putout/minify: merge-duplicate-functions', (t) => {
+    t.minify('merge-duplicate-functions');
+    t.end();
+});
+
+test('@putout/minify: remove-useless-variables', (t) => {
+    t.minify('remove-useless-variables');
+    t.end();
+});
