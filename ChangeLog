@@ -1,3 +1,9 @@
+2023.05.09, v1.0.3
+
+feature:
+- 91ce4cf @putout/minify: add minify-dead-code
+- e1d081a @putout/minify: add minify type constructors
+
 2023.05.09, v1.0.2
 
 feature:
