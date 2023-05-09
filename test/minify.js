@@ -60,3 +60,8 @@ test('@putout/minify: unused', (t) => {
     t.minify('unused');
     t.end();
 });
+
+test('@putout/minify: type', (t) => {
+    t.minify('type');
+    t.end();
+});
