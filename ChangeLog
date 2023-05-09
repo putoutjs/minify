@@ -1,0 +1,5 @@
+2023.05.09, v1.0.1
+
+feature:
+- 59cd0a4 minify: remove-return-undefined: exclude nesting
+- 8798f5f add ability to remove undefined
