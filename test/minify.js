@@ -22,7 +22,10 @@ export const minifyExtension = ({pass, equal}) => (fixtureName, options) => {
     const fixtureFrom = readFileSync(nameFrom, 'utf8');
     const fixtureTo = readFileSync(nameTo, 'utf8');
     
-    const result = minify(fixtureFrom, options);
+    const result = minify(fixtureFrom, {
+        removeUnusedVariables: false,
+        ...options,
+    });
     
     if (UPDATE) {
         writeFileSync(nameTo, result);
@@ -57,7 +60,9 @@ test('@putout/minify: infinity', (t) => {
 });
 
 test('@putout/minify: unused', (t) => {
-    t.minify('unused');
+    t.minify('unused', {
+        removeUnusedVariables: true,
+    });
     t.end();
 });
 
@@ -82,13 +87,18 @@ test('@putout/minify: merge-duplicate-functions', (t) => {
 });
 
 test('@putout/minify: remove-useless-variables', (t) => {
-    t.minify('remove-useless-variables');
+    t.minify('remove-useless-variables', {
+        removeUnusedVariables: true,
+    });
     t.end();
 });
 
 test('@putout/minify: remove-useless-spread: options', (t) => {
-    t.minify('remove-useless-spread', {
-        removeUnusedVariables: false,
-    });
+    t.minify('remove-useless-spread');
+    t.end();
+});
+
+test('@putout/minify: remove-useless-return', (t) => {
+    t.minify('remove-useless-return');
     t.end();
 });
