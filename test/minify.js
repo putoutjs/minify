@@ -113,6 +113,11 @@ test('@putout/minify: remove-unreachable-code', (t) => {
     t.end();
 });
 
+test('@putout/minify: remove-unused-expressions', (t) => {
+    t.minify('remove-unused-expressions');
+    t.end();
+});
+
 test('@putout/minify: remove-console', (t) => {
     t.minify('remove-console', {
         removeConsole: true,
