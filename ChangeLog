@@ -1,3 +1,8 @@
+2023.05.10, v1.2.0
+
+feature:
+- 3054d26 @putout/minify: add remove-unreachable-code
+
 2023.05.10, v1.1.2
 
 feature:
