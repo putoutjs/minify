@@ -1,3 +1,8 @@
+2023.05.10, v1.4.0
+
+feature:
+- fb06389 @putout/minify: add remove-unreferenced-variables
+
 2023.05.10, v1.3.0
 
 feature:
