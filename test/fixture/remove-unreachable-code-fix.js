@@ -1,0 +1,1 @@
+function hi(){return 'world';}function log(){throw Error('error');}

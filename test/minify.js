@@ -108,6 +108,11 @@ test('@putout/minify: apply-template-literals', (t) => {
     t.end();
 });
 
+test('@putout/minify: remove-unreachable-code', (t) => {
+    t.minify('remove-unreachable-code');
+    t.end();
+});
+
 test('@putout/minify: remove-console', (t) => {
     t.minify('remove-console', {
         removeConsole: true,

@@ -1,3 +1,5 @@
+'use strict';
+
 function foo() {var x = 1;}
 function bar() { var x = f(); }
 function baz() {

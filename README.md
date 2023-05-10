@@ -38,6 +38,7 @@ Here is list of support 🐊**Putout** transformations:
 
 - ✅ [`transform-block-scoping`](https://babeljs.io/docs/babel-plugin-transform-block-scoping);
 - ✅ [`merge-sibling-variables`](https://github.com/babel/minify/tree/master/packages/babel-plugin-transform-merge-sibling-variables);
+- ✅ [`dead-code-elimination`](https://github.com/babel/minify/tree/master/packages/babel-plugin-minify-dead-code-elimination#readme);
 
 ## API
 
