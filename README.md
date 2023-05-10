@@ -16,7 +16,7 @@ npm i @putout/minify
 
 Here is list of support 🐊**Putout** transformations:
 
-- ❌ [`apply-template-literals`](https://github.com/coderaiser/putout/tree/v29.0.0/packages/plugin-remove-empty#readme);
+- ❌ [`apply-template-literals`](https://github.com/coderaiser/putout/tree/v29.0.0/packages/plugin-apply-template-literals#readme);
 - ❌ [`remove-empty`](https://github.com/coderaiser/putout/tree/v29.0.0/packages/plugin-remove-empty#readme);
 - ❌ [`remove-unused-variables`](https://github.com/coderaiser/putout/tree/v29.0.0/packages/plugin-remove-unused-variables#readme);
 - ❌ [`typescript/remove-unused-types`](https://github.com/coderaiser/putout/tree/v24.0.2/packages/plugin-typescript#remove-unused-types#readme);
