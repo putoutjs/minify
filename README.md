@@ -37,8 +37,13 @@ Here is list of support 🐊**Putout** transformations:
 ### Babel transforms
 
 - ✅ [`transform-block-scoping`](https://babeljs.io/docs/babel-plugin-transform-block-scoping);
-- ✅ [`merge-sibling-variables`](https://github.com/babel/minify/tree/master/packages/babel-plugin-transform-merge-sibling-variables);
-- ✅ [`dead-code-elimination`](https://github.com/babel/minify/tree/master/packages/babel-plugin-minify-dead-code-elimination#readme);
+- ✅ [`transform-merge-sibling-variables`](https://github.com/babel/minify/tree/master/packages/babel-plugin-transform-merge-sibling-variables);
+- ✅ [`minify-dead-code-elimination`](https://github.com/babel/minify/tree/master/packages/babel-plugin-minify-dead-code-elimination#readme);
+- ✅ [`transform-minify-booleans`](https://github.com/babel/minify/tree/master/packages/babel-plugin-transform-minify-booleans#readme);
+- ✅ [`transform-undefined-to-void`](https://github.com/babel/minify/tree/master/packages/babel-plugin-transform-undefined-to-void#readme);
+- ✅ [`minify-infinity`](https://github.com/babel/minify/tree/master/packages/babel-plugin-minify-infinity#readme);
+- ✅ [`minify-type-constructors`](https://github.com/babel/minify/tree/master/packages/babel-plugin-minify-type-constructors#readme);
+- ✅ [`minify-guarded-expressions`](https://github.com/babel/minify/tree/master/packages/babel-plugin-minify-guard-expressions#readme);
 
 ## API
 
