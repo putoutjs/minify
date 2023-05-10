@@ -12,6 +12,7 @@
 ```sh
 npm i @putout/minify
 ```
+
 ## Supported transforms
 
 Here is list of support 🐊**Putout** transformations:
