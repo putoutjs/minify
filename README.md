@@ -13,7 +13,9 @@
 npm i @putout/minify
 ```
 
-## Supported transforms
+## Supported minifier transforms
+
+### 🐊**Putout** transforms
 
 Here is list of support 🐊**Putout** transformations:
 
@@ -31,6 +33,11 @@ Here is list of support 🐊**Putout** transformations:
 - ✅ [`remove-unreachable-code`](https://github.com/coderaiser/putout/tree/v29.0.0/packages/plugin-remove-unreachable-code#readme);
 - ✅ [`for-of/remove-useless`](https://github.com/coderaiser/putout/tree/v29.1.2/packages/plugin-remove-useless-for-of#readme);
 - ✅ [`for-of/remove-unused-variables`](https://github.com/coderaiser/putout/tree/29.1.2/packages/plugin-for-of#remove-unused-variables);
+
+### Babel transforms
+
+- ✅ [`transform-block-scoping`](https://babeljs.io/docs/babel-plugin-transform-block-scoping);
+- ✅ [`merge-sibling-variables`](https://github.com/babel/minify/tree/master/packages/babel-plugin-transform-merge-sibling-variables);
 
 ## API
 
