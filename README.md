@@ -59,6 +59,17 @@ var a=5,b=6;fn(a,b);
 
 ### Options
 
+You can also pass options to `minify`. Here is list of default options:
+
+```js
+({
+    removeUnusedVariables: true,
+    removeConsole: false,
+});
+```
+
+And usage example:
+
 ```js
 import {minify} from '@putout/minify';
 
@@ -68,7 +79,7 @@ const source = `
 `;
 
 minify(source, {
-    removeUnusedVariables: false,
+    removeUnusedVariables: true,
 });
 ```
 
