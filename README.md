@@ -21,12 +21,30 @@ import {minify} from '@putout/minify';
 minify(`
     const a = 5;
     const b = 6;
+    
+    fn(a, b);
 `);
 ```
 
 ```
 // returns
-var a=5,b=6;
+var a=5,b=6;fn(a,b);
+```
+
+### Options
+
+
+```js
+import {minify} from '@putout/minify';
+
+const source = `
+    const a = 5;
+    const b = 6;
+`;
+
+minify(source, {
+    removeUnusedVariables: false,
+});
 ```
 
 ## License

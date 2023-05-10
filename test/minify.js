@@ -15,14 +15,14 @@ const __dirname = dirname(__filename);
 
 const {UPDATE} = process.env;
 
-export const minifyExtension = ({pass, equal}) => (fixtureName) => {
+export const minifyExtension = ({pass, equal}) => (fixtureName, options) => {
     const nameFrom = join(__dirname, 'fixture', `${fixtureName}.js`);
     const nameTo = join(__dirname, 'fixture', `${fixtureName}-fix.js`);
     
     const fixtureFrom = readFileSync(nameFrom, 'utf8');
     const fixtureTo = readFileSync(nameTo, 'utf8');
     
-    const result = minify(fixtureFrom);
+    const result = minify(fixtureFrom, options);
     
     if (UPDATE) {
         writeFileSync(nameTo, result);
@@ -83,5 +83,12 @@ test('@putout/minify: merge-duplicate-functions', (t) => {
 
 test('@putout/minify: remove-useless-variables', (t) => {
     t.minify('remove-useless-variables');
+    t.end();
+});
+
+test('@putout/minify: remove-useless-spread: options', (t) => {
+    t.minify('remove-useless-spread', {
+        removeUnusedVariables: false,
+    });
     t.end();
 });

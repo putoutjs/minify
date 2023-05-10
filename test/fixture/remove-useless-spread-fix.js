@@ -1,0 +1,1 @@
+var places=getPlaces(),a=fn();
