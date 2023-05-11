@@ -33,6 +33,7 @@
     "@babel/traverse": "^7.21.2",
     "@babel/types": "^7.21.3",
     "@putout/compare": "^9.13.0",
+    "@putout/plugin-minify": "^1.0.0",
     "@putout/printer": "^1.83.1",
     "babel-plugin-minify-dead-code-elimination": "^0.5.2",
     "babel-plugin-minify-guarded-expressions": "^0.4.4",
