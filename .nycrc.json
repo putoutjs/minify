@@ -8,7 +8,10 @@
         "**/debug.js",
         "**/coverage",
         "**/.*.*",
-        "**/fixture.js"
+        "**/fixture.js",
+        "**/bundle",
+        "**/stub",
+        "rollup.config.js"
     ],
     "branches": 100,
     "lines": 100,

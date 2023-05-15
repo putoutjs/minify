@@ -1,1 +1,1 @@
-var places=getPlaces(),a=fn();
+const places=getPlaces();const a=fn();

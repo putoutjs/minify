@@ -1,1 +1,1 @@
-var traverse=({push})=>({ObjectExpression() {},});
+const traverse=({push})=>({ObjectExpression(path) {},});

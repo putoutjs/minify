@@ -1,1 +1,1 @@
-fn(1/0);
+fn(Infinity);

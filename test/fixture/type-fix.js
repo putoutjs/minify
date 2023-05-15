@@ -1,1 +1,1 @@
-var a=!!x;fn(a);
+const a=Boolean(x);fn(a);

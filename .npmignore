@@ -7,3 +7,5 @@ coverage
 fixture
 fixture.js
 rules
+rollup.config.js
+lib/*.js

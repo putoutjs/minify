@@ -1,1 +1,1 @@
-var isFn=(a)=>typeof a==='function';isFn(1);isFn(2);
+const isFn=(a)=>typeof a==='function';isFn(1);isFn(2);
