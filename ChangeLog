@@ -1,3 +1,8 @@
+2023.05.15, v1.7.0
+
+feature:
+- 623967e @putout/plugin-minify: remove-nested-blocks: add
+
 2023.05.15, v1.6.1
 
 feature:
