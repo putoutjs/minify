@@ -16,6 +16,6 @@ export default {
     'coverage': async () => [env, `c8 ${await cutEnv('test')}`],
     'coverage:html': async () => [env, `c8 --reporter=lcov ${await cutEnv('test')}`],
     'report': () => 'c8 report --reporter=lcov',
-    'build': () => run('build:*'),
-    'build:minify': () => 'rollup -c',
+    'build': () => 'rollup -c',
+    'postbuild': () => 'minify bundle/minify.js > bundle/minify.min.js',
 };
