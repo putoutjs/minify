@@ -1,3 +1,8 @@
+2023.05.15, v1.6.1
+
+feature:
+- 9876f0c @putout/minify: minimize bundle
+
 2023.05.15, v1.6.0
 
 feature:
