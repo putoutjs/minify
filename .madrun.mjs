@@ -6,7 +6,7 @@ import {
 const env = {};
 
 export default {
-    'wisdom': () => run(['lint', 'coverage', 'build']),
+    'wisdom': () => run(['lint', 'coverage', 'build', 'test', 'minify']),
     'test': () => [env, `tape 'lib/**/*.spec.js' test/*.js 'rules/**/*.spec.js'`],
     'watch:test': async () => [env, `nodemon -w lib -w test -x ${await cutEnv('test')}`],
     'lint': () => `putout .`,
@@ -17,5 +17,5 @@ export default {
     'coverage:html': async () => [env, `c8 --reporter=lcov ${await cutEnv('test')}`],
     'report': () => 'c8 report --reporter=lcov',
     'build': () => 'rollup -c',
-    'postbuild': () => 'minify bundle/minify.js > bundle/minify.min.js',
+    'minify': () => 'minify bundle/minify.js > bundle/minify.min.js',
 };

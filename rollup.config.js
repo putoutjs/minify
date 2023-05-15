@@ -5,6 +5,11 @@ import nodePolyfills from 'rollup-plugin-polyfill-node';
 import replace from '@rollup/plugin-replace';
 import alias from '@rollup/plugin-alias';
 
+const nestedPlugin = (name) => [
+    `node_modules/@putout/plugin-${name}/lib/*`,
+    `!node_modules/@putout/plugin-${name}/lib/index.js`,
+];
+
 export default {
     input: 'lib/minify.js',
     output: {
@@ -24,12 +29,10 @@ export default {
         commonjs({
             defaultIsModuleExports: false,
             dynamicRequireTargets: [
-                'node_modules/@putout/plugin-minify/lib/*',
-                '!node_modules/@putout/plugin-minify/lib/index.js',
-                'node_modules/@putout/plugin-remove-empty/lib/*',
-                '!node_modules/@putout/plugin-remove-empty/lib/index.js',
-                'node_modules/@putout/plugin-remove-useless-spread/lib/*',
-                '!node_modules/@putout/plugin-remove-useless-spread/lib/index.js',
+                ...nestedPlugin('minify'),
+                ...nestedPlugin('remove-empty'),
+                ...nestedPlugin('remove-useless-spread'),
+                ...nestedPlugin('for-of'),
             ],
             exclude: [
                 'core-js/**',

@@ -126,6 +126,11 @@ test('@putout/minify: remove-unreferenced-variables', (t) => {
     t.end();
 });
 
+test('@putout/minify: for-of: remove-useless', (t) => {
+    t.minify('for-of-remove-useless');
+    t.end();
+});
+
 test('@putout/minify: remove-console', (t) => {
     t.minify('remove-console', {
         removeConsole: true,
