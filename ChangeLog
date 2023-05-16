@@ -1,3 +1,8 @@
+2023.05.16, v1.8.0
+
+feature:
+- affc8a0 @putout/minify: @putout/plugin-minify v1.1.0: add ability to mangle names
+
 2023.05.15, v1.7.0
 
 feature:
