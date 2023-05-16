@@ -1,1 +1,1 @@
-function show(error){}
+function show(a){}

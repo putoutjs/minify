@@ -20,6 +20,7 @@ npm i @putout/minify
 Here is list of support 🐊**Putout** transformations:
 
 - ✅ [`apply-template-literals`](https://github.com/coderaiser/putout/tree/v29.0.0/packages/plugin-apply-template-literals#readme);
+- ✅ [`minify/mangle-names`](https://github.com/coderaiser/putout/tree/v29.0.0/packages/plugin-minify#mangle-names);
 - ✅ [`remove-empty`](https://github.com/coderaiser/putout/tree/v29.0.0/packages/plugin-remove-empty#readme);
 - ✅ [`remove-nested-blocks`](https://github.com/coderaiser/putout/tree/v29.0.0/packages/plugin-remove-nested-blocks#readme);
 - ✅ [`remove-unused-variables`](https://github.com/coderaiser/putout/tree/v29.0.0/packages/plugin-remove-unused-variables#readme);
