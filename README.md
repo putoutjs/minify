@@ -33,7 +33,7 @@ Here is list of support 🐊**Putout** transformations:
 - ✅ [`remove-console`](https://github.com/coderaiser/putout/tree/v29.0.0/packages/plugin-remove-console#readme);
 - ✅ [`remove-debugger`](https://github.com/coderaiser/putout/tree/v29.0.0/packages/plugin-remove-debugger#readme);
 - ✅ [`remove-unreachable-code`](https://github.com/coderaiser/putout/tree/v29.0.0/packages/plugin-remove-unreachable-code#readme);
-- ✅ [`for-of/remove-useless`](https://github.com/coderaiser/putout/tree/v29.1.2/packages/plugin-remove-useless-for-of#readme);
+- ✅ [`for-of/remove-useless`](https://github.com/coderaiser/putout/tree/v29.1.2/packages/plugin-for-of#remove-useless);
 - ✅ [`for-of/remove-unused-variables`](https://github.com/coderaiser/putout/tree/29.1.2/packages/plugin-for-of#remove-unused-variables);
 
 ## API
