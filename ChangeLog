@@ -1,3 +1,8 @@
+2023.05.16, v1.9.0
+
+feature:
+- 047bfec @putout/minify: use full for-of plugin
+
 2023.05.16, v1.8.0
 
 feature:
