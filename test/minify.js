@@ -106,6 +106,11 @@ test('@putout/minify: remove-useless-return', (t) => {
     t.end();
 });
 
+test('@putout/minify: for', (t) => {
+    t.minify('for');
+    t.end();
+});
+
 test('@putout/minify: apply-template-literals', (t) => {
     t.minify('apply-template-literals');
     t.end();
