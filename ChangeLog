@@ -1,3 +1,8 @@
+2023.05.17, v1.10.0
+
+feature:
+- f7f2d95 @putout/minify: add ability to shorten types
+
 2023.05.16, v1.9.0
 
 feature:
