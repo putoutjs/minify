@@ -1,3 +1,8 @@
+2023.05.17, v1.12.0
+
+feature:
+- 246ddf3 @putout/minify: add support of couple elements inside BlockStatement body of IfStatement consequent
+
 2023.05.17, v1.11.0
 
 feature:
