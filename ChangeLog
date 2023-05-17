@@ -1,3 +1,8 @@
+2023.05.17, v1.11.0
+
+feature:
+- 45b4c05 @putout/minify: add ability to minify IfStatement
+
 2023.05.17, v1.10.0
 
 feature:
