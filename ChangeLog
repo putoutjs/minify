@@ -1,3 +1,10 @@
+2023.05.17, v1.13.0
+
+feature:
+- e90ab4a @putout/minify: add support of logical-expressions, conditions
+- f1a7d70 package: @putout/plugin-logical-expressions v2.1.0
+- b983025 package: @putout/plugin-remove-unused-expressions v6.0.1
+
 2023.05.17, v1.12.0
 
 feature:
