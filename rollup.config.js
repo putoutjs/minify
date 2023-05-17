@@ -33,6 +33,8 @@ export default {
                 ...nestedPlugin('remove-empty'),
                 ...nestedPlugin('remove-useless-spread'),
                 ...nestedPlugin('for-of'),
+                ...nestedPlugin('logical-expressions'),
+                ...nestedPlugin('conditions'),
             ],
             exclude: [
                 'core-js/**',

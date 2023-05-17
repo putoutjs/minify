@@ -111,13 +111,18 @@ test('@putout/minify: if', (t) => {
     t.end();
 });
 
+test('@putout/minify: apply-template-literals', (t) => {
+    t.minify('apply-template-literals');
+    t.end();
+});
+
 test('@putout/minify: for', (t) => {
     t.minify('for');
     t.end();
 });
 
-test('@putout/minify: apply-template-literals', (t) => {
-    t.minify('apply-template-literals');
+test('@putout/minify: logical-expressions', (t) => {
+    t.minify('logical-expressions');
     t.end();
 });
 
