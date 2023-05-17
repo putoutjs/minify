@@ -106,6 +106,11 @@ test('@putout/minify: remove-useless-return', (t) => {
     t.end();
 });
 
+test('@putout/minify: if', (t) => {
+    t.minify('if');
+    t.end();
+});
+
 test('@putout/minify: for', (t) => {
     t.minify('for');
     t.end();
