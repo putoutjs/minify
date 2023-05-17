@@ -1,1 +1,1 @@
-const a=true;const b=false;fn(a, b);
+const a=!0;const b=!1;fn(a, b);
