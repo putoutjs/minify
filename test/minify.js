@@ -52,6 +52,11 @@ test('@putout/minify: conditions', (t) => {
     t.end();
 });
 
+test('@putout/minify: else', (t) => {
+    t.minify('else');
+    t.end();
+});
+
 test('@putout/minify: minify', (t) => {
     t.minify('minify');
     t.end();
