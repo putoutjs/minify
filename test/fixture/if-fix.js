@@ -1,1 +1,1 @@
-a&&console.log('hello');a&&(console.log('hello'), console.log('world'));
+a&&console.log('hello');a&&(console.log('hello'),console.log('world'));
