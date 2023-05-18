@@ -47,6 +47,11 @@ test('@putout/minify: arrow', (t) => {
     t.end();
 });
 
+test('@putout/minify: conditions', (t) => {
+    t.minify('conditions');
+    t.end();
+});
+
 test('@putout/minify: minify', (t) => {
     t.minify('minify');
     t.end();
