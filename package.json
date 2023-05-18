@@ -1,6 +1,6 @@
 {
   "name": "@putout/minify",
-  "version": "1.16.4",
+  "version": "1.16.5",
   "type": "module",
   "author": "coderaiser <mnemonic.enemy@gmail.com> (https://github.com/coderaiser)",
   "description": "🐊Putout-based minifier",
