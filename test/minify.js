@@ -42,6 +42,11 @@ const test = extend({
     minify: minifyExtension,
 });
 
+test('@putout/minify: arrow', (t) => {
+    t.minify('arrow');
+    t.end();
+});
+
 test('@putout/minify: minify', (t) => {
     t.minify('minify');
     t.end();
