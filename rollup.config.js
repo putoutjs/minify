@@ -10,6 +10,17 @@ const nestedPlugin = (name) => [
     `!node_modules/@putout/plugin-${name}/lib/index.js`,
 ];
 
+const PUTOUT_NESTED_PLUGINS = [
+    'conditions',
+    'for-of',
+    'logical-expressions',
+    'minify',
+    'new',
+    'regexp',
+    'remove-empty',
+    'remove-useless-spread',
+].flatMap(nestedPlugin);
+
 export default {
     input: 'lib/minify.js',
     output: {
@@ -28,15 +39,7 @@ export default {
         }),
         commonjs({
             defaultIsModuleExports: false,
-            dynamicRequireTargets: [
-                ...nestedPlugin('conditions'),
-                ...nestedPlugin('for-of'),
-                ...nestedPlugin('logical-expressions'),
-                ...nestedPlugin('minify'),
-                ...nestedPlugin('new'),
-                ...nestedPlugin('remove-empty'),
-                ...nestedPlugin('remove-useless-spread'),
-            ],
+            dynamicRequireTargets: PUTOUT_NESTED_PLUGINS,
             exclude: [
                 'core-js/**',
                 '**/lib/loader.*',

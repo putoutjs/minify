@@ -126,6 +126,11 @@ test('@putout/minify: logical-expressions', (t) => {
     t.end();
 });
 
+test('@putout/minify: regexp', (t) => {
+    t.minify('regexp');
+    t.end();
+});
+
 test('@putout/minify: remove-unreachable-code', (t) => {
     t.minify('remove-unreachable-code');
     t.end();
@@ -143,6 +148,11 @@ test('@putout/minify: remove-unreferenced-variables', (t) => {
 
 test('@putout/minify: for-of: remove-useless', (t) => {
     t.minify('for-of-remove-useless');
+    t.end();
+});
+
+test('@putout/minify: undefined', (t) => {
+    t.minify('undefined');
     t.end();
 });
 
