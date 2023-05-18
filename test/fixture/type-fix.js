@@ -1,1 +1,1 @@
-const a=Boolean(x);fn(a);
+const a=!!x;fn(a);

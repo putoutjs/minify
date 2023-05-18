@@ -29,12 +29,13 @@ export default {
         commonjs({
             defaultIsModuleExports: false,
             dynamicRequireTargets: [
-                ...nestedPlugin('minify'),
-                ...nestedPlugin('remove-empty'),
-                ...nestedPlugin('remove-useless-spread'),
+                ...nestedPlugin('conditions'),
                 ...nestedPlugin('for-of'),
                 ...nestedPlugin('logical-expressions'),
-                ...nestedPlugin('conditions'),
+                ...nestedPlugin('minify'),
+                ...nestedPlugin('new'),
+                ...nestedPlugin('remove-empty'),
+                ...nestedPlugin('remove-useless-spread'),
             ],
             exclude: [
                 'core-js/**',
