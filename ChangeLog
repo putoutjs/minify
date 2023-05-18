@@ -1,3 +1,8 @@
+2023.05.18, v1.13.1
+
+fix:
+- e66f869 @putout/minify: exports
+
 2023.05.17, v1.13.0
 
 feature:
