@@ -81,6 +81,12 @@ minify(source, {
 });
 ```
 
+### How it's compared to [Terser](https://github.com/terser/terser)?
+
+For [such code](https://github.com/coderaiser/minify/issues/96#issuecomment-1546605157):
+-  🔥 `@putout/minify`: `481B`
+- ❌ `terser`: `482B`
+
 ## License
 
 MIT
