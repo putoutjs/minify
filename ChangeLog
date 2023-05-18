@@ -1,3 +1,8 @@
+2023.05.18, v1.15.0
+
+feature:
+- 7a3d913 @putout/minify: add ability to minify RegExp
+
 2023.05.18, v1.14.0
 
 fix:
