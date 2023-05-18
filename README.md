@@ -15,8 +15,6 @@ npm i @putout/minify
 
 ## Supported minifier transforms
 
-### 🐊**Putout** transforms
-
 Here is list of support 🐊**Putout** transformations:
 
 - ✅ [`apply-template-literals`](https://github.com/coderaiser/putout/tree/v29.0.0/packages/plugin-apply-template-literals#readme);
