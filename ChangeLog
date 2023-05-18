@@ -1,3 +1,11 @@
+2023.05.18, v1.14.0
+
+fix:
+- 43c0f34 @putout/minify: exports (#1)
+
+feature:
+- 03a8604 @putout/minify: add ability to minify type constructors
+
 2023.05.18, v1.13.1
 
 fix:
