@@ -1,1 +1,1 @@
-const a=!0;const b=!1;fn(a, b);const c=!!'hello';
+const a=!0;const b=!1;fn(a,b);const c=!!'hello';
