@@ -1,1 +1,1 @@
-const isFn=(a)=>typeof a==='function';isFn(1);isFn(2);
+const a=(a)=>typeof a==='function';a(1);a(2);

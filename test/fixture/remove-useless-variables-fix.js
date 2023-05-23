@@ -1,1 +1,1 @@
-function hi(){}hi();
+function a(){}a();

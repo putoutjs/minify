@@ -1,1 +1,1 @@
-'use strict';function foo(){var x=1}function bar(){var x=f()}function baz(){var x=1;console.log(x);function a(){return 5}}export {foo,bar,baz};
+'use strict';function a(){var x=1}function c(){var x=f()}function d(){var x=1;console.log(x);function a(){return 5}}export{a as foo,c as bar,d as baz};
