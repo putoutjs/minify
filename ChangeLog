@@ -1,3 +1,9 @@
+2023.05.23, v1.17.4
+
+feature:
+- 88d6f0b package: @putout/printer v1.109.0
+- 85cf5c5 package: @putout/plugin-minify v1.9.0
+
 2023.05.23, v1.17.3
 
 feature:
