@@ -1,1 +1,1 @@
-const n=items.length;for(const a of items){log(a)}
+const n=items.length;for(const a of items)log(a);
