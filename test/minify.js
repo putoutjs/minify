@@ -171,6 +171,11 @@ test('@putout/minify: undefined', (t) => {
     t.end();
 });
 
+test('@putout/minify: shebang', (t) => {
+    t.minify('shebang');
+    t.end();
+});
+
 test('@putout/minify: remove-console', (t) => {
     t.minify('remove-console', {
         removeConsole: true,
