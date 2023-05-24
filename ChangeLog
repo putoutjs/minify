@@ -1,3 +1,8 @@
+2023.05.24, v1.19.0
+
+feature:
+- 8ee7cf5 @putout/minify: add remove-useless-else
+
 2023.05.23, v1.18.1
 
 feature:
