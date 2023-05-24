@@ -10,7 +10,8 @@
     "README.md"
   ],
   "exports": {
-    ".": "./bundle/minify.min.js"
+    ".": "./bundle/minify.min.js",
+    "./dev": "./lib/minify.js"
   },
   "repository": {
     "type": "git",
