@@ -86,7 +86,7 @@ minify(source, {
 
 For [such code](https://github.com/coderaiser/minify/issues/96#issuecomment-1546605157):
 
-- 🔥 `@putout/minify`: `481B`
+- 🔥 `@putout/minify`: `473B`
 - ❌ `terser`: `482B`
 
 ## License
