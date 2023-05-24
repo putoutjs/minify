@@ -1,1 +1,1 @@
-if(a)b();else c();
+a?b():c();if(a){console.log('hello');return}console.log('world');

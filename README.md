@@ -29,6 +29,7 @@ Here is list of support 🐊**Putout** transformations:
 - ✅ [`remove-unused-expressions`](https://github.com/coderaiser/putout/tree/v29.0.0/packages/plugin-remove-unused-expressions#readme);
 - ✅ [`remove-unreferenced-variables`](https://github.com/coderaiser/putout/tree/v29.0.0/packages/plugin-remove-unreferenced-variables#readme);
 - ✅ [`remove-useless-arguments`](https://github.com/coderaiser/putout/tree/master/packages/plugin-remove-useless-arguments#readme);
+- ✅ [`remove-useless-else`](https://github.com/coderaiser/putout/tree/master/packages/plugin-remove-useless-else#readme);
 - ✅ [`remove-useless-return`](https://github.com/coderaiser/putout/tree/v29.0.0/packages/plugin-remove-useless-return#readme);
 - ✅ [`remove-useless-spread`](https://github.com/coderaiser/putout/tree/v29.0.0/packages/plugin-remove-useless-spread/#readme);
 - ✅ [`remove-useless-variables`](https://github.com/coderaiser/putout/tree/v29.0.0/packages/plugin-remove-useless-variables#readme);

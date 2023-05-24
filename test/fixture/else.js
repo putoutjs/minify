@@ -3,3 +3,10 @@ if (a)
 else
     c();
     
+
+if (a) {
+    console.log('hello')
+    return;
+} else {
+    console.log('world');
+}
