@@ -1,3 +1,8 @@
+2023.05.24, v1.20.0
+
+feature:
+- a56e4f6 @putout/minify: improve shebang support
+
 2023.05.24, v1.19.1
 
 feature:
