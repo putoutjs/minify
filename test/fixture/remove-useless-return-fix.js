@@ -1,1 +1,1 @@
-const a=({push})=>({ObjectExpression(a){}});
+const a=({push})=>({ObjectExpression(_temp){}});
