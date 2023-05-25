@@ -1,3 +1,8 @@
+2023.05.25, v1.20.2
+
+fix:
+- 8d4dc97 @putout/minify: add ability to rename ObjectProperty inside ObjectPattern (babel/babel#15648)
+
 2023.05.25, v1.20.1
 
 feature:
