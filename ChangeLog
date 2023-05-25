@@ -1,3 +1,8 @@
+2023.05.25, v1.21.0
+
+feature:
+- 3f4a931 package: @putout/plugin-minify v1.16.0
+
 2023.05.25, v1.20.3
 
 feature:
