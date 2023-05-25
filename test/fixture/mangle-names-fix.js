@@ -1,1 +1,1 @@
-const {hello: a}=world;fn(a);
+const {hello:a}=world;fn(a);
