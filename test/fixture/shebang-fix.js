@@ -1,2 +1,2 @@
 #!/usr/bin/env node
-import a from 'b';
+import a from'b';
