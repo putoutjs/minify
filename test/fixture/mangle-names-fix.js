@@ -1,0 +1,1 @@
+const {hello: a}=world;fn(a);

@@ -166,6 +166,11 @@ test('@putout/minify: for-of: remove-useless', (t) => {
     t.end();
 });
 
+test('@putout/minify: mangle-names', (t) => {
+    t.minify('mangle-names');
+    t.end();
+});
+
 test('@putout/minify: undefined', (t) => {
     t.minify('undefined');
     t.end();
