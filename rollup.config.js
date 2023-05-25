@@ -35,6 +35,9 @@ export default {
             }, {
                 find: 'chalk',
                 replacement: './stub/chalk.js',
+            }, {
+                find: 'acorn-stage3',
+                replacement: './stub/acorn-stage3.js',
             }],
         }),
         commonjs({
@@ -46,19 +49,18 @@ export default {
                 'fs',
                 'module',
                 'buffer',
+                '**/parse-options/**',
             ],
             ignore: [
                 'hermes-parser',
                 'esprima',
                 'recast',
-                'acorn-stage-3',
                 'espree',
                 'acorn',
                 'tenko*',
                 'hermes-parser/*',
                 'core-js/**',
                 '**/lib/loader.*',
-                '**/parse-options/**',
                 'caniuse',
                 'hermes*',
                 'electron*',
