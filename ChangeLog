@@ -1,3 +1,10 @@
+2023.05.30, v1.24.0
+
+feature:
+- 5565688 @putout/minify: add declare
+- 01de27e package: @putout/plugin-minify v1.20.0
+- fd61633 @putout/minify: add types
+
 2023.05.30, v1.23.0
 
 feature:
