@@ -88,7 +88,7 @@
     "mock-require": "^3.0.3",
     "montag": "^1.0.0",
     "nodemon": "^2.0.1",
-    "putout": "29",
+    "putout": "^29.10.0",
     "rendy": "^3.1.1",
     "rollup": "^3.15.0",
     "rollup-plugin-node-externals": "^5.0.0",
