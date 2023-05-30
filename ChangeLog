@@ -1,3 +1,8 @@
+2023.05.30, v1.23.0
+
+feature:
+- ded7ad3 @putout/minify: add convert-arguments-to-rest
+
 2023.05.30, v1.22.3
 
 feature:
