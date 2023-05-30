@@ -1,1 +1,1 @@
-const a=!!x;fn(a);
+var a=!!x;fn(a);

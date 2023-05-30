@@ -1,1 +1,1 @@
-const{keys}=Object;keys(a);keys(b);keys(c);keys(d);
+var{keys:a}=Object;a(a);a(b);a(c);a(d);

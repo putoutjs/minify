@@ -6,7 +6,7 @@ else
 
 if (a) {
     console.log('hello')
-    return;
+    return 'hello';
 } else {
     console.log('world');
 }

@@ -1,1 +1,1 @@
-const a=({push})=>({ObjectExpression(_a){}});
+var a=({push})=>({ObjectExpression(_a){}});

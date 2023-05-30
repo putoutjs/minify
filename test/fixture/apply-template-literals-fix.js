@@ -1,1 +1,1 @@
-const a=`("${name}")`;
+var a=`("${name}")`;

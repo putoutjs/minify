@@ -1,1 +1,1 @@
-const a=(a)=>typeof a==='function';a(1);a(2);
+var a=(a)=>typeof a==='function';a(1);a(2);

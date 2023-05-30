@@ -1,1 +1,1 @@
-const _a=getPlaces();const a=fn();
+var _a=getPlaces();var a=fn();

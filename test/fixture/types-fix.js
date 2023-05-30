@@ -1,1 +1,1 @@
-const _a=(a)=>typeof a==='string';const a=get();if(_a(a))return;
+var _a=(a)=>typeof a==='string';var a=get();if(_a(a))return;

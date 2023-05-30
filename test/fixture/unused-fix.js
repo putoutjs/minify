@@ -1,1 +1,1 @@
-const a=5;fn(a);
+var a=5;fn(a);
