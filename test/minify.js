@@ -176,6 +176,11 @@ test('@putout/minify: undefined', (t) => {
     t.end();
 });
 
+test('@putout/minify: convert-arguments-to-rest', (t) => {
+    t.minify('convert-arguments-to-rest');
+    t.end();
+});
+
 test('@putout/minify: shebang', (t) => {
     t.minify('shebang');
     t.end();
