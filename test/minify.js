@@ -181,6 +181,11 @@ test('@putout/minify: convert-arguments-to-rest', (t) => {
     t.end();
 });
 
+test('@putout/minify: types', (t) => {
+    t.minify('types');
+    t.end();
+});
+
 test('@putout/minify: shebang', (t) => {
     t.minify('shebang');
     t.end();
