@@ -1,6 +1,6 @@
 {
   "name": "@putout/minify",
-  "version": "1.27.0",
+  "version": "1.27.1",
   "type": "module",
   "author": "coderaiser <mnemonic.enemy@gmail.com> (https://github.com/coderaiser)",
   "description": "🐊Putout-based minifier",
@@ -73,7 +73,6 @@
     "@putout/plugin-remove-useless-variables": "^8.0.0",
     "@putout/plugin-types": "^1.5.0",
     "@putout/printer": "^1.125.0",
-    "@putout/test": "^6.0.1",
     "@rollup/plugin-alias": "^5.0.0",
     "@rollup/plugin-commonjs": "^24.0.1",
     "@rollup/plugin-json": "^6.0.0",
