@@ -1,3 +1,8 @@
+2023.05.31, v1.27.0
+
+feature:
+- d0f0135 @putout/minify: apply-optiona-chaining
+
 2023.05.31, v1.26.0
 
 feature:
