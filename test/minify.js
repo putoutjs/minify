@@ -47,6 +47,11 @@ test('@putout/minify: arrow', (t) => {
     t.end();
 });
 
+test('@putout/minify: apply-optional-chainig', (t) => {
+    t.minify('apply-optional-chaining');
+    t.end();
+});
+
 test('@putout/minify: conditions', (t) => {
     t.minify('conditions');
     t.end();
