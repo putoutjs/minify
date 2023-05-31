@@ -1,1 +1,1 @@
-var a=!0;var b=!1;fn(a,b);var c=!!'hello';
+var a=!0,b=!1,c=!!'hello';fn(a,b);
