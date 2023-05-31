@@ -1,3 +1,9 @@
+2023.05.31, v1.26.0
+
+feature:
+- a72ab25  @putout/minify: add ability to merge variables
+- 9a68d10 package: @putout/plugin-minify v1.23.0
+
 2023.05.30, v1.25.0
 
 feature:
