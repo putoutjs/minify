@@ -219,3 +219,8 @@ test('@putout/minify: remove-unreferenced-variables: bundle', (t) => {
     });
     t.end();
 });
+
+test('@putout/minify: reuse-duplicate-init', (t) => {
+    t.minify('reuse-duplicate-init');
+    t.end();
+});

@@ -1,0 +1,1 @@
+var _a=require('putout'),{a,b,operator:c}=_a,{replaceWith:d}=c;
