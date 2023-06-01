@@ -1,3 +1,8 @@
+2023.06.01, v1.29.1
+
+feature:
+- ad95da6 @putout/minify: drop tenko
+
 2023.06.01, v1.29.0
 
 feature:
