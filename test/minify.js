@@ -176,6 +176,11 @@ test('@putout/minify: mangle-names', (t) => {
     t.end();
 });
 
+test('@putout/minify: merge-destructuring-properties', (t) => {
+    t.minify('merge-destructuring-properties');
+    t.end();
+});
+
 test('@putout/minify: undefined', (t) => {
     t.minify('undefined');
     t.end();

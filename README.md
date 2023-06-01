@@ -25,6 +25,7 @@ Here is list of support 🐊**Putout** transformations:
 - ✅ [`declare`](https://github.com/coderaiser/putout/tree/v29.0.0/packages/plugin-declare#readme);
 - ✅ [`logical-expressions`](https://github.com/coderaiser/putout/tree/v29.0.0/packages/plugin-logical-expressions#readme);
 - ✅ [`merge-duplicate-functions`](https://github.com/coderaiser/putout/tree/v29.0.0/packages/plugin-merge-duplicate-functions#readme);
+- ✅ [`merge-destructuring-properties`](https://github.com/coderaiser/putout/tree/v29.0.0/packages/plugin-merge-destructuring-properties#readme);
 - ✅ [`minify`](https://github.com/coderaiser/putout/tree/v29.0.0/packages/plugin-minify#readme);
 - ✅ [`new`](https://github.com/coderaiser/putout/tree/v29.0.0/packages/plugin-new#readme);
 - ✅ [`regexp`](https://github.com/coderaiser/putout/tree/v29.0.0/packages/plugin-regexp#readme);
