@@ -1,1 +1,1 @@
-var a='hello',b='world';fn(a,b);
+fn('hello','world');
