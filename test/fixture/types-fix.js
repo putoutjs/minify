@@ -1,1 +1,1 @@
-var _a=(a)=>typeof a==='string',a=get();if(_a(a))return;
+var _a=a=>typeof a==='string',a=get();if(_a(a))return;

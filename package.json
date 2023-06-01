@@ -72,7 +72,7 @@
     "@putout/plugin-remove-useless-spread": "^6.1.0",
     "@putout/plugin-remove-useless-variables": "^8.0.0",
     "@putout/plugin-types": "^1.5.0",
-    "@putout/printer": "^1.126.0",
+    "@putout/printer": "^1.128.0",
     "@rollup/plugin-alias": "^5.0.0",
     "@rollup/plugin-commonjs": "^24.0.1",
     "@rollup/plugin-json": "^6.0.0",
