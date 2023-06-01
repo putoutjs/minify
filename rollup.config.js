@@ -53,12 +53,12 @@ export default {
                 '**/parse-options/**',
             ],
             ignore: [
+                'tenko',
                 'hermes-parser',
                 'esprima',
                 'recast',
                 'espree',
                 'acorn',
-                'tenko*',
                 'hermes-parser/*',
                 'core-js/**',
                 '**/lib/loader.*',
