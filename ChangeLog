@@ -1,3 +1,8 @@
+2023.06.01, v1.31.0
+
+feature:
+- 7b4ea06 package: @putout/plugin-merge-destructuring-properties v7.0.0
+
 2023.06.01, v1.30.0
 
 feature:
