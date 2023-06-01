@@ -19,10 +19,12 @@ Here is list of support 🐊**Putout** transformations:
 
 - ✅ [`apply-template-literals`](https://github.com/coderaiser/putout/tree/v29.0.0/packages/plugin-apply-template-literals#readme);
 - ✅ [`apply-optional-chaining`](https://github.com/coderaiser/putout/tree/v29.0.0/packages/plugin-apply-optional-chaining#readme);
-- ✅ [`declare`](https://github.com/coderaiser/putout/tree/v29.0.0/packages/plugin-declare#readme);
+- ✅ [`conditions`](https://github.com/coderaiser/putout/tree/v29.10.0/packages/plugin-conditions#readme);
 - ✅ [`convert-to-arrow-function`](https://github.com/coderaiser/putout/tree/v29.0.0/packages/plugin-convert-to-arrow-functions#readme);
 - ✅ [`convert-arguments-to-rest`](https://github.com/coderaiser/putout/tree/v29.10.1/packages/plugin-convert-arguments-to-rest#readme);
+- ✅ [`declare`](https://github.com/coderaiser/putout/tree/v29.0.0/packages/plugin-declare#readme);
 - ✅ [`logical-expressions`](https://github.com/coderaiser/putout/tree/v29.0.0/packages/plugin-logical-expressions#readme);
+- ✅ [`merge-duplicate-functions`](https://github.com/coderaiser/putout/tree/v29.0.0/packages/plugin-merge-duplicate-functions#readme);
 - ✅ [`minify`](https://github.com/coderaiser/putout/tree/v29.0.0/packages/plugin-minify#readme);
 - ✅ [`new`](https://github.com/coderaiser/putout/tree/v29.0.0/packages/plugin-new#readme);
 - ✅ [`regexp`](https://github.com/coderaiser/putout/tree/v29.0.0/packages/plugin-regexp#readme);
