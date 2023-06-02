@@ -1,1 +1,1 @@
-var{a,b,operator:g}=require('putout'),{replaceWith:i}=g;
+var{a,b,operator:c}=require('putout'),{replaceWith:d}=c;
