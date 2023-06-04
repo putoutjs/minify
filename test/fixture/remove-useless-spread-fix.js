@@ -1,1 +1,1 @@
-var _=getPlaces(),a=fn();
+var A=getPlaces(),a=fn();
