@@ -98,6 +98,7 @@ For [such code](https://github.com/coderaiser/minify/issues/96#issuecomment-1546
 - ❌ `terser`: `482B`
 
 `react.js`:
+
 - 🔥 `@putout/minify`: `16309B`
 - ❌ `terser`: `16346B`
 
