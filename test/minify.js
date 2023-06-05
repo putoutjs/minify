@@ -176,6 +176,11 @@ test('@putout/minify: mangle-names', (t) => {
     t.end();
 });
 
+test('@putout/minify: mangle-class-names', (t) => {
+    t.minify('mangle-class-names');
+    t.end();
+});
+
 test('@putout/minify: merge-destructuring-properties', (t) => {
     t.minify('merge-destructuring-properties');
     t.end();

@@ -1,0 +1,1 @@
+class Hello {world(){var a='hello';return a}}
