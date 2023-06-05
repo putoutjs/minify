@@ -1,3 +1,9 @@
+2023.06.05, v1.37.0
+
+feature:
+- acd7780 @putout/minify: add support of mangleClassNames (coderaiser/minify#104)
+- da8b113 package: @putout/plugin-remove-useless-arguments v7.0.0
+
 2023.06.05, v1.36.1
 
 feature:
