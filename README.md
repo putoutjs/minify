@@ -97,6 +97,10 @@ For [such code](https://github.com/coderaiser/minify/issues/96#issuecomment-1546
 - 🔥 `@putout/minify`: `473B`
 - ❌ `terser`: `482B`
 
+`react.js`:
+- 🔥 `@putout/minify`: `16309B`
+- ❌ `terser`: `16346B`
+
 ## License
 
 MIT
