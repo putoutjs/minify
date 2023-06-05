@@ -1,3 +1,9 @@
+2023.06.05, v1.36.1
+
+feature:
+- 6e2cc03 package: @putout/plugin-apply-shorthand-properties v3.0.2
+- 1fa3d13 package: @putout/plugin-minify v1.37.0
+
 2023.06.05, v1.36.0
 
 feature:
