@@ -57,6 +57,11 @@ test('@putout/minify: conditions', (t) => {
     t.end();
 });
 
+test('@putout/minify: comments', (t) => {
+    t.minify('comments');
+    t.end();
+});
+
 test('@putout/minify: else', (t) => {
     t.minify('else');
     t.end();
@@ -229,3 +234,4 @@ test('@putout/minify: reuse-duplicate-init', (t) => {
     t.minify('reuse-duplicate-init');
     t.end();
 });
+
