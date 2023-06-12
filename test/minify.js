@@ -234,4 +234,3 @@ test('@putout/minify: reuse-duplicate-init', (t) => {
     t.minify('reuse-duplicate-init');
     t.end();
 });
-
