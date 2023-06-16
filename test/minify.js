@@ -121,8 +121,15 @@ test('@putout/minify: remove-useless-variables', (t) => {
     t.end();
 });
 
-test('@putout/minify: remove-useless-spread: options', (t) => {
+test('@putout/minify: remove-useless-spread', (t) => {
     t.minify('remove-useless-spread');
+    t.end();
+});
+
+test('@putout/minify: remove-useless-spread: disabled', (t) => {
+    t.minify('remove-useless-spread-disabled', {
+        removeUselessSpread: false,
+    });
     t.end();
 });
 

@@ -73,6 +73,7 @@ You can also pass options to `minify`. Here is list of default options:
     mangleClassNames: true,
     removeUnusedVariables: true,
     removeConsole: false,
+    removeUselessSpread: true,
 });
 ```
 

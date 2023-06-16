@@ -1,0 +1,1 @@
+var A=[...getPlaces()],a={...fn()};
