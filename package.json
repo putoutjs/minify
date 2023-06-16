@@ -96,7 +96,7 @@
     "putout": "^29.10.0",
     "rendy": "^3.1.1",
     "rollup": "^3.15.0",
-    "rollup-plugin-node-externals": "^5.0.0",
+    "rollup-plugin-node-externals": "^6.1.1",
     "rollup-plugin-polyfill-node": "^0.12.0",
     "supertape": "^8.0.0",
     "try-catch": "^3.0.0"
