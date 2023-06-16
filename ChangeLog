@@ -1,3 +1,12 @@
+2023.06.16, v1.38.0
+
+feature:
+- f2f0a1a package: @putout/plugin-remove-useless-spread v7.0.0
+- 17ed136 package: @putout/plugin-reuse-duplicate-init v5.0.0
+- 1e5d8a7 package: eslint-plugin-n v16.0.0
+- d29a632 package: rollup-plugin-node-externals v6.1.1
+- 6675c28 package: @putout/plugin-merge-destructuring-properties v8.0.0
+
 2023.06.12, v1.37.1
 
 feature:
