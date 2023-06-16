@@ -73,7 +73,7 @@
     "@putout/plugin-remove-useless-return": "^5.0.0",
     "@putout/plugin-remove-useless-spread": "^6.1.0",
     "@putout/plugin-remove-useless-variables": "^8.0.0",
-    "@putout/plugin-reuse-duplicate-init": "^4.0.0",
+    "@putout/plugin-reuse-duplicate-init": "^5.0.0",
     "@putout/plugin-types": "^1.5.0",
     "@putout/printer": "^2.0.0",
     "@rollup/plugin-alias": "^5.0.0",
