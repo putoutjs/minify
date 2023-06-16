@@ -1,6 +1,4 @@
 {
     "printer": "putout",
-    "ignore": [
-        "bundle"
-    ]
+    "ignore": ["bundle"]
 }
