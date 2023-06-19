@@ -241,3 +241,8 @@ test('@putout/minify: reuse-duplicate-init', (t) => {
     t.minify('reuse-duplicate-init');
     t.end();
 });
+
+test('@putout/minify: overlap', (t) => {
+    t.minify('overlap');
+    t.end();
+});
