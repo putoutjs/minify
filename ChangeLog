@@ -1,3 +1,8 @@
+2023.06.19, v1.43.0
+
+feature:
+- a4d6ed7 package: @putout/printer v2.27.0 (coderaiser/minify#106)
+
 2023.06.19, v1.42.0
 
 feature:
