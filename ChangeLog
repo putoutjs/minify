@@ -1,3 +1,10 @@
+2023.06.19, v1.41.0
+
+feature:
+- f6f3681 @putout/plugin-minify: shorten names (coderaiser/minify#109)
+- fb6539f package: @rollup/plugin-commonjs v25.0.1
+- 13dd48e package: c8 v8.0.0
+
 2023.06.16, v1.40.0
 
 feature:
