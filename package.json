@@ -75,7 +75,7 @@
     "@putout/plugin-remove-useless-variables": "^8.0.0",
     "@putout/plugin-reuse-duplicate-init": "^5.0.0",
     "@putout/plugin-types": "^1.5.0",
-    "@putout/printer": "^2.27.0",
+    "@putout/printer": "^2.42.1",
     "@rollup/plugin-alias": "^5.0.0",
     "@rollup/plugin-commonjs": "^25.0.1",
     "@rollup/plugin-json": "^6.0.0",

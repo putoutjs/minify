@@ -246,3 +246,8 @@ test('@putout/minify: overlap', (t) => {
     t.minify('overlap');
     t.end();
 });
+
+test('@putout/minify: in', (t) => {
+    t.minify('in');
+    t.end();
+});
