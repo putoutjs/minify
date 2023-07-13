@@ -1,3 +1,13 @@
+2023.07.13, v1.45.0
+
+feature:
+- 94c9900 package: @putout/plugin-types v2.0.0
+- fe8d64e package: @putout/plugin-remove-unused-expressions v7.0.0
+- 166623a package: @putout/plugin-for-of v2.0.0
+- b9a163e package: @putout/plugin-remove-unreferenced-variables v3.0.0
+- e4a6285 package: nodemon v3.0.1
+- 68bfe2f package: putout v30.4.0
+
 2023.07.03, v1.44.1
 
 feature:
