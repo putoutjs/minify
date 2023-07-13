@@ -1,1 +1,1 @@
-class Hello {world(){var a='hello';return a}}
+class Hello{world(){var a='hello';return a}}
