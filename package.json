@@ -49,7 +49,7 @@
     "@putout/plugin-apply-optional-chaining": "^3.0.0",
     "@putout/plugin-apply-shorthand-properties": "^3.0.2",
     "@putout/plugin-apply-template-literals": "^2.1.0",
-    "@putout/plugin-conditions": "^1.1.0",
+    "@putout/plugin-conditions": "^2.2.0",
     "@putout/plugin-convert-arguments-to-rest": "^2.0.0",
     "@putout/plugin-convert-to-arrow-function": "^4.0.0",
     "@putout/plugin-declare": "^1.2.1",
