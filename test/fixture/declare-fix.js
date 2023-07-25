@@ -1,1 +1,1 @@
-var{keys:a}=Object;a(a);a(b);a(c);a(d);
+var{keys:A}=Object;let a,b,c,d;A(a);A(b);A(c);A(d);

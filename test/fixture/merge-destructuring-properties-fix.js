@@ -1,1 +1,1 @@
-var{assign:a,keys:b}=Object;b(x);a(a,b);
+var{assign:A,keys:_}=Object;let a,b;_(x);A(a,b);
