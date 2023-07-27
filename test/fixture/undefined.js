@@ -1,2 +1,2 @@
-if (typeof a !== 'undefined')
+if (typeof Promise !== 'undefined')
     fn();

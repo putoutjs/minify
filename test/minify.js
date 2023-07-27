@@ -223,6 +223,11 @@ test('@putout/minify: declare', (t) => {
     t.end();
 });
 
+test('@putout/minify: promises', (t) => {
+    t.minify('promises');
+    t.end();
+});
+
 test('@putout/minify: remove-console', (t) => {
     t.minify('remove-console', {
         removeConsole: true,

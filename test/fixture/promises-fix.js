@@ -1,0 +1,1 @@
+()=>{var a=transformer.transform(realTransformer,transformCode,code,parser);return a};var x=()=>b();async function b(){}

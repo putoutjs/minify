@@ -1,1 +1,1 @@
-a!==void 0&&fn();
+Promise!==void 0&&fn();
