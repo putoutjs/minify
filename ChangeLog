@@ -1,3 +1,9 @@
+2023.07.28, v1.47.0
+
+feature:
+- e244c70 @putout/plugin-minify: add @putout/plugin-remove-useless-variables
+- 474968d package: @putout/plugin-remove-useless-variables v9.0.0
+
 2023.07.25, v1.46.0
 
 feature:
