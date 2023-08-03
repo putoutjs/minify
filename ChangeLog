@@ -1,3 +1,8 @@
+2023.08.03, v1.49.0
+
+feature:
+- bac0226 package: @putout/plugin-minify v2.4.0 (coderaiser/minify#111)
+
 2023.08.03, v1.48.0
 
 feature:
