@@ -14,7 +14,6 @@ const PUTOUT_NESTED_PLUGINS = [
     'conditions',
     'for-of',
     'logical-expressions',
-    'minify',
     'new',
     'regexp',
     'remove-empty',

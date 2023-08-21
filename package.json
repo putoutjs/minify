@@ -42,10 +42,6 @@
     "generate"
   ],
   "devDependencies": {
-    "@babel/code-frame": "^7.18.6",
-    "@babel/parser": "^7.19.0",
-    "@babel/traverse": "^7.21.2",
-    "@babel/types": "^7.21.3",
     "@putout/plugin-apply-optional-chaining": "^4.0.0",
     "@putout/plugin-apply-shorthand-properties": "^3.0.2",
     "@putout/plugin-apply-template-literals": "^2.1.0",
