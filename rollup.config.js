@@ -19,7 +19,6 @@ const PUTOUT_NESTED_PLUGINS = [
     'remove-empty',
     'remove-useless-spread',
     'remove-useless-variables',
-    'types',
 ].flatMap(nestedPlugin);
 
 export default {
