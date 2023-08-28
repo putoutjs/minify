@@ -1,3 +1,9 @@
+2023.08.28, v2.0.0
+
+feature:
+- 0a9b934 @putout/minify: async
+- 7acabad package: @putout/plugin-minify v4.0.0
+
 2023.08.22, v1.50.2
 
 feature:
