@@ -42,176 +42,176 @@ const test = extend({
     minify: minifyExtension,
 });
 
-test('@putouawait minify: arrow', async ({minify}) => {
+test('putout: minify: arrow', async ({minify}) => {
     await minify('arrow');
 });
 
-test('@putouawait minify: apply-optional-chainig', async ({minify}) => {
+test('putout: minify: apply-optional-chainig', async ({minify}) => {
     await minify('apply-optional-chaining');
 });
 
-test('@putouawait minify: conditions', async ({minify}) => {
+test('putout: minify: conditions', async ({minify}) => {
     await minify('conditions');
 });
 
-test('@putouawait minify: comments', async ({minify}) => {
+test('putout: minify: comments', async ({minify}) => {
     await minify('comments');
 });
 
-test('@putouawait minify: else', async ({minify}) => {
+test('putout: minify: else', async ({minify}) => {
     await minify('else');
 });
 
-test('@putouawait minify: minify', async ({minify}) => {
+test('putout: minify: minify', async ({minify}) => {
     await minify('minify');
 });
 
-test('@putouawait minify: function', async ({minify}) => {
+test('putout: minify: function', async ({minify}) => {
     await minify('function');
 });
 
-test('@putouawait minify: boolean', async ({minify}) => {
+test('putout: minify: boolean', async ({minify}) => {
     await minify('boolean');
 });
 
-test('@putouawait minify: infinity', async ({minify}) => {
+test('putout: minify: infinity', async ({minify}) => {
     await minify('infinity');
 });
 
-test('@putouawait minify: unused', async ({minify}) => {
+test('putout: minify: unused', async ({minify}) => {
     await minify('unused', {
         removeUnusedVariables: true,
     });
 });
 
-test('@putouawait minify: type', async ({minify}) => {
+test('putout: minify: type', async ({minify}) => {
     await minify('type');
 });
 
-test('@putouawait minify: guard', async ({minify}) => {
+test('putout: minify: guard', async ({minify}) => {
     await minify('guard');
 });
 
-test('@putouawait minify: dead-code', async ({minify}) => {
+test('putout: minify: dead-code', async ({minify}) => {
     await minify('dead-code');
 });
 
-test('@putouawait minify: merge-duplicate-functions', async ({minify}) => {
+test('putout: minify: merge-duplicate-functions', async ({minify}) => {
     await minify('merge-duplicate-functions');
 });
 
-test('@putouawait minify: remove-useless-variables', async ({minify}) => {
+test('putout: minify: remove-useless-variables', async ({minify}) => {
     await minify('remove-useless-variables', {
         removeUnusedVariables: true,
     });
 });
 
-test('@putouawait minify: remove-useless-spread', async ({minify}) => {
+test('putout: minify: remove-useless-spread', async ({minify}) => {
     await minify('remove-useless-spread');
 });
 
-test('@putouawait minify: remove-useless-spread: disabled', async ({minify}) => {
+test('putout: minify: remove-useless-spread: disabled', async ({minify}) => {
     await minify('remove-useless-spread-disabled', {
         removeUselessSpread: false,
     });
 });
 
-test('@putouawait minify: remove-useless-return', async ({minify}) => {
+test('putout: minify: remove-useless-return', async ({minify}) => {
     await minify('remove-useless-return');
 });
 
-test('@putouawait minify: if', async ({minify}) => {
+test('putout: minify: if', async ({minify}) => {
     await minify('if');
 });
 
-test('@putouawait minify: apply-template-literals', async ({minify}) => {
+test('putout: minify: apply-template-literals', async ({minify}) => {
     await minify('apply-template-literals');
 });
 
-test('@putouawait minify: for', async ({minify}) => {
+test('putout: minify: for', async ({minify}) => {
     await minify('for');
 });
 
-test('@putouawait minify: logical-expressions', async ({minify}) => {
+test('putout: minify: logical-expressions', async ({minify}) => {
     await minify('logical-expressions');
 });
 
-test('@putouawait minify: regexp', async ({minify}) => {
+test('putout: minify: regexp', async ({minify}) => {
     await minify('regexp');
 });
 
-test('@putouawait minify: remove-unreachable-code', async ({minify}) => {
+test('putout: minify: remove-unreachable-code', async ({minify}) => {
     await minify('remove-unreachable-code');
 });
 
-test('@putouawait minify: remove-unused-expressions', async ({minify}) => {
+test('putout: minify: remove-unused-expressions', async ({minify}) => {
     await minify('remove-unused-expressions');
 });
 
-test('@putouawait minify: remove-unreferenced-variables', async ({minify}) => {
+test('putout: minify: remove-unreferenced-variables', async ({minify}) => {
     await minify('remove-unreferenced-variables');
 });
 
-test('@putouawait minify: for-of: remove-useless', async ({minify}) => {
+test('putout: minify: for-of: remove-useless', async ({minify}) => {
     await minify('for-of-remove-useless');
 });
 
-test('@putouawait minify: mangle-names', async ({minify}) => {
+test('putout: minify: mangle-names', async ({minify}) => {
     await minify('mangle-names');
 });
 
-test('@putouawait minify: mangle-class-names', async ({minify}) => {
+test('putout: minify: mangle-class-names', async ({minify}) => {
     await minify('mangle-class-names');
 });
 
-test('@putouawait minify: merge-destructuring-properties', async ({minify}) => {
+test('putout: minify: merge-destructuring-properties', async ({minify}) => {
     await minify('merge-destructuring-properties');
 });
 
-test('@putouawait minify: undefined', async ({minify}) => {
+test('putout: minify: undefined', async ({minify}) => {
     await minify('undefined');
 });
 
-test('@putouawait minify: convert-arguments-to-rest', async ({minify}) => {
+test('putout: minify: convert-arguments-to-rest', async ({minify}) => {
     await minify('convert-arguments-to-rest');
 });
 
-test('@putouawait minify: types', async ({minify}) => {
+test('putout: minify: types', async ({minify}) => {
     await minify('types');
 });
 
-test('@putouawait minify: shebang', async ({minify}) => {
+test('putout: minify: shebang', async ({minify}) => {
     await minify('shebang');
 });
 
-test('@putouawait minify: declare', async ({minify}) => {
+test('putout: minify: declare', async ({minify}) => {
     await minify('declare');
 });
 
-test('@putouawait minify: promises', async ({minify}) => {
+test('putout: minify: promises', async ({minify}) => {
     await minify('promises');
 });
 
-test('@putouawait minify: remove-console', async ({minify}) => {
+test('putout: minify: remove-console', async ({minify}) => {
     await minify('remove-console', {
         removeConsole: true,
     });
 });
 
-test('@putouawait minify: remove-unreferenced-variables: bundle', async ({minify}) => {
+test('putout: minify: remove-unreferenced-variables: bundle', async ({minify}) => {
     await minify('remove-unreferenced-variables', {
         bundle: true,
     });
 });
 
-test('@putouawait minify: reuse-duplicate-init', async ({minify}) => {
+test('putout: minify: reuse-duplicate-init', async ({minify}) => {
     await minify('reuse-duplicate-init');
 });
 
-test('@putouawait minify: overlap', async ({minify}) => {
+test('putout: minify: overlap', async ({minify}) => {
     await minify('overlap');
 });
 
-test('@putouawait minify: in', async ({minify}) => {
+test('putout: minify: in', async ({minify}) => {
     await minify('in');
 });
