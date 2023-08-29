@@ -256,4 +256,3 @@ test('@putout/minify: in', (t) => {
     t.minify('in');
     t.end();
 });
-
