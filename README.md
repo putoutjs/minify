@@ -51,7 +51,7 @@ Here is list of support 🐊**Putout** transformations:
 ```js
 import {minify} from '@putout/minify';
 
-await minify(`
+minify(`
     const a = 5;
     const b = 6;
     
