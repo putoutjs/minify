@@ -15,7 +15,7 @@ npm i @putout/minify
 
 ## Supported minifier transforms
 
-Here is list of support 🐊**Putout** transformations:
+Here is list of supported 🐊**Putout** transformations:
 
 - ✅ [`apply-template-literals`](https://github.com/coderaiser/putout/tree/v29.0.0/packages/plugin-apply-template-literals#readme);
 - ✅ [`apply-optional-chaining`](https://github.com/coderaiser/putout/tree/v29.0.0/packages/plugin-apply-optional-chaining#readme);
