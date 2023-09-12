@@ -8,6 +8,7 @@ import {
     readFileSync,
 } from 'node:fs';
 import {extend} from 'supertape';
+import process from 'node:process';
 import {minify} from '../lib/minify.js';
 import {minify as bundledMinify} from '../bundle/minify.js';
 
