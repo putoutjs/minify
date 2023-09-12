@@ -49,7 +49,7 @@
     "@putout/plugin-convert-arguments-to-rest": "^2.0.0",
     "@putout/plugin-convert-to-arrow-function": "^4.0.0",
     "@putout/plugin-declare": "^2.0.1",
-    "@putout/plugin-for-of": "^2.0.0",
+    "@putout/plugin-for-of": "^3.0.0",
     "@putout/plugin-logical-expressions": "^4.0.0",
     "@putout/plugin-merge-destructuring-properties": "^8.0.0",
     "@putout/plugin-merge-duplicate-functions": "^1.0.3",

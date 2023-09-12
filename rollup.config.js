@@ -12,7 +12,6 @@ const nestedPlugin = (name) => [
 
 const PUTOUT_NESTED_PLUGINS = [
     'conditions',
-    'for-of',
     'logical-expressions',
     'new',
     'regexp',
