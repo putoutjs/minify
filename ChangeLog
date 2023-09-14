@@ -1,3 +1,10 @@
+2023.09.14, v2.2.0
+
+feature:
+- 94672a3 package: @putout/plugin-remove-unused-variables v7.0.0
+- ae3bcfb package: putout v32.0.1
+- 2086a40 package: @putout/plugin-conditions v3.0.0
+
 2023.09.13, v2.1.1
 
 feature:
