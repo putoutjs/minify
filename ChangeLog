@@ -1,3 +1,9 @@
+2023.09.27, v2.2.2
+
+feature:
+- a959154 package: @putout/printer v5.12.0
+- 27afc84 package: eslint-plugin-putout v20.0.0
+
 2023.09.15, v2.2.1
 
 feature:
