@@ -1,3 +1,10 @@
+2023.10.11, v2.3.0
+
+feature:
+- df03b71 package: @putout/plugin-remove-useless-spread v9.0.0
+- e24609c package: @putout/plugin-apply-optional-chaining v5.0.1
+- e15a528 package: @putout/plugin-minify v5.0.0 (coderaiser/minify#114)
+
 2023.09.27, v2.2.2
 
 feature:
