@@ -42,7 +42,7 @@
     "generate"
   ],
   "devDependencies": {
-    "@putout/plugin-apply-optional-chaining": "^4.0.0",
+    "@putout/plugin-apply-optional-chaining": "^5.0.1",
     "@putout/plugin-apply-shorthand-properties": "^5.1.0",
     "@putout/plugin-apply-template-literals": "^2.1.0",
     "@putout/plugin-conditions": "^3.0.0",
