@@ -1,0 +1,1 @@
+function everywhere(){}function cool(){var a=[1];for(const A of a)everywhere(A)}
