@@ -1,3 +1,8 @@
+2023.10.11, v2.4.0
+
+feature:
+- f12c1e0 @putout/minify: add ability to disable mangle (coderaiser/minify#114)
+
 2023.10.11, v2.3.0
 
 feature:
