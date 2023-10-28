@@ -11,7 +11,6 @@ const nestedPlugin = (name) => [
 ];
 
 const PUTOUT_NESTED_PLUGINS = [
-    'logical-expressions',
     'new',
     'remove-empty',
 ].flatMap(nestedPlugin);
