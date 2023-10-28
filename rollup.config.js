@@ -10,10 +10,7 @@ const nestedPlugin = (name) => [
     `!node_modules/@putout/plugin-${name}/lib/index.js`,
 ];
 
-const PUTOUT_NESTED_PLUGINS = [
-    'new',
-    'remove-empty',
-].flatMap(nestedPlugin);
+const PUTOUT_NESTED_PLUGINS = ['new', 'remove-empty'].flatMap(nestedPlugin);
 
 export default {
     input: 'lib/minify.js',
