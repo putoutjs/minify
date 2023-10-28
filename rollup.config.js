@@ -13,7 +13,6 @@ const nestedPlugin = (name) => [
 const PUTOUT_NESTED_PLUGINS = [
     'logical-expressions',
     'new',
-    'regexp',
     'remove-empty',
 ].flatMap(nestedPlugin);
 
