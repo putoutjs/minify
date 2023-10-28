@@ -81,7 +81,7 @@
     "c8": "^8.0.0",
     "eslint": "^8.0.1",
     "eslint-plugin-n": "^16.0.0",
-    "eslint-plugin-putout": "^20.0.0",
+    "eslint-plugin-putout": "^21.0.1",
     "fullstore": "^3.0.0",
     "just-kebab-case": "^4.2.0",
     "just-snake-case": "^3.2.0",
