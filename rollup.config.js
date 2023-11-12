@@ -5,13 +5,6 @@ import nodePolyfills from 'rollup-plugin-polyfill-node';
 import replace from '@rollup/plugin-replace';
 import alias from '@rollup/plugin-alias';
 
-const nestedPlugin = (name) => [
-    `node_modules/@putout/plugin-${name}/lib/*`,
-    `!node_modules/@putout/plugin-${name}/lib/index.js`,
-];
-
-const PUTOUT_NESTED_PLUGINS = ['new', 'remove-empty'].flatMap(nestedPlugin);
-
 export default {
     input: 'lib/minify.js',
     output: {
@@ -33,7 +26,6 @@ export default {
         }),
         commonjs({
             defaultIsModuleExports: false,
-            dynamicRequireTargets: PUTOUT_NESTED_PLUGINS,
             exclude: [
                 'os',
                 'path',
