@@ -1,3 +1,10 @@
+2023.11.12, v2.7.0
+
+feature:
+- 152edc3 @putout/minify: @putout/plugin-remove-empty v11.0.0
+- 5594fd4 @putout/minify: @putout/plugin-new v3.0.1
+- 57eead5 @putout/minify: putout v33.0.0
+
 2023.10.28, v2.6.1
 
 feature:
