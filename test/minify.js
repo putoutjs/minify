@@ -258,6 +258,11 @@ test('@putout/minify: in', (t) => {
     t.end();
 });
 
+test('@putout/minify: quotes', (t) => {
+    t.minify('quotes');
+    t.end();
+});
+
 test('@putout/minify: mangle: disabled', (t) => {
     t.minify('mangle-disabled', {
         mangle: false,
