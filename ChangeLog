@@ -1,3 +1,15 @@
+2023.11.21, v2.8.0
+
+fix:
+- d519b69 @putout/minify: single quotes escape (#117)
+
+feature:
+- 6ddd198 @putout/minify: rollup-plugin-polyfill-node v0.13.0
+- 48fd00b @putout/minify: rollup v4.5.0
+- 315c204 @putout/minify: @putout/plugin-remove-useless-return v6.0.0
+- 6de62df @putout/minify: @putout/plugin-conditions v4.0.1
+- 177ff87 @putout/minify: @putout/printer v6.4.1
+
 2023.11.12, v2.7.0
 
 feature:
