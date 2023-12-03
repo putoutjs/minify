@@ -1,1 +1,1 @@
-var a=a=>typeof a=='function';a(1);a(2);
+var A=a=>typeof a=='function';A(1);A(2);

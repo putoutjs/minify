@@ -53,7 +53,7 @@
     "@putout/plugin-logical-expressions": "^5.0.0",
     "@putout/plugin-merge-destructuring-properties": "^8.0.0",
     "@putout/plugin-merge-duplicate-functions": "^2.0.0",
-    "@putout/plugin-minify": "^5.1.0",
+    "@putout/plugin-minify": "^6.0.0",
     "@putout/plugin-new": "^3.0.1",
     "@putout/plugin-promises": "^13.0.0",
     "@putout/plugin-regexp": "^8.0.0",

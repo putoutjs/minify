@@ -1,1 +1,1 @@
-function a({a,b}){fn(a,b)}a();
+function A({a,b}){fn(a,b)}A();
