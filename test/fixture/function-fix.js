@@ -1,1 +1,1 @@
-function A(){}function _(){if(a)return;return b}A(_());
+function a(){}function b(){if(a)return;return b}a(b());
