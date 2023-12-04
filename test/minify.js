@@ -268,6 +268,11 @@ test('@putout/minify: closure', (t) => {
     t.end();
 });
 
+test('@putout/minify: mangle-names-overlap', (t) => {
+    t.minify('mangle-names-overlap');
+    t.end();
+});
+
 test('@putout/minify: mangle: disabled', (t) => {
     t.minify('mangle-disabled', {
         mangle: false,
