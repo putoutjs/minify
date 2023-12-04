@@ -1,3 +1,8 @@
+2023.12.04, v2.10.0
+
+feature:
+- a702856 @putout/minify: mangle-names (#6)
+
 2023.12.03, v2.9.0
 
 feature:
