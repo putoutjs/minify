@@ -95,7 +95,7 @@
     "rollup": "^4.5.0",
     "rollup-plugin-node-externals": "^6.1.1",
     "rollup-plugin-polyfill-node": "^0.13.0",
-    "supertape": "^8.0.0",
+    "supertape": "^9.0.0",
     "try-catch": "^3.0.0"
   },
   "license": "MIT",
