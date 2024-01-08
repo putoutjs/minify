@@ -43,6 +43,7 @@ Here is list of supported 🐊**Putout** transformations:
 - ✅ [`remove-console`](https://github.com/coderaiser/putout/tree/v29.0.0/packages/plugin-remove-console#readme);
 - ✅ [`remove-debugger`](https://github.com/coderaiser/putout/tree/v29.0.0/packages/plugin-remove-debugger#readme);
 - ✅ [`remove-unreachable-code`](https://github.com/coderaiser/putout/tree/v29.0.0/packages/plugin-remove-unreachable-code#readme);
+- ✅ [`simplify-ternary`](https://github.com/coderaiser/putout/tree/v34.0.0/packages/plugin-simplify-ternary#readme);
 - ✅ [`types`](https://github.com/coderaiser/putout/tree/v29.7.1/packages/plugin-types#readme);
 - ✅ [`for-of`](https://github.com/coderaiser/putout/tree/v29.7.1/packages/plugin-for-of#readme);
 
