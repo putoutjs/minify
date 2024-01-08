@@ -263,6 +263,11 @@ test('@putout/minify: in', (t) => {
     t.end();
 });
 
+test('@putout/minify: increment', (t) => {
+    t.minify('increment');
+    t.end();
+});
+
 test('@putout/minify: quotes', (t) => {
     t.minify('quotes');
     t.end();
