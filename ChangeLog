@@ -1,3 +1,14 @@
+2024.01.08, v3.0.1
+
+feature:
+- 3aca048 @putout/minify: c8 v9.0.0
+- 0444c21 @putout/minify: @putout/plugin-remove-unused-variables v8.1.0
+- d28ccd4 @putout/minify: @putout/plugin-for-of v4.0.0
+- 5fb5121 @putout/minify: @putout/plugin-promises v14.0.0
+- 54de228 @putout/minify: @putout/printer v7.4.0
+- 0747497 @putout/minify: eslint-plugin-putout v22.2.1
+- c4379a6 @putout/minify: supertape v9.0.0
+
 2023.12.10, v3.0.0
 
 feature:
