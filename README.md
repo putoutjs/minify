@@ -23,6 +23,7 @@ Here is list of supported 🐊**Putout** transformations:
 - ✅ [`convert-to-arrow-function`](https://github.com/coderaiser/putout/tree/v29.0.0/packages/plugin-convert-to-arrow-functions#readme);
 - ✅ [`convert-arguments-to-rest`](https://github.com/coderaiser/putout/tree/v29.10.1/packages/plugin-convert-arguments-to-rest#readme);
 - ✅ [`declare`](https://github.com/coderaiser/putout/tree/v29.0.0/packages/plugin-declare#readme);
+- ✅ [`for-of`](https://github.com/coderaiser/putout/tree/v34.0.0/packages/plugin-for-of#readme);
 - ✅ [`logical-expressions`](https://github.com/coderaiser/putout/tree/v29.0.0/packages/plugin-logical-expressions#readme);
 - ✅ [`merge-duplicate-functions`](https://github.com/coderaiser/putout/tree/v29.0.0/packages/plugin-merge-duplicate-functions#readme);
 - ✅ [`merge-destructuring-properties`](https://github.com/coderaiser/putout/tree/v29.0.0/packages/plugin-merge-destructuring-properties#readme);
@@ -45,7 +46,6 @@ Here is list of supported 🐊**Putout** transformations:
 - ✅ [`remove-unreachable-code`](https://github.com/coderaiser/putout/tree/v29.0.0/packages/plugin-remove-unreachable-code#readme);
 - ✅ [`simplify-ternary`](https://github.com/coderaiser/putout/tree/v34.0.0/packages/plugin-simplify-ternary#readme);
 - ✅ [`types`](https://github.com/coderaiser/putout/tree/v29.7.1/packages/plugin-types#readme);
-- ✅ [`for-of`](https://github.com/coderaiser/putout/tree/v29.7.1/packages/plugin-for-of#readme);
 
 ## API
 
