@@ -1,3 +1,8 @@
+2024.01.08, v3.1.2
+
+feature:
+- 1c3ee33 @putout/minify: @putout/plugin-remove-useless-spread v10.0.1
+
 2024.01.08, v3.1.1
 
 fix:
