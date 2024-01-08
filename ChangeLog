@@ -1,3 +1,8 @@
+2024.01.08, v3.1.1
+
+fix:
+- 28d15ea get rid of build warning: (!) Plugin alias: rewrote acorn-stage3 to ./stub/acorn-stage3.js but was not an abolute path and was not handled by other plugins. This will lead to duplicated modules for the same path. To avoid duplicating modules, you should resolve to an absolute path.
+
 2024.01.08, v3.1.0
 
 fix:
