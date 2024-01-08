@@ -21,7 +21,7 @@ export default {
                 replacement: './stub/chalk.js',
             }, {
                 find: 'acorn-stage3',
-                replacement: './stub/acorn-stage3.js',
+                replacement: new URL('./stub/acorn-stage3.js', import.meta.url).pathname,
             }],
         }),
         commonjs({
