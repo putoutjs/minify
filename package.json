@@ -32,6 +32,7 @@
     "minify": "madrun minify"
   },
   "dependencies": {
+    "@putout/plugin-extract-sequence-expressions": "^3.5.0",
     "@putout/plugin-simplify-ternary": "^7.0.0"
   },
   "keywords": [
