@@ -184,6 +184,11 @@ test('@putout/minify: for-of: remove-useless', (t) => {
     t.end();
 });
 
+test('@putout/minify: for-of: nested', (t) => {
+    t.minify('for-of-nested');
+    t.end();
+});
+
 test('@putout/minify: mangle-names', (t) => {
     t.minify('mangle-names');
     t.end();
