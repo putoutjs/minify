@@ -1,3 +1,9 @@
+2024.01.09, v3.2.0
+
+feature:
+- b772844 @putout/plugin-extract-sequence-expressions: add (#196)
+- cb1fa3b @putout/minify: @putout/plugin-extract-sequence-expressions v3.5.0
+
 2024.01.08, v3.1.2
 
 feature:

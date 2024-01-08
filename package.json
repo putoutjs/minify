@@ -1,6 +1,6 @@
 {
   "name": "@putout/minify",
-  "version": "3.1.2",
+  "version": "3.2.0",
   "type": "module",
   "author": "coderaiser <mnemonic.enemy@gmail.com> (https://github.com/coderaiser)",
   "description": "🐊Putout-based minifier",
@@ -31,8 +31,7 @@
     "build": "madrun build",
     "minify": "madrun minify"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "keywords": [
     "putout",
     "minify",
