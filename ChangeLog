@@ -1,3 +1,8 @@
+2024.01.09, v3.3.0
+
+feature:
+- 337768f @putout/minify: @putout/plugin-remove-debugger v6.0.0
+
 2024.01.09, v3.2.0
 
 feature:
