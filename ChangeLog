@@ -1,3 +1,11 @@
+2024.01.08, v3.1.0
+
+fix:
+- 8619311 increment (#8)
+
+feature:
+- 289ae4a @putout/minify: add simpmlify-ternary
+
 2024.01.08, v3.0.1
 
 feature:
