@@ -31,7 +31,9 @@
     "build": "madrun build",
     "minify": "madrun minify"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@putout/plugin-simplify-ternary": "^7.0.0"
+  },
   "keywords": [
     "putout",
     "minify",

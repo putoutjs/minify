@@ -283,6 +283,11 @@ test('@putout/minify: mangle-names-overlap', (t) => {
     t.end();
 });
 
+test('@putout/minify: simplify-ternary', (t) => {
+    t.minify('simplify-ternary');
+    t.end();
+});
+
 test('@putout/minify: mangle: disabled', (t) => {
     t.minify('mangle-disabled', {
         mangle: false,
