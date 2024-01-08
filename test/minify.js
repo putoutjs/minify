@@ -293,6 +293,11 @@ test('@putout/minify: simplify-ternary', (t) => {
     t.end();
 });
 
+test('@putout/minify: const', (t) => {
+    t.minify('const');
+    t.end();
+});
+
 test('@putout/minify: mangle: disabled', (t) => {
     t.minify('mangle-disabled', {
         mangle: false,

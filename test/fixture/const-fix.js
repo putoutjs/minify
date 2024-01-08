@@ -1,0 +1,1 @@
+var z=a.forEach(A=>d.push(A));
