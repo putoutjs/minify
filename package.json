@@ -32,8 +32,6 @@
     "minify": "madrun minify"
   },
   "dependencies": {
-    "@putout/plugin-extract-sequence-expressions": "^3.5.0",
-    "@putout/plugin-simplify-ternary": "^7.0.0"
   },
   "keywords": [
     "putout",
@@ -74,6 +72,8 @@
     "@putout/plugin-remove-useless-spread": "^10.0.1",
     "@putout/plugin-remove-useless-variables": "^10.0.0",
     "@putout/plugin-reuse-duplicate-init": "^5.0.0",
+    "@putout/plugin-extract-sequence-expressions": "^3.5.0",
+    "@putout/plugin-simplify-ternary": "^7.0.0",
     "@putout/plugin-types": "^3.0.0",
     "@putout/printer": "^7.4.0",
     "@rollup/plugin-alias": "^5.0.0",
