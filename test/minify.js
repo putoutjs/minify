@@ -314,3 +314,10 @@ test('@putout/minify: mangle: disabled', (t) => {
     });
     t.end();
 });
+
+test('@putout/minify: apply-template-literals: disabled', (t) => {
+    t.minify('apply-template-literals-disabled', {
+        applyTemplateLiterals: false,
+    });
+    t.end();
+});

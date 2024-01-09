@@ -78,6 +78,7 @@ You can also pass options to `minify`. Here is list of default options:
     removeUnusedVariables: true,
     removeConsole: false,
     removeUselessSpread: true,
+    applyTemplateLiterals: true,
 });
 ```
 
