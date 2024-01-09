@@ -1,0 +1,1 @@
+function c(n) {return (s)=>s.b*n}

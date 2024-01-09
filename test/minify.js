@@ -298,6 +298,11 @@ test('@putout/minify: const', (t) => {
     t.end();
 });
 
+test('@putout/minify: return-arrow', (t) => {
+    t.minify('return-arrow');
+    t.end();
+});
+
 test('@putout/minify: mangle: disabled', (t) => {
     t.minify('mangle-disabled', {
         mangle: false,
