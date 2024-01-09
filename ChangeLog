@@ -1,3 +1,9 @@
+2024.01.09, v3.4.0
+
+feature:
+- 03a8058 @putout/minify: @putout/printer v8.0.0
+- f9b7460 @putout/minify: @putout/plugin-remove-unused-expressions v8.0.0
+
 2024.01.09, v3.3.0
 
 feature:
