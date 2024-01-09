@@ -115,6 +115,11 @@ test('@putout/minify: merge-duplicate-functions', (t) => {
     t.end();
 });
 
+test('@putout/minify: merge-duplicate-imports', (t) => {
+    t.minify('merge-duplicate-imports');
+    t.end();
+});
+
 test('@putout/minify: merge-loops', (t) => {
     t.minify('merge-loops');
     t.end();
