@@ -1,3 +1,8 @@
+2024.01.09, v3.6.0
+
+feature:
+- f21110d @putout/minify: add applyTemplateLiterals option (#10)
+
 2024.01.09, v3.5.0
 
 feature:
