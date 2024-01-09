@@ -1,3 +1,8 @@
+2024.01.09, v3.5.0
+
+feature:
+- 7498546 @putout/minify: @putout/plugin-merge-duplicate-imports v11.0.0
+
 2024.01.09, v3.4.0
 
 feature:
