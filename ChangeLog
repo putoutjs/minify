@@ -1,3 +1,21 @@
+2024.01.19, v3.6.1
+
+fix:
+- f83af84 get rid of build warning: (!) Plugin alias: rewrote acorn-stage3 to ./stub/acorn-stage3.js but was not an abolute path and was not handled by other plugins. This will lead to duplicated modules for the same path. To avoid duplicating modules, you should resolve to an absolute path.
+- 44e614d increment (#8)
+
+feature:
+- 12a961a @putout/minify: putout v35.0.0
+- d94d1b7 @putout/minify: add applyTemplateLiterals option (#10)
+- d55f400 @putout/minify: @putout/plugin-merge-duplicate-imports v11.0.0
+- eaa559b @putout/minify: @putout/printer v8.0.0
+- 765c2ea @putout/minify: @putout/plugin-remove-unused-expressions v8.0.0
+- d44e94a @putout/minify: @putout/plugin-remove-debugger v6.0.0
+- 2167a2a @putout/plugin-extract-sequence-expressions: add (#196)
+- ee06547 @putout/minify: @putout/plugin-extract-sequence-expressions v3.5.0
+- b4761dc @putout/minify: @putout/plugin-remove-useless-spread v10.0.1
+- 0b7520c @putout/minify: add simpmlify-ternary
+
 2024.01.09, v3.6.0
 
 feature:
