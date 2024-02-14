@@ -48,7 +48,7 @@
     "@putout/plugin-conditions": "^4.0.1",
     "@putout/plugin-convert-arguments-to-rest": "^2.0.0",
     "@putout/plugin-convert-to-arrow-function": "^4.0.0",
-    "@putout/plugin-declare": "^2.0.1",
+    "@putout/plugin-declare": "^3.0.0",
     "@putout/plugin-extract-sequence-expressions": "^3.5.0",
     "@putout/plugin-for-of": "^4.0.0",
     "@putout/plugin-logical-expressions": "^5.0.0",
