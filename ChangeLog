@@ -1,3 +1,12 @@
+2024.02.14, v3.8.0
+
+feature:
+- ea89537 @putout/minify: improve support of SwitchCase, ClassDeclaration (coderaiser/minify#119)
+- e41a47c @putout/minify: rollup-plugin-node-externals v7.0.1
+- 9379f46 @putout/minify: @putout/plugin-declare v3.0.0
+- cd8389c @putout/minify: supertape v10.0.0
+- e149f2b @putout/minify: @putout/plugin-apply-template-literals v3.0.0
+
 2024.01.25, v3.7.0
 
 feature:
