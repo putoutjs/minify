@@ -308,6 +308,16 @@ test('@putout/minify: return-arrow', (t) => {
     t.end();
 });
 
+test('@putout/minify: switch', (t) => {
+    t.minify('switch');
+    t.end();
+});
+
+test('@putout/minify: class', (t) => {
+    t.minify('class');
+    t.end();
+});
+
 test('@putout/minify: mangle: disabled', (t) => {
     t.minify('mangle-disabled', {
         mangle: false,
