@@ -1,3 +1,8 @@
+2024.02.26, v3.8.1
+
+feature:
+- c22ee2b @putout/minify: @putout/plugin-minify v8.2.0 (coderaiser/minify#120)
+
 2024.02.14, v3.8.0
 
 feature:
