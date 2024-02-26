@@ -318,6 +318,11 @@ test('@putout/minify: class', (t) => {
     t.end();
 });
 
+test('@putout/minify: merge-variables', (t) => {
+    t.minify('merge-variables');
+    t.end();
+});
+
 test('@putout/minify: mangle: disabled', (t) => {
     t.minify('mangle-disabled', {
         mangle: false,
