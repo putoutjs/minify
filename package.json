@@ -37,6 +37,7 @@
     "minify",
     "AST",
     "babel",
+    "printer",
     "api",
     "traverse",
     "generate"
