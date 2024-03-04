@@ -1,3 +1,9 @@
+2024.03.04, v3.8.2
+
+feature:
+- 24a4e1f @putout/minify: @putout/printer v8.8.0
+- 97ded07 @putout/minify: minify v11.1.0
+
 2024.02.26, v3.8.1
 
 feature:
