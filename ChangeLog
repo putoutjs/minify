@@ -1,3 +1,8 @@
+2024.03.04, v3.8.4
+
+fix:
+- 2227a1f @putout/minify: exports
+
 2024.03.04, v3.8.3
 
 feature:
