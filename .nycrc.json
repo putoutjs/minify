@@ -11,7 +11,8 @@
         "**/fixture.js",
         "**/bundle",
         "**/stub",
-        "rollup.config.js"
+        "rollup.config.js",
+        "**/*.config.*"
     ],
     "branches": 100,
     "lines": 100,

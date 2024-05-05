@@ -1,12 +1,6 @@
 import {fileURLToPath} from 'node:url';
-import {
-    dirname,
-    join,
-} from 'node:path';
-import {
-    writeFileSync,
-    readFileSync,
-} from 'node:fs';
+import {dirname, join} from 'node:path';
+import {writeFileSync, readFileSync} from 'node:fs';
 import {extend} from 'supertape';
 import process from 'node:process';
 import {minify} from '../lib/minify.js';

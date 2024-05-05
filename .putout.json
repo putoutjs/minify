@@ -1,4 +1,8 @@
 {
-    "printer": "putout",
+    "match": {
+        ".filesystem.json": {
+            "eslint/convert-rc-to-flat": "on"
+        }
+    },
     "ignore": ["bundle"]
 }
