@@ -323,6 +323,11 @@ test('@putout/minify: merge-variables', (t) => {
     t.end();
 });
 
+test('@putout/minify: for-each-ternary', (t) => {
+    t.minify('for-each-ternary');
+    t.end();
+});
+
 test('@putout/minify: mangle: disabled', (t) => {
     t.minify('mangle-disabled', {
         mangle: false,
