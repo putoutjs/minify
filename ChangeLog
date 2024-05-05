@@ -1,3 +1,17 @@
+2024.05.05, v3.9.0
+
+feature:
+- e2f2e78 @putout/minify: eslint v9.2.0
+- faed80c @putout/minify: (coderaiser/minifyfor-each: improve support ConditionalExpression (coderaiser/minify#122)
+- 6877de1 @putout/minify: @putout/plugin-remove-useless-spread v11.0.0
+- b2be291 @putout/minify: @putout/plugin-for-of v5.0.0
+- e74a8ad @putout/minify: @putout/plugin-declare v4.0.0
+- f396fad @putout/minify: eslint-plugin-n v17.4.0
+- 325b1c7 @putout/minify: @putout/plugin-types v4.0.0
+- 81fe0d9 @putout/minify: @putout/plugin-remove-unused-variables v9.0.0
+- cf5c0ca @putout/minify: @putout/plugin-remove-empty v12.1.0
+- b04aacf @putout/minify: @putout/plugin-remove-debugger v7.0.0
+
 2024.03.04, v3.8.5
 
 fix:
