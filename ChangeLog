@@ -1,3 +1,8 @@
+2024.05.21, v3.10.0
+
+feature:
+- a2d8ba1 @putout/minify: @putout/plugin-promises v15.0.0
+
 2024.05.05, v3.9.0
 
 feature:
