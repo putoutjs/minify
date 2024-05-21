@@ -322,6 +322,11 @@ test('@putout/minify: for-each-ternary', (t) => {
     t.end();
 });
 
+test('@putout/minify: try-catch', (t) => {
+    t.minify('try-catch');
+    t.end();
+});
+
 test('@putout/minify: mangle: disabled', (t) => {
     t.minify('mangle-disabled', {
         mangle: false,
