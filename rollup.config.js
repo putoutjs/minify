@@ -5,6 +5,11 @@ import nodePolyfills from 'rollup-plugin-polyfill-node';
 import replace from '@rollup/plugin-replace';
 import alias from '@rollup/plugin-alias';
 
+const createReplacement = (a) => ({
+    find: `node:${a}`,
+    replacement: a,
+});
+
 export default {
     input: 'lib/minify.js',
     output: {
@@ -22,7 +27,12 @@ export default {
             }, {
                 find: 'acorn-stage3',
                 replacement: new URL('./stub/acorn-stage3.js', import.meta.url).pathname,
-            }],
+            },
+            ...[
+                'process',
+                'module',
+                'path',
+            ].map(createReplacement)],
         }),
         commonjs({
             defaultIsModuleExports: false,
