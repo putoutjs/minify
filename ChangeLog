@@ -1,3 +1,8 @@
+2024.05.21, v3.10.1
+
+feature:
+- 1bdf816 @putout/minify: @putout/plugin-for-of v6.0.0
+
 2024.05.21, v3.10.0
 
 feature:
