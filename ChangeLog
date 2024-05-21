@@ -1,3 +1,8 @@
+2024.05.21, v3.10.3
+
+fix:
+- 26e08b0 @putout/minify: node prefixes
+
 2024.05.21, v3.10.2
 
 feature:
