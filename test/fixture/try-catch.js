@@ -1,3 +1,4 @@
+javascript:
 var a = prompt('Base64 Encode');
 var b;
 try {
