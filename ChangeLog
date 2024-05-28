@@ -1,3 +1,8 @@
+2024.05.28, v3.11.1
+
+feature:
+- 3561a0a minify: move promises to first transform
+
 2024.05.28, v3.11.0
 
 feature:
