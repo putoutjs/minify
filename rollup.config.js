@@ -48,7 +48,6 @@ export default {
                 'tenko',
                 'hermes-parser',
                 'esprima',
-                'recast',
                 'espree',
                 'acorn',
                 'hermes-parser/*',

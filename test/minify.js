@@ -148,6 +148,11 @@ test('@putout/minify: if', (t) => {
     t.end();
 });
 
+test('@putout/minify: if: logical', (t) => {
+    t.minify('if-logical');
+    t.end();
+});
+
 test('@putout/minify: apply-template-literals', (t) => {
     t.minify('apply-template-literals');
     t.end();
