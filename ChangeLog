@@ -1,3 +1,9 @@
+2024.06.05, v3.13.0
+
+feature:
+- dde4a35 @putout/minify: expand-bindings: add support of re-assign (#14)
+- 5c1d145 @putout/plugin-minify: if logical nested (putoutjs/minify#12)
+
 2024.06.05, v3.12.1
 
 feature:
