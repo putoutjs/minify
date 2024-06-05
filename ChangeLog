@@ -1,3 +1,8 @@
+2024.06.05, v3.12.1
+
+feature:
+- 069710f @putout/plugin-minify: if logical nested (coderaiser/minify#12)
+
 2024.06.05, v3.12.0
 
 feature:
