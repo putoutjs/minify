@@ -332,6 +332,11 @@ test('@putout/minify: try-catch', (t) => {
     t.end();
 });
 
+test('@putout/minify: var', (t) => {
+    t.minify('var');
+    t.end();
+});
+
 test('@putout/minify: mangle: disabled', (t) => {
     t.minify('mangle-disabled', {
         mangle: false,
