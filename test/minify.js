@@ -342,6 +342,11 @@ test('@putout/minify: var', (t) => {
     t.end();
 });
 
+test('@putout/minify: var: overlap', (t) => {
+    t.minify('var-overlap');
+    t.end();
+});
+
 test('@putout/minify: mangle: disabled', (t) => {
     t.minify('mangle-disabled', {
         mangle: false,

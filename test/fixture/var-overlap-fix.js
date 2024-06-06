@@ -1,0 +1,1 @@
+function A(){var n=a();n&&n();{const n=b();n&&n()}}export{A as mergeProps};

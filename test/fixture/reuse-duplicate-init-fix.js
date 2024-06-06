@@ -1,1 +1,1 @@
-var{a,b,operator:c}=require('putout'),{replaceWith:d}=c;
+const{a,b,operator:c}=require('putout'),{replaceWith:d}=c;
