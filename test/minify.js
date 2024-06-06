@@ -327,6 +327,11 @@ test('@putout/minify: for-each-ternary', (t) => {
     t.end();
 });
 
+test('@putout/minify: join-continued-strings', (t) => {
+    t.minify('join-continued-strings');
+    t.end();
+});
+
 test('@putout/minify: try-catch', (t) => {
     t.minify('try-catch');
     t.end();
