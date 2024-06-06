@@ -1,3 +1,8 @@
+2024.06.07, v3.15.0
+
+feature:
+- ae5220a @putout/minify: @putout/plugin-minify v8.8.1 (#17)
+
 2024.06.06, v3.14.0
 
 feature:
