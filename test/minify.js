@@ -250,6 +250,13 @@ test('@putout/minify: remove-console', (t) => {
     t.end();
 });
 
+test('@putout/minify: convert-strict-equal-equal', (t) => {
+    t.minify('convert-strict-equal-to-equal', {
+        convertStrictEqualToEqual: false,
+    });
+    t.end();
+});
+
 test('@putout/minify: remove-unreferenced-variables: bundle', (t) => {
     t.minify('remove-unreferenced-variables', {
         bundle: true,
