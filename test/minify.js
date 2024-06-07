@@ -257,6 +257,11 @@ test('@putout/minify: convert-strict-equal-equal', (t) => {
     t.end();
 });
 
+test('@putout/minify: convert-return-to-sequence-expression', (t) => {
+    t.minify('convert-return-to-sequence-expression');
+    t.end();
+});
+
 test('@putout/minify: remove-unreferenced-variables: bundle', (t) => {
     t.minify('remove-unreferenced-variables', {
         bundle: true,
