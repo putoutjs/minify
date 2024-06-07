@@ -274,6 +274,11 @@ test('@putout/minify: reuse-duplicate-init', (t) => {
     t.end();
 });
 
+test('@putout/minify: sequence-expressions', (t) => {
+    t.minify('sequence-expressions');
+    t.end();
+});
+
 test('@putout/minify: overlap', (t) => {
     t.minify('overlap');
     t.end();
