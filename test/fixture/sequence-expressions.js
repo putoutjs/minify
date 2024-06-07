@@ -9,3 +9,6 @@ for (const e of l) {
         return console.log(e), 2;
     }
 };
+
+for (const e of l)
+    e.o = w(e.o), e.l = w(e.l);

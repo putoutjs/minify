@@ -23,7 +23,6 @@ Here is list of supported 🐊**Putout** transformations:
 - ✅ [`convert-to-arrow-function`](https://github.com/coderaiser/putout/tree/v29.0.0/packages/plugin-convert-to-arrow-functions#readme);
 - ✅ [`convert-arguments-to-rest`](https://github.com/coderaiser/putout/tree/v29.10.1/packages/plugin-convert-arguments-to-rest#readme);
 - ✅ [`declare`](https://github.com/coderaiser/putout/tree/v29.0.0/packages/plugin-declare#readme);
-- ✅ [`extract-sequence-expressions`](https://github.com/coderaiser/putout/tree/v34.0.0/packages/plugin-extract-sequence-expressions#readme);
 - ✅ [`for-of`](https://github.com/coderaiser/putout/tree/v34.0.0/packages/plugin-for-of#readme);
 - ✅ [`logical-expressions`](https://github.com/coderaiser/putout/tree/v29.0.0/packages/plugin-logical-expressions#readme);
 - ✅ [`merge-duplicate-functions`](https://github.com/coderaiser/putout/tree/v29.0.0/packages/plugin-merge-duplicate-functions#readme);

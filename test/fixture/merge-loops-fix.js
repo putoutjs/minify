@@ -1,1 +1,1 @@
-for(const A of [...a,...b])d.push(A);for(const _ of [...a,...b])d.push(_);
+for(const _ of [...[...a,...b],...a])d.push(_);for(const c of b)d.push(c);
