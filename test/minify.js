@@ -389,4 +389,3 @@ test('@putout/minify: merge-variables: off', (t) => {
     });
     t.end();
 });
-
