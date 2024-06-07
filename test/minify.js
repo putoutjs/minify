@@ -382,3 +382,11 @@ test('@putout/minify: apply-template-literals: disabled', (t) => {
     });
     t.end();
 });
+
+test('@putout/minify: merge-variables: off', (t) => {
+    t.minify('merge-variables-off', {
+        mergeVariables: false,
+    });
+    t.end();
+});
+
