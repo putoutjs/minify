@@ -1,3 +1,10 @@
+2024.06.07, v3.17.0
+
+feature:
+- a8210ab @putout/minify: @putout/printer v9.0.0 (#15)
+- 7053bad @putout/minify: convert-return-to-sequence-expression (#15)
+- b7d0f44 @putout/minify: @putout/printer v8.47.0 (#15)
+
 2024.06.07, v3.16.0
 
 feature:
