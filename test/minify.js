@@ -302,6 +302,11 @@ test('@putout/minify: const', (t) => {
     t.end();
 });
 
+test('@putout/minify: declaration-order', (t) => {
+    t.minify('declaration-order');
+    t.end();
+});
+
 test('@putout/minify: return-arrow', (t) => {
     t.minify('return-arrow');
     t.end();

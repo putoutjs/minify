@@ -1,0 +1,1 @@
+var c=e=>e.w,w=c=>c;function f(e){const{n}=e,q=c(e);e.w=n;return q&&w(q)}console.log(f({n:1}));
