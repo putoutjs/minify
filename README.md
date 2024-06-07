@@ -94,7 +94,7 @@ const source = `
 `;
 
 minify(source, {
-    removeUnusedVariables: true,
+    removeUnusedVariables: false,
 });
 ```
 
