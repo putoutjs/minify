@@ -1,3 +1,8 @@
+2024.06.07, v3.19.0
+
+feature:
+- f1b3a82 @putout/minify: get rid of extract-sequence-expressions (#15)
+
 2024.06.07, v3.18.0
 
 feature:
