@@ -213,6 +213,11 @@ test('@putout/minify: merge-destructuring-properties', (t) => {
     t.end();
 });
 
+test('@putout/minify: void', (t) => {
+    t.minify('void');
+    t.end();
+});
+
 test('@putout/minify: undefined', (t) => {
     t.minify('undefined');
     t.end();
