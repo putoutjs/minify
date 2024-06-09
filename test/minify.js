@@ -42,6 +42,11 @@ test('@putout/minify: arrow', (t) => {
     t.end();
 });
 
+test('@putout/minify: assign', (t) => {
+    t.minify('assign');
+    t.end();
+});
+
 test('@putout/minify: apply-optional-chainig', (t) => {
     t.minify('apply-optional-chaining');
     t.end();
@@ -281,6 +286,11 @@ test('@putout/minify: reuse-duplicate-init', (t) => {
 
 test('@putout/minify: sequence-expressions', (t) => {
     t.minify('sequence-expressions');
+    t.end();
+});
+
+test('@putout/minify: ternary', (t) => {
+    t.minify('ternary');
     t.end();
 });
 

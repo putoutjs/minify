@@ -1,0 +1,1 @@
+export var s=()=>a?(p(),i):2;

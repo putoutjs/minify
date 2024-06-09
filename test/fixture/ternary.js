@@ -1,0 +1,1 @@
+export const s = () => a ? (p(),i) : 2
