@@ -1,3 +1,8 @@
+2024.06.09, v3.19.3
+
+fix:
+- be6c4ea @putout/minify: ternary, assign (#15)
+
 2024.06.09, v3.19.2
 
 feature:
