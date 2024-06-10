@@ -1,1 +1,1 @@
-function A({a,b}){fn(a,b)}A();
+function A({a,b}){fn(a,b)}A();const[_,c]=test();export{_ as one,c as two};

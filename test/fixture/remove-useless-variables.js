@@ -4,3 +4,5 @@ function hi(c) {
 }
 
 hi();
+
+export const [one, two] = test();

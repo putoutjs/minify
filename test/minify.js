@@ -233,6 +233,11 @@ test('@putout/minify: convert-arguments-to-rest', (t) => {
     t.end();
 });
 
+test('@putout/minify: convert-const-to-var', (t) => {
+    t.minify('convert-const-to-var');
+    t.end();
+});
+
 test('@putout/minify: types', (t) => {
     t.minify('types');
     t.end();
