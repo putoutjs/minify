@@ -1,3 +1,8 @@
+2024.06.10, v3.19.6
+
+feature:
+- 4a093ed @putout/minify: remove-unused-variables, const (#20, #22)
+
 2024.06.10, v3.19.5
 
 feature:
