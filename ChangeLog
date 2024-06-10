@@ -1,3 +1,9 @@
+2024.06.10, v3.19.4
+
+feature:
+- e862ca5 @putout/minify: @rollup/plugin-commonjs v26.0.1
+- 1cdbec7 @putout/minify: @putout/plugin-apply-optional-chaining v6.0.0 (#19)
+
 2024.06.09, v3.19.3
 
 fix:
