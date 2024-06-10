@@ -1,1 +1,1 @@
-a?.b?.c&&fn();
+a?.b?.c&&fn();Transition&&(Transition.running=!1);
