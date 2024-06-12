@@ -1,3 +1,8 @@
+2024.06.12, v3.19.7
+
+feature:
+- 7852690 @putout/minify: merge-variables (#18, #21)
+
 2024.06.10, v3.19.6
 
 feature:
