@@ -1,3 +1,4 @@
+const l = [];
 for (const e of l) {
     e.o = w(e.o);e.l = w(e.l);
 }

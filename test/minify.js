@@ -255,6 +255,7 @@ test('@putout/minify: convert-return-to-sequence-expression', (t) => {
 test('@putout/minify: remove-unreferenced-variables: bundle', (t) => {
     t.minify('remove-unreferenced-variables', {
         bundle: true,
+        expected: [5, 0],
     });
     t.end();
 });

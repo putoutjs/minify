@@ -4,10 +4,11 @@ let b;
 a = 5;
 b = 6;
 
-console.log(a);
+__minify_log(a);
 
 function runUpdates() {
     let t = 1;
     1 ? (t = 0) : 1;
+    return t;
 }
-console.log(type, runUpdates)
+__minify_log(runUpdates())

@@ -1,1 +1,1 @@
-export const s = () => a ? (p(),i) : 2
+const s = () => a ? (p(),i) : 2

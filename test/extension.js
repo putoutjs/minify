@@ -10,16 +10,20 @@ const __dirname = dirname(__filename);
 
 const {UPDATE, RUN} = process.env;
 
-const chooseMinify = (options = {}) => options.bundle ? bundledMinify : minify;
+const chooseMinify = (bundle) => bundle ? bundledMinify : minify;
 
 export const minifyExtension = ({pass, equal, deepEqual}) => (fixtureName, testOptions = {}) => {
-    const {expected = [], ...options} = testOptions;
+    const {
+        bundle,
+        expected = [],
+        ...options
+    } = testOptions;
     const nameFrom = join(__dirname, 'fixture', `${fixtureName}.js`);
     const nameTo = join(__dirname, 'fixture', `${fixtureName}-fix.js`);
     
     const fixtureFrom = readFileSync(nameFrom, 'utf8');
     
-    const result = chooseMinify(options)(fixtureFrom, {
+    const result = chooseMinify(bundle)(fixtureFrom, {
         removeUnusedVariables: false,
         ...options,
     });

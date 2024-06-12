@@ -1,1 +1,1 @@
-export var s=()=>a?(p(),i):2;
+var s=()=>a?(p(),i):2;
