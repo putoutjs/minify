@@ -1,4 +1,6 @@
 javascript:
+const alert = (a) => a;
+const prompt = (a) => a;
 var a = prompt('Base64 Encode');
 var b;
 try {
@@ -8,4 +10,3 @@ try {
 }
 var c = '\n' + b + '\n';
 alert(c);
-console.log(c);

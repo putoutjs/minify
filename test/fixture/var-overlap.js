@@ -1,4 +1,4 @@
-export function mergeProps() {
+function mergeProps() {
     const n = a();
     
     if (n) {

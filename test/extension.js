@@ -8,11 +8,12 @@ import {minify} from '../lib/minify.js';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
-const {UPDATE} = process.env;
+const {UPDATE, RUN} = process.env;
 
 const chooseMinify = (options = {}) => options.bundle ? bundledMinify : minify;
 
-export const minifyExtension = ({pass, equal, deepEqual}) => (fixtureName, options = {}) => {
+export const minifyExtension = ({pass, equal, deepEqual}) => (fixtureName, testOptions = {}) => {
+    const {expected = [], ...options} = testOptions;
     const nameFrom = join(__dirname, 'fixture', `${fixtureName}.js`);
     const nameTo = join(__dirname, 'fixture', `${fixtureName}-fix.js`);
     
@@ -29,12 +30,9 @@ export const minifyExtension = ({pass, equal, deepEqual}) => (fixtureName, optio
     }
     
     const fixtureTo = readFileSync(nameTo, 'utf8');
-    const {expected} = options;
     
-    if (expected) {
-        const resultRun = run(result, expected, {
-            deepEqual,
-        });
+    if (RUN) {
+        const resultRun = run(result, expected, {deepEqual});
         
         if (!resultRun.is)
             return resultRun;

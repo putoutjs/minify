@@ -1,3 +1,3 @@
-javascript:var a=prompt('Base64 Encode');var b;try{b=atob(a)}catch(A){b=A}var c=`
+javascript:var A=a=>a,b;var a=A('Base64 Encode');try{b=atob(a)}catch(_){b=_}A(`
 ${b}
-`;alert(c);console.log(c);
+`);
