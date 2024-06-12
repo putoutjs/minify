@@ -32,7 +32,9 @@ export const minifyExtension = ({pass, equal, deepEqual}) => (fixtureName, optio
     const {expected} = options;
     
     if (expected) {
-        const resultRun = run(result, expected, {deepEqual});
+        const resultRun = run(result, expected, {
+            deepEqual,
+        });
         
         if (!resultRun.is)
             return resultRun;
