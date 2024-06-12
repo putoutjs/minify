@@ -1,1 +1,1 @@
-fn('hello\'x');
+var a='hello\'x';(()=>a)(a);
