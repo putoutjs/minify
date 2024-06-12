@@ -1,38 +1,5 @@
-import {fileURLToPath} from 'node:url';
-import {dirname, join} from 'node:path';
-import {writeFileSync, readFileSync} from 'node:fs';
 import {extend} from 'supertape';
-import process from 'node:process';
-import {minify} from '../lib/minify.js';
-import {minify as bundledMinify} from '../bundle/minify.js';
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = dirname(__filename);
-
-const {UPDATE} = process.env;
-
-const chooseMinify = (options = {}) => options.bundle ? bundledMinify : minify;
-
-export const minifyExtension = ({pass, equal}) => (fixtureName, options) => {
-    const nameFrom = join(__dirname, 'fixture', `${fixtureName}.js`);
-    const nameTo = join(__dirname, 'fixture', `${fixtureName}-fix.js`);
-    
-    const fixtureFrom = readFileSync(nameFrom, 'utf8');
-    
-    const result = chooseMinify(options)(fixtureFrom, {
-        removeUnusedVariables: false,
-        ...options,
-    });
-    
-    if (UPDATE) {
-        writeFileSync(nameTo, result);
-        return pass('fixture updated');
-    }
-    
-    const fixtureTo = readFileSync(nameTo, 'utf8');
-    
-    return equal(result, fixtureTo);
-};
+import {minifyExtension} from './extension.js';
 
 const test = extend({
     minify: minifyExtension,
