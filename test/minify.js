@@ -197,7 +197,9 @@ test('@putout/minify: undefined', (t) => {
 });
 
 test('@putout/minify: before-init', (t) => {
-    t.minify('before-init');
+    t.minify('before-init', {
+        expected: [0, 1],
+    });
     t.end();
 });
 

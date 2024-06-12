@@ -12,7 +12,7 @@ const {UPDATE} = process.env;
 
 const chooseMinify = (options = {}) => options.bundle ? bundledMinify : minify;
 
-export const minifyExtension = ({pass, equal}) => (fixtureName, options) => {
+export const minifyExtension = ({pass, equal, deepEqual}) => (fixtureName, options = {}) => {
     const nameFrom = join(__dirname, 'fixture', `${fixtureName}.js`);
     const nameTo = join(__dirname, 'fixture', `${fixtureName}-fix.js`);
     
@@ -29,6 +29,24 @@ export const minifyExtension = ({pass, equal}) => (fixtureName, options) => {
     }
     
     const fixtureTo = readFileSync(nameTo, 'utf8');
+    const {expected} = options;
+    
+    if (expected) {
+        const resultRun = run(result, expected, {deepEqual});
+        
+        if (!resultRun.is)
+            return resultRun;
+    }
     
     return equal(result, fixtureTo);
 };
+
+function run(code, expected, {deepEqual}) {
+    const fn = Function('__minify_log', code);
+    const list = [];
+    const push = list.push.bind(list);
+    
+    fn(push);
+    
+    return deepEqual(list, expected);
+}
