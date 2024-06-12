@@ -1,1 +1,1 @@
-const{keys:A}=Object,a=A(LISTENERS.buttonClickHandlers);
+const{keys:A}=Object,a={buttonClickHandlers:{}},b=A(a.buttonClickHandlers);
