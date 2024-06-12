@@ -1,1 +1,1 @@
-if((a=>typeof a=='string')(get()))return;
+if((a=>typeof a==='string')(get()))return;
