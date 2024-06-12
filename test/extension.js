@@ -18,6 +18,7 @@ export const minifyExtension = ({pass, equal, deepEqual}) => (fixtureName, testO
         expected = [],
         ...options
     } = testOptions;
+    
     const nameFrom = join(__dirname, 'fixture', `${fixtureName}.js`);
     const nameTo = join(__dirname, 'fixture', `${fixtureName}-fix.js`);
     
