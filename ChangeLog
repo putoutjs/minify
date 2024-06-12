@@ -1,3 +1,9 @@
+2024.06.12, v3.20.0
+
+feature:
+- 8e2431e @putout/minify: duplicate declaration (putout/minify#24)
+- f28692a @putout/minify: extension: add
+
 2024.06.12, v3.19.7
 
 feature:
