@@ -32,7 +32,9 @@ export const minifyExtension = ({pass, equal, deepEqual}) => (fixtureName, testO
     const fixtureTo = readFileSync(nameTo, 'utf8');
     
     if (RUN) {
-        const resultRun = run(result, expected, {deepEqual});
+        const resultRun = run(result, expected, {
+            deepEqual,
+        });
         
         if (!resultRun.is)
             return resultRun;
