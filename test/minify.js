@@ -18,7 +18,6 @@ export const minifyExtension = ({pass, equal}) => (fixtureName, options) => {
     const nameTo = join(__dirname, 'fixture', `${fixtureName}-fix.js`);
     
     const fixtureFrom = readFileSync(nameFrom, 'utf8');
-    const fixtureTo = readFileSync(nameTo, 'utf8');
     
     const result = chooseMinify(options)(fixtureFrom, {
         removeUnusedVariables: false,
@@ -29,6 +28,8 @@ export const minifyExtension = ({pass, equal}) => (fixtureName, options) => {
         writeFileSync(nameTo, result);
         return pass('fixture updated');
     }
+    
+    const fixtureTo = readFileSync(nameTo, 'utf8');
     
     return equal(result, fixtureTo);
 };
@@ -225,6 +226,11 @@ test('@putout/minify: void', (t) => {
 
 test('@putout/minify: undefined', (t) => {
     t.minify('undefined');
+    t.end();
+});
+
+test('@putout/minify: before-init', (t) => {
+    t.minify('before-init');
     t.end();
 });
 
