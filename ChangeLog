@@ -1,3 +1,11 @@
+2024.06.13, v4.0.1
+
+fix:
+- 80b6aff @putout/minify: merge-variables: for-of
+
+feature:
+- fec011a @putout/minify: c8 v10.1.2
+
 2024.06.13, v4.0.0
 
 feature:
