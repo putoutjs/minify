@@ -43,6 +43,7 @@
     "generate"
   ],
   "devDependencies": {
+    "@putout/eslint-flat": "^2.0.0",
     "@putout/plugin-apply-optional-chaining": "^6.0.0",
     "@putout/plugin-apply-shorthand-properties": "^5.1.0",
     "@putout/plugin-apply-template-literals": "^3.0.0",
