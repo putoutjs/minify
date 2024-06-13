@@ -2,11 +2,11 @@ function hello() {
     return undefined;
 }
 
-function getWorld() {
+function getWorld(a, b) {
     if (a)
         return undefined;
     
     return b;
 }
 
-hello(getWorld());
+console.log(hello(getWorld(1, 2)));

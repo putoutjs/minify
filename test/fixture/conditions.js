@@ -1,2 +1,4 @@
+let a;
+
 if (a === 0)
-    fn();
+    console.log(2);

@@ -6,22 +6,34 @@ const test = extend({
 });
 
 test('@putout/minify: arrow', (t) => {
-    t.minify('arrow');
+    t.minify('arrow', {
+        expected: [
+            'start',
+            'hello',
+            'world',
+        ],
+    });
     t.end();
 });
 
 test('@putout/minify: assign', (t) => {
-    t.minify('assign');
+    t.minify('assign', {
+        expected: 2,
+    });
     t.end();
 });
 
 test('@putout/minify: apply-optional-chainig', (t) => {
-    t.minify('apply-optional-chaining');
+    t.minify('apply-optional-chaining', {
+        expected: 1,
+    });
     t.end();
 });
 
 test('@putout/minify: conditions', (t) => {
-    t.minify('conditions');
+    t.minify('conditions', {
+        expected: 2,
+    });
     t.end();
 });
 
@@ -31,32 +43,46 @@ test('@putout/minify: comments', (t) => {
 });
 
 test('@putout/minify: else', (t) => {
-    t.minify('else');
+    t.minify('else', {
+        expected: 'hello',
+    });
     t.end();
 });
 
 test('@putout/minify: minify', (t) => {
-    t.minify('minify');
+    t.minify('minify', {
+        expected: [
+            'hello',
+            'world',
+        ],
+    });
     t.end();
 });
 
 test('@putout/minify: function', (t) => {
-    t.minify('function');
+    t.minify('function', {
+        expected: [undefined],
+    });
     t.end();
 });
 
 test('@putout/minify: boolean', (t) => {
-    t.minify('boolean');
+    t.minify('boolean', {
+        expected: [true, false],
+    });
     t.end();
 });
 
 test('@putout/minify: infinity', (t) => {
-    t.minify('infinity');
+    t.minify('infinity', {
+        expected: Infinity,
+    });
     t.end();
 });
 
 test('@putout/minify: unused', (t) => {
     t.minify('unused', {
+        expected: 5,
         removeUnusedVariables: true,
     });
     t.end();
@@ -73,7 +99,9 @@ test('@putout/minify: guard', (t) => {
 });
 
 test('@putout/minify: dead-code', (t) => {
-    t.minify('dead-code');
+    t.minify('dead-code', {
+        run: false,
+    });
     t.end();
 });
 
@@ -83,18 +111,28 @@ test('@putout/minify: merge-duplicate-functions', (t) => {
 });
 
 test('@putout/minify: merge-duplicate-imports', (t) => {
-    t.minify('merge-duplicate-imports');
+    t.minify('merge-duplicate-imports', {
+        run: false,
+    });
     t.end();
 });
 
 test('@putout/minify: merge-loops', (t) => {
-    t.minify('merge-loops');
+    t.minify('merge-loops', {
+        expected: [
+            1,
+            2,
+            1,
+            2,
+        ],
+    });
     t.end();
 });
 
 test('@putout/minify: remove-useless-variables', (t) => {
     t.minify('remove-useless-variables', {
         removeUnusedVariables: true,
+        expected: [3],
     });
     t.end();
 });
@@ -107,6 +145,13 @@ test('@putout/minify: remove-useless-spread', (t) => {
 test('@putout/minify: remove-useless-spread: disabled', (t) => {
     t.minify('remove-useless-spread-disabled', {
         removeUselessSpread: false,
+        expected: [
+            1,
+            2,
+            3,
+            4,
+            0,
+        ],
     });
     t.end();
 });

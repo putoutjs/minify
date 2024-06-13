@@ -1,1 +1,1 @@
-fn(!0,!1);var c=!!'hello';
+console.log(!0,!1);var c=!!'hello';

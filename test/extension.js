@@ -5,10 +5,13 @@ import process from 'node:process';
 import {minify as bundledMinify} from '../bundle/minify.js';
 import {minify} from '../lib/minify.js';
 
+const {isArray} = Array;
+const maybeArray = (a) => isArray(a) ? a : [a];
+
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
-const {UPDATE, RUN} = process.env;
+const {UPDATE} = process.env;
 
 const chooseMinify = (bundle) => bundle ? bundledMinify : minify;
 
@@ -37,12 +40,15 @@ export const minifyExtension = ({pass, equal, deepEqual}) => (fixtureName, testO
     
     const fixtureTo = readFileSync(nameTo, 'utf8');
     
-    if (run && RUN) {
+    if (run) {
         const resultRun = runCode(result, expected, {
             deepEqual,
         });
         
-        return resultRun;
+        const {is} = resultRun;
+        
+        if (!is)
+            return resultRun;
     }
     
     return equal(result, fixtureTo);
@@ -57,5 +63,5 @@ function runCode(code, expected, {deepEqual}) {
         log: push,
     });
     
-    return deepEqual(list, expected);
+    return deepEqual(list, maybeArray(expected));
 }

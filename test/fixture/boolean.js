@@ -1,5 +1,6 @@
 const a = true;
 const b = false;
-fn(a, b);
+
+console.log(a, b);
 
 const c = new Boolean('hello');

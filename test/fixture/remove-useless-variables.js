@@ -1,8 +1,13 @@
 function hi(c) {
     const {a, b} = c;
-    fn(a, b);
+    console.log(fn(a, b));
 }
 
-hi();
+hi({
+    a: 1,
+    b: 2,
+});
 
-function fn(a, b) {return a + b}
+function fn(a, b) {
+    return a + b;
+}

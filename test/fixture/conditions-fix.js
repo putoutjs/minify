@@ -1,1 +1,1 @@
-!a&&fn();
+let a;!a&&console.log(2);

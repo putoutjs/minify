@@ -1,1 +1,1 @@
-var A=[...getPlaces()],a={...fn()};
+const{keys:A}=Object,b=[1,2];console.log(...b);var c=[...(()=>[3,4])()];console.log(...c);console.log(A({...(()=>({}))()}).length);

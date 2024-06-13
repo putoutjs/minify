@@ -1,1 +1,1 @@
-fn(Infinity);
+console.log(Infinity);

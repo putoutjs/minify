@@ -1,1 +1,1 @@
-a?b():c();if(a){console.log('hello');return'hello'}console.log('world');
+let a=1;(()=>{})();console.log('hello');return'hello';

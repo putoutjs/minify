@@ -1,1 +1,1 @@
-m(()=>'hello');((b,c)=>{})(b,c);
+(f=>console.log(f()))(()=>'start');((b,c)=>console.log(b,c))('hello','world');

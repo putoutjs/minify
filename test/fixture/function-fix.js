@@ -1,1 +1,1 @@
-function A(){}function _(){if(a)return;return b}A(_());
+function A(){}function _(a,b){if(a)return;return b}console.log(A(_(1,2)));

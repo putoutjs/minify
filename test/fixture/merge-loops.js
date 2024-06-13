@@ -1,8 +1,11 @@
-a.forEach(aa=>d.push(aa)),
-b.forEach(bb=>d.push(bb));
+const a = [1];
+const b = [2];
+
+a.forEach(aa => console.log(aa)),
+b.forEach(bb => console.log(bb));
 
 for (const aa of a)
-    d.push(aa);
+    console.log(aa);
 
 for (const bb of b)
-    d.push(bb);
+    console.log(bb);
