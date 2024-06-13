@@ -49,11 +49,13 @@ export const minifyExtension = ({pass, equal, deepEqual}) => (fixtureName, testO
 };
 
 function runCode(code, expected, {deepEqual}) {
-    const fn = Function('__minify_log', code);
+    const fn = Function('__minify_log', 'console', code);
     const list = [];
     const push = list.push.bind(list);
     
-    fn(push);
+    fn(push, {
+        log: push,
+    });
     
     return deepEqual(list, expected);
 }

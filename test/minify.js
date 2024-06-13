@@ -132,7 +132,9 @@ test('@putout/minify: apply-template-literals', (t) => {
 });
 
 test('@putout/minify: for', (t) => {
-    t.minify('for');
+    t.minify('for', {
+        expected: [1],
+    });
     t.end();
 });
 
@@ -157,7 +159,9 @@ test('@putout/minify: remove-unused-expressions', (t) => {
 });
 
 test('@putout/minify: remove-unreferenced-variables', (t) => {
-    t.minify('remove-unreferenced-variables');
+    t.minify('remove-unreferenced-variables', {
+        expected: [5, 0],
+    });
     t.end();
 });
 
@@ -346,7 +350,12 @@ test('@putout/minify: class', (t) => {
 });
 
 test('@putout/minify: merge-variables', (t) => {
-    t.minify('merge-variables');
+    t.minify('merge-variables', {
+        expected: [
+            'a',
+            'b2',
+        ],
+    });
     t.end();
 });
 
@@ -361,7 +370,14 @@ test('@putout/minify: duplicate-declaration', (t) => {
 });
 
 test('@putout/minify: join-continued-strings', (t) => {
-    t.minify('join-continued-strings');
+    t.minify('join-continued-strings', {
+        expected: [
+            '  1  2  3',
+            '    a    b    c',
+            '  1  2  3\n',
+            '    a    b    c\n',
+        ],
+    });
     t.end();
 });
 
@@ -371,7 +387,9 @@ test('@putout/minify: try-catch', (t) => {
 });
 
 test('@putout/minify: var', (t) => {
-    t.minify('var');
+    t.minify('var', {
+        expected: ['12'],
+    });
     t.end();
 });
 
@@ -396,6 +414,7 @@ test('@putout/minify: apply-template-literals: disabled', (t) => {
 
 test('@putout/minify: merge-variables: off', (t) => {
     t.minify('merge-variables-off', {
+        expected: [1],
         mergeVariables: false,
     });
     t.end();

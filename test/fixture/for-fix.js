@@ -1,1 +1,1 @@
-var n=items.length;for(const a of items)log(a);
+var a=[1],n=a.length;for(const A of a)__minify_log(A);
