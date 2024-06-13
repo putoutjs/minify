@@ -1,3 +1,9 @@
+2024.06.13, v4.0.0
+
+feature:
+- ae2dc32 @putout/minify: disable: convertStrictEqualToEqual: turn of
+- bcf5e5a convertStrictEqualToEqual: disabled (#26)
+
 2024.06.12, v3.20.0
 
 feature:
