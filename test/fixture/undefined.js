@@ -1,3 +1,5 @@
+const fn = () => {};
+
 if (typeof Promise !== 'undefined')
     fn();
 

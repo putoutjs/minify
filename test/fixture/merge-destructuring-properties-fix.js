@@ -1,1 +1,1 @@
-const{assign:A,keys:_}=Object;let a,b;_(x);A(a,b);
+const{assign:A,keys:_}=Object;_({});A({},{});

@@ -14,6 +14,7 @@ const chooseMinify = (bundle) => bundle ? bundledMinify : minify;
 
 export const minifyExtension = ({pass, equal, deepEqual}) => (fixtureName, testOptions = {}) => {
     const {
+        run = true,
         bundle,
         expected = [],
         ...options
@@ -36,19 +37,18 @@ export const minifyExtension = ({pass, equal, deepEqual}) => (fixtureName, testO
     
     const fixtureTo = readFileSync(nameTo, 'utf8');
     
-    if (RUN) {
-        const resultRun = run(result, expected, {
+    if (run && RUN) {
+        const resultRun = runCode(result, expected, {
             deepEqual,
         });
         
-        if (!resultRun.is)
-            return resultRun;
+        return resultRun;
     }
     
     return equal(result, fixtureTo);
 };
 
-function run(code, expected, {deepEqual}) {
+function runCode(code, expected, {deepEqual}) {
     const fn = Function('__minify_log', code);
     const list = [];
     const push = list.push.bind(list);

@@ -1,1 +1,1 @@
-typeof Promise!=='undefined'&&fn();Promise.a!==void 0&&fn();
+var a=()=>{};typeof Promise!=='undefined'&&a();Promise.a!==void 0&&a();

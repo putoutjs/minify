@@ -219,7 +219,9 @@ test('@putout/minify: types', (t) => {
 });
 
 test('@putout/minify: shebang', (t) => {
-    t.minify('shebang');
+    t.minify('shebang', {
+        run: false,
+    });
     t.end();
 });
 
@@ -242,7 +244,15 @@ test('@putout/minify: remove-console', (t) => {
 
 test('@putout/minify: convert-strict-equal-equal', (t) => {
     t.minify('convert-strict-equal-to-equal', {
-        convertStrictEqualToEqual: false,
+        expected: [2],
+    });
+    t.end();
+});
+
+test('@putout/minify: convert-strict-equal-equal: on', (t) => {
+    t.minify('convert-strict-equal-to-equal-on', {
+        convertStrictEqualToEqual: true,
+        expected: [1],
     });
     t.end();
 });
