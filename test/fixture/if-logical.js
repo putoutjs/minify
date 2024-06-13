@@ -1,3 +1,6 @@
+let var1, var2, var3;
+const fn1 = () => {};
+
 if (var1 || var2 && var3) {
     console.log('test');
 }
