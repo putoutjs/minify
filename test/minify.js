@@ -127,7 +127,9 @@ test('@putout/minify: if: logical', (t) => {
 });
 
 test('@putout/minify: apply-template-literals', (t) => {
-    t.minify('apply-template-literals');
+    t.minify('apply-template-literals', {
+        expected: ['("hello")'],
+    });
     t.end();
 });
 
@@ -166,12 +168,16 @@ test('@putout/minify: remove-unreferenced-variables', (t) => {
 });
 
 test('@putout/minify: for-of: remove-useless', (t) => {
-    t.minify('for-of-remove-useless');
+    t.minify('for-of-remove-useless', {
+        expected: ['hello'],
+    });
     t.end();
 });
 
 test('@putout/minify: for-of: nested', (t) => {
-    t.minify('for-of-nested');
+    t.minify('for-of-nested', {
+        expected: ['hello'],
+    });
     t.end();
 });
 
@@ -191,7 +197,12 @@ test('@putout/minify: merge-destructuring-properties', (t) => {
 });
 
 test('@putout/minify: void', (t) => {
-    t.minify('void');
+    t.minify('void', {
+        expected: [{
+            DEV: undefined,
+            on: 'x',
+        }],
+    });
     t.end();
 });
 
@@ -310,12 +321,22 @@ test('@putout/minify: quotes', (t) => {
 });
 
 test('@putout/minify: closure', (t) => {
-    t.minify('closure');
+    t.minify('closure', {
+        expected: [
+            5,
+            undefined,
+        ],
+    });
     t.end();
 });
 
 test('@putout/minify: mangle-names-overlap', (t) => {
-    t.minify('mangle-names-overlap');
+    t.minify('mangle-names-overlap', {
+        expected: [
+            undefined,
+            5,
+        ],
+    });
     t.end();
 });
 
@@ -330,7 +351,9 @@ test('@putout/minify: const', (t) => {
 });
 
 test('@putout/minify: declaration-order', (t) => {
-    t.minify('declaration-order');
+    t.minify('declaration-order', {
+        expected: [1],
+    });
     t.end();
 });
 
@@ -340,7 +363,9 @@ test('@putout/minify: return-arrow', (t) => {
 });
 
 test('@putout/minify: switch', (t) => {
-    t.minify('switch');
+    t.minify('switch', {
+        expected: ['bar'],
+    });
     t.end();
 });
 
@@ -419,3 +444,4 @@ test('@putout/minify: merge-variables: off', (t) => {
     });
     t.end();
 });
+

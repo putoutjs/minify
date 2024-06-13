@@ -1,1 +1,1 @@
-var a=[1],n=a.length;for(const A of a)__minify_log(A);
+var a=[1],n=a.length;for(const A of a)console.log(A);

@@ -1,4 +1,5 @@
-var t = 1;
-var c = '1';
+const t = 1;
+const c = '1';
 const eq = (a, b) => a === b;
-__minify_log(o = eq(t, c) ? 1 : 2);
+
+console.log(o = eq(t, c) ? 1 : 2);

@@ -1,1 +1,1 @@
-let a;a=5;__minify_log(a);function b(){let t=1;1&&(t=0);return t}__minify_log(b());
+let a;a=5;console.log(a);function b(){let t=1;1&&(t=0);return t}console.log(b());
