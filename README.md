@@ -102,7 +102,7 @@ minify(source, {
 
 For [such code](https://github.com/coderaiser/minify/issues/96#issuecomment-1546605157):
 
-- 🔥 `@putout/minify`: `473B`
+- 🔥 `@putout/minify`: `475B`
 - ❌ `terser`: `482B`
 
 `react.js`:
