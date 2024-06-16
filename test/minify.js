@@ -110,6 +110,11 @@ test('@putout/minify: merge-duplicate-functions', (t) => {
     t.end();
 });
 
+test('@putout/minify: merge-assignment-expressions', (t) => {
+    t.minify('merge-assignment-expressions');
+    t.end();
+});
+
 test('@putout/minify: merge-duplicate-imports', (t) => {
     t.minify('merge-duplicate-imports', {
         run: false,
