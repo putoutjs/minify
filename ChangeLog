@@ -1,3 +1,9 @@
+2024.06.16, v4.1.0
+
+feature:
+- da367bd @putout/minify: add support of merge-assignment-expressions
+- 55457b8 @putout/minify: @putout/eslint-flat v2.0.0
+
 2024.06.13, v4.0.1
 
 fix:
