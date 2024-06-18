@@ -100,7 +100,7 @@ minify(source, {
 
 ### How it's compared to X(your benchmark)?
 
-[Benchmark]('./benchmark/README.md')
+[Benchmark](benchmark)
 
 ## License
 
