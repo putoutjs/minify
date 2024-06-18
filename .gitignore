@@ -5,3 +5,4 @@ yarn-error.log
 coverage
 .idea
 bundle
+.DS_Store
