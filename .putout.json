@@ -4,5 +4,5 @@
             "eslint/convert-rc-to-flat": "on"
         }
     },
-    "ignore": ["bundle"]
+    "ignore": ["bundle", "benchmark"]
 }
