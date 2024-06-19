@@ -1,1 +1,1 @@
-function a(){return'world'}function b(){throw Error('error')}
+function hi(){return'world'}function log(){throw Error('error')}

@@ -1,1 +1,1 @@
-const{keys:A}=Object,b=[1,2];console.log(...b);var c=[...(()=>[3,4])()];console.log(...c);console.log(A({...(()=>({}))()}).length);
+const{keys}=Object,b=[1,2];console.log(...b);var places=[...(()=>[3,4])()];console.log(...places);console.log(keys({...(()=>({}))()}).length);

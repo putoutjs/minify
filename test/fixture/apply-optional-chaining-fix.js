@@ -1,1 +1,1 @@
-var a={b:{c:1}};a?.b?.c&&console.log(a.b.c);var b={};b&&(b.running=!1);
+var a={b:{c:1}};a?.b?.c&&console.log(a.b.c);var Transition={};Transition&&(Transition.running=!1);

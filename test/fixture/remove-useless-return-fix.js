@@ -1,1 +1,1 @@
-var a=({push})=>({ObjectExpression(A){push(A)}});
+var traverse=({push})=>({ObjectExpression(path){push(path)}});

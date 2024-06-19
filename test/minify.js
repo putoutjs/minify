@@ -33,6 +33,7 @@ test('@putout/minify: apply-optional-chainig', (t) => {
 test('@putout/minify: conditions', (t) => {
     t.minify('conditions', {
         expected: 2,
+        conditions: true,
     });
     t.end();
 });
@@ -231,8 +232,10 @@ test('@putout/minify: for-of: nested', (t) => {
     t.end();
 });
 
-test('@putout/minify: mangle-names', (t) => {
-    t.minify('mangle-names');
+test('@putout/minify: mangle-names: enabled', (t) => {
+    t.minify('mangle-names', {
+        mangle: true,
+    });
     t.end();
 });
 

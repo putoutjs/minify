@@ -1,1 +1,1 @@
-var a='hello',b='("'+a+'")';
+var name='hello',line='("'+name+'")';

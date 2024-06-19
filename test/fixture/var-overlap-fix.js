@@ -1,1 +1,1 @@
-function A(){var n=a();n&&n();{const n=b();n&&n()}}
+function mergeProps(){var n=a();n&&n();if(!0){const n=b();n&&n()}}

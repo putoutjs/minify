@@ -27,11 +27,7 @@ export const minifyExtension = ({pass, equal, deepEqual}) => (fixtureName, testO
     const nameTo = join(__dirname, 'fixture', `${fixtureName}-fix.js`);
     
     const fixtureFrom = readFileSync(nameFrom, 'utf8');
-    
-    const result = chooseMinify(bundle)(fixtureFrom, {
-        removeUnusedVariables: false,
-        ...options,
-    });
+    const result = chooseMinify(bundle)(fixtureFrom, options);
     
     if (UPDATE) {
         writeFileSync(nameTo, result);

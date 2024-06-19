@@ -72,10 +72,11 @@ You can also pass options to `minify`. Here is list of default options:
 
 ```js
 ({
+    conditions: false,
     mangleClassNames: true,
-    mangle: true,
+    mangle: false,
     mergeVariables: true,
-    removeUnusedVariables: true,
+    removeUnusedVariables: false,
     removeConsole: false,
     removeUselessSpread: true,
     applyTemplateLiterals: true,

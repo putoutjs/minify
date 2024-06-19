@@ -2,7 +2,6 @@ import {get} from 'node:https';
 import {execSync} from 'node:child_process';
 import {
     statSync,
-    writeFileSync,
     createWriteStream,
     rmSync,
 } from 'node:fs';
@@ -13,9 +12,6 @@ const listFiles = {
     },
     solidjs: {
         url: 'https://cdn.jsdelivr.net/npm/solid-js@1.8.17/dist/solid.min.js',
-    },
-    treejs: {
-        url: 'https://cdn.jsdelivr.net/npm/three@0.165.0/build/three.module.min.js',
     },
     lodash: {
         url: 'https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js',
@@ -35,10 +31,10 @@ const listFiles = {
 };
 
 const compressors = {
-    bun: 'bun build --minify {dist} --outfile {out}',
-    esbuild: './node_modules/.bin/esbuild {dist} --bundle --minify --outfile={out}',
-    terser: './node_modules/.bin/terser {dist} --compress --mangle --comments false -o {out}',
-    putoutjs_minify: 'node ./cli/minify.js {dist} {out}',
+    'bun': 'bun build --minify {dist} --outfile {out}',
+    'esbuild': './node_modules/.bin/esbuild {dist} --bundle --minify --outfile={out}',
+    'terser': './node_modules/.bin/terser {dist} --compress --mangle --comments false -o {out}',
+    '@putout/minify': 'node ./cli/minify.js {dist} {out}',
 };
 
 const debug = () => {};

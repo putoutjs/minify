@@ -1,1 +1,1 @@
-var a=[],z=a.forEach(A=>d.push(A));
+var a=[],z=a.forEach(aa=>d.push(aa));

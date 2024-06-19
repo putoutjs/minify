@@ -1,1 +1,1 @@
-const{assign:A,keys:_}=Object;_({});A({},{});
+const{assign,keys}=Object;keys({});assign({},{});
