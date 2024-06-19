@@ -1,3 +1,12 @@
+2024.06.19, v4.2.0
+
+feature:
+- 29009d5 @putout/minify: speed up, disable mangle, mergeVariables
+- 53241b8 @putout/minify: @putout/plugin-regexp v9.0.0
+- b314369 @putout/minify: @putout/plugin-merge-destructuring-properties v9.0.0
+- 8d1855a @putout/minify: get rid of couple passes
+- b2c0190 add benchmark (#27)
+
 2024.06.16, v4.1.0
 
 feature:
