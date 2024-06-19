@@ -1,1 +1,1 @@
-const{assign:a}=Object,c=e=>e.w,w=c=>c;const q=1,A={};function d(e,n){return a({},A,n)}var _=d(!q);console.log(_[q]&&_||0);function f(e){const{n}=e;e.w=n;const q=c(e);return q&&w(q)}console.log(f({n:1}));
+const{assign:a}=Object;const q=1,A={};function d(e,n){return a({},A,n)}var _=d(!q),w=c=>c;console.log(_[q]&&_||0);var c=e=>e.w;function f(e){const{n}=e;e.w=n;const q=c(e);return q&&w(q)}console.log(f({n:1}));

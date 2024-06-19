@@ -56,6 +56,7 @@ export const minifyExtension = ({pass, equal, deepEqual}) => (fixtureName, testO
 
 function runCode(code, expected, {deepEqual}) {
     const fn = Function('console', code);
+    
     const list = [];
     const push = list.push.bind(list);
     
