@@ -101,7 +101,7 @@ minify(source, {
 
 ### How it's compared to X(your benchmark)?
 
-[Benchmark](benchmark)
+[Benchmark](https://github.com/putoutjs/minify/tree/master/benchmark)
 
 ## License
 
