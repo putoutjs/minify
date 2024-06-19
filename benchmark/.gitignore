@@ -1,0 +1,7 @@
+source/*
+!source/example*
+result
+.idea
+*.swp
+yarn-error.log
+coverage

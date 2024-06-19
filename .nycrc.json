@@ -12,6 +12,7 @@
         "**/bundle",
         "**/stub",
         "rollup.config.js",
+        "benchmark",
         "**/*.config.*"
     ],
     "branches": 100,

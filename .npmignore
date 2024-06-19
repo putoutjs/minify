@@ -10,3 +10,4 @@ rules
 rollup.config.js
 lib/*.js
 *.config.*
+benchmark

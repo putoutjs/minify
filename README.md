@@ -98,17 +98,9 @@ minify(source, {
 });
 ```
 
-### How it's compared to [Terser](https://github.com/terser/terser)?
+### How it's compared to X(your benchmark)?
 
-For [such code](https://github.com/coderaiser/minify/issues/96#issuecomment-1546605157):
-
-- 🔥 `@putout/minify`: `475B`
-- ❌ `terser`: `482B`
-
-`react.js`:
-
-- 🔥 `@putout/minify`: `16309B`
-- ❌ `terser`: `16346B`
+[Benchmark](benchmark)
 
 ## License
 
