@@ -1,1 +1,1 @@
-function A({a,b}){console.log(_(a,b))}A({a:1,b:2});function _(a,b){return a+b}
+function hi({a,b}){console.log(fn(a,b))}hi({a:1,b:2});function fn(a,b){return a+b}

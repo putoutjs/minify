@@ -1,1 +1,1 @@
-function A(){}function _(a,b){if(a)return;return b}console.log(A(_(1,2)));
+function hello(){}function getWorld(a,b){if(a)return;return b}console.log(hello(getWorld(1,2)));

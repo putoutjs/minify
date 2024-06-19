@@ -1,1 +1,1 @@
-!function(){let a='1';a+='2';console.log(a)}();
+!function(){let string_var='1';string_var+='2';console.log(string_var)}();
