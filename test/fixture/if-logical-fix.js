@@ -1,1 +1,1 @@
-let a,b,c;(a||b&&c)&&console.log('test');(a||b&&c)&&((()=>{})(),var4&&fn2());
+let a,b,c;var d=()=>{};(a||b&&c)&&console.log('test');if(a||b&&c){d();var4&&fn2()}

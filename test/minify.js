@@ -476,6 +476,13 @@ test('@putout/minify: var: overlap', (t) => {
     t.end();
 });
 
+test('@putout/minify: fixCount', (t) => {
+    t.minify('fix-count', {
+        fixCount: 2,
+    });
+    t.end();
+});
+
 test('@putout/minify: mangle: disabled', (t) => {
     t.minify('mangle-disabled', {
         mangle: false,

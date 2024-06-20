@@ -1,1 +1,1 @@
-const{keys}=Object;var a={buttonClickHandlers:{}},b=keys(a.buttonClickHandlers);
+var a={buttonClickHandlers:{}},b=Object.keys(a.buttonClickHandlers);

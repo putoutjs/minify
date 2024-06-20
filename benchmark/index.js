@@ -47,7 +47,7 @@ function fileExists(path) {
         debug(`File ${path} exists ${s.size} bytes`);
         
         return s.size > 0;
-    } catch(e) {
+    } catch {
         debug(`File ${path} does not exist`);
         return false;
     }
@@ -59,7 +59,7 @@ function downloadFile(url, dest) {
         return;
     }
     
-    return new Promise((resolve, reject) => {
+    return new Promise((resolve) => {
         debug(`Downloading ${url} to ${dest}`);
         get(url, (res) => {
             const file = createWriteStream(dest, '');
