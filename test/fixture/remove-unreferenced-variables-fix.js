@@ -1,1 +1,1 @@
-let a;a=5;console.log(a);function runUpdates(){let t=1;1&&(t=0);return t}console.log(runUpdates());
+let a;a=5;console.log(a);function b(){let t=1;1&&(t=0);return t}console.log(b());

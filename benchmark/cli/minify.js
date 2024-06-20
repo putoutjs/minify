@@ -1,6 +1,8 @@
 import {readFileSync, writeFileSync} from 'node:fs';
-import process from 'node:process';
-import {minify} from '@putout/minify';
+//import {minify} from '@putout/minify';
+import {minify} from '../../lib/minify.js';
 
-const body = readFileSync(process.argv[2], 'utf8');
-writeFileSync(process.argv[3], minify(body));
+export const runMinify = (dist, out) => {
+    const body = readFileSync(dist, 'utf8');
+    writeFileSync(out, minify(body));
+};

@@ -1,1 +1,1 @@
-const{keys}=Object;keys({});keys({});keys({});keys({});
+const{keys:A}=Object;A({});A({});A({});A({});

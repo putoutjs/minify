@@ -1,6 +1,5 @@
 {
     "rules": {
-        "remove-unused-variables": "off",
         "remove-console": "off",
         "remove-useless-arguments/arguments": "off"
     }

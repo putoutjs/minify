@@ -1,1 +1,1 @@
-var history={};'xxx' in history;
+var a={};'xxx' in a;

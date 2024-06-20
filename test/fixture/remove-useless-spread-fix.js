@@ -1,1 +1,1 @@
-var noop=()=>{},places=noop(),a=noop();
+var A=()=>{},b=A(),a=A();

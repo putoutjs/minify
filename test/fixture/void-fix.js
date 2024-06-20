@@ -1,1 +1,1 @@
-var on='x',DEV;console.log({DEV,on});
+var a='x',b;console.log({DEV:b,on:a});

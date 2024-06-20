@@ -5,6 +5,7 @@ import {
     createWriteStream,
     rmSync,
 } from 'node:fs';
+import {runMinify} from './cli/minify.js';
 
 const listFiles = {
     react: {
@@ -97,29 +98,37 @@ function removeFile(filePath) {
     });
 }
 
+function execute(value, dist, out) {
+    if (value.startsWith('node ./cli/minify.js')) {
+        debug(`Running: minify`);
+        runMinify(dist, out);
+    }
+    
+    const cmd = value
+        .replace('{dist}', dist)
+        .replace('{out}', out);
+    
+    debug(`Running: ${cmd}`);
+    execSync(cmd, {
+        stdio: 'pipe',
+        encoding: 'utf8',
+    });
+}
+
 function compareTask(file) {
     const dist = getPathFromFile(file);
     const result = {};
     
     for (const [key, value] of Object.entries(compressors)) {
-        const out = `./result/${file}-${key}.js`;
+        const out = `./result/${file}-${key.replace('/', '-')}.js`;
+        
         removeFile(out);
         
-        const cmd = value
-            .replace('{dist}', dist)
-            .replace('{out}', out);
-        
-        debug(`Running: ${cmd}`);
         let endTime = 0;
         
         try {
             const startTime = Date.now();
-            
-            execSync(cmd, {
-                stdio: 'pipe',
-                
-                encoding: 'utf8',
-            });
+            execute(value, dist, out);
             endTime = Date.now() - startTime;
         } catch(e) {
             console.error(`Error running ${key}: ${e.message} ${e.stderr}`);

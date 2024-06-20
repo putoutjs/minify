@@ -1,1 +1,1 @@
-var items=[1],n=items.length;for(let i=0;i<n;i++)console.log(items[i]);
+var a=[1],n=a.length;for(let i=0;i<n;i++)console.log(a[i]);

@@ -1,1 +1,1 @@
-var name='hello';console.log(`("${name}")`);
+var a='hello';console.log(`("${a}")`);

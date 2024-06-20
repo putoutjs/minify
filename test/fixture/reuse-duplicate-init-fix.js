@@ -1,1 +1,1 @@
-const{a,b,operator}=(a=>({operator:{}}))('putout'),{replaceWith}=operator;
+const{a,b,operator:c}=(a=>({operator:{}}))('putout'),{replaceWith:d}=c;

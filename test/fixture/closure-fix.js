@@ -1,1 +1,1 @@
-let aaaaa=5;(f=>f())(a=>{console.log(aaaaa);console.log(a)});
+let A=5;(f=>f())(a=>{console.log(A);console.log(a)});

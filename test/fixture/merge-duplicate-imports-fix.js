@@ -1,1 +1,1 @@
-import putout from'./putout.js';console.log(putout);console.log(putout);
+import a from'./putout.js';console.log(a);console.log(a);

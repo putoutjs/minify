@@ -1,1 +1,1 @@
-const{assign}=Object;const q=1,signalOptions={};function createSignal(e,n){return assign({},signalOptions,n)}var transPending=createSignal(!q),w=c=>c;console.log(transPending[q]&&transPending||0);var c=e=>e.w;function f(e){const{n}=e;e.w=n;const q=c(e);return q&&w(q)}console.log(f({n:1}));
+const{assign:a}=Object;const q=1,A={};function d(e,n){return a({},A,n)}var _=d(!q),w=c=>c;console.log(_[q]&&_||0);var c=e=>e.w;function f(e){const{n}=e;e.w=n;const q=c(e);return q&&w(q)}console.log(f({n:1}));
