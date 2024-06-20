@@ -1,3 +1,10 @@
+2024.06.20, v4.3.0
+
+feature:
+- faa5bee @putout/minify: add fixCount
+- 2990f0b get back mangle
+- eccc805 @putout/minify: speed up, disable mangle, mergeVariables
+
 2024.06.19, v4.2.0
 
 feature:
