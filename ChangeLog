@@ -1,3 +1,9 @@
+2024.06.27, v4.3.1
+
+feature:
+- fbe26eb @putout/minify: @putout/plugin-remove-unused-expressions v9.0.0
+- 6d32113 @putout/minify: @putout/plugin-remove-useless-return v7.0.0
+
 2024.06.20, v4.3.0
 
 feature:
