@@ -43,6 +43,14 @@ test('@putout/minify: comments', (t) => {
     t.end();
 });
 
+test('@putout/minify: evaluate', (t) => {
+    t.minify('evaluate', {
+        expected: 'hello',
+        conditions: true,
+    });
+    t.end();
+});
+
 test('@putout/minify: else', (t) => {
     t.minify('else', {
         expected: 'hello',
