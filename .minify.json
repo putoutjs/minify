@@ -1,5 +1,5 @@
 {
     "js": {
-        "type": "terser"
+        "type": "esbuild"
     }
 }
