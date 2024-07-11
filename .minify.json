@@ -1,5 +1,5 @@
 {
     "js": {
-        "type": "esbuild"
+        "type": "swc"
     }
 }

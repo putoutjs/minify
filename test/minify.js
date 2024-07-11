@@ -43,6 +43,13 @@ test('@putout/minify: comments', (t) => {
     t.end();
 });
 
+test('@putout/minify: parens', (t) => {
+    t.minify('parens', {
+        expected: 'application/javascript',
+    });
+    t.end();
+});
+
 test('@putout/minify: evaluate', (t) => {
     t.minify('evaluate', {
         expected: 'hello',
