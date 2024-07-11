@@ -1,3 +1,9 @@
+2024.07.11, v4.4.0
+
+feature:
+- 7105176 @putout/minify: @putout/printer v9.6.0 (coderaiser/minify#124)
+- 77689ae minify: esbuild
+
 2024.06.27, v4.3.1
 
 feature:
