@@ -1,3 +1,10 @@
+2024.07.18, v4.5.0
+
+feature:
+- f0f3d00 @putout/minify: swap (coderiaser/minify#125)
+- 0e98f4c @putout/minify: @putout/plugin-remove-useless-variables v12.0.0
+- 864ffa4 @putout/minify: putout v36.0.0
+
 2024.07.11, v4.4.0
 
 feature:
