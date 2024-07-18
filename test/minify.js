@@ -89,6 +89,13 @@ test('@putout/minify: boolean', (t) => {
     t.end();
 });
 
+test('@putout/minify: swap', (t) => {
+    t.minify('swap', {
+        expected: [[2, 1]],
+    });
+    t.end();
+});
+
 test('@putout/minify: infinity', (t) => {
     t.minify('infinity', {
         expected: Infinity,
