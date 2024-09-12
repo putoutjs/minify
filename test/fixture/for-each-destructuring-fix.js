@@ -1,0 +1,1 @@
+var a=[{b:'b',c:'c'},{b:'bb',c:'cc'}];for(const{b,c} of a)console.log(b,c);

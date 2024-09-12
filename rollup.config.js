@@ -68,7 +68,7 @@ export default {
         replace({
             preventAssignment: true,
             values: {
-                'process.env.BABEL_TYPES_8_BREAKING': true,
+                //'process.env.BABEL_TYPES_8_BREAKING': true,
                 'Buffer.isBuffer': 'Array.isArray',
                 'process.platform': '"unix"',
                 'process.env.BABEL_TYPES_8_BREAKING = true': '',

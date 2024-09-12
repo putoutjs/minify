@@ -526,3 +526,16 @@ test('@putout/minify: merge-variables: off', (t) => {
     });
     t.end();
 });
+
+test('@putout/minify: for-each-destructuring', (t) => {
+    t.minify('for-each-destructuring', {
+        expected: [
+            'b',
+            'c',
+            'bb',
+            'cc',
+        ],
+        bundle: true,
+    });
+    t.end();
+});
