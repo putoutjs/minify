@@ -1,3 +1,11 @@
+2024.09.12, v4.5.1
+
+feature:
+- cd6bf82 @putout/minify: eslint-plugin-putout v23.1.0
+- 089c5c4 @putout/minify: @putout/plugin-remove-useless-arguments v9.0.0
+- 008d73b @putout/minify: @putout/plugin-types v5.0.0
+- a96c8ba @putout/minify: @putout/plugin-conditions v5.0.0
+
 2024.07.18, v4.5.0
 
 feature:
