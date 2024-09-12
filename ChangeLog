@@ -1,3 +1,8 @@
+2024.09.12, v4.5.2
+
+fix:
+- 777c0f4 disable BABEL_TYPES_8_BREAKING (#126, babel/babel#16829)
+
 2024.09.12, v4.5.1
 
 feature:
