@@ -68,7 +68,7 @@
     "@putout/plugin-remove-unreferenced-variables": "^4.0.0",
     "@putout/plugin-remove-unused-expressions": "^9.0.0",
     "@putout/plugin-remove-unused-variables": "^9.0.0",
-    "@putout/plugin-remove-useless-arguments": "^8.0.0",
+    "@putout/plugin-remove-useless-arguments": "^9.0.0",
     "@putout/plugin-remove-useless-else": "^2.0.0",
     "@putout/plugin-remove-useless-return": "^7.0.0",
     "@putout/plugin-remove-useless-spread": "^11.0.0",
