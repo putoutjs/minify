@@ -1,3 +1,8 @@
+2024.09.16, v4.6.0
+
+feature:
+- e9fcd9a @putout/minify: quotes: add ability to override (coderaiser/minify#127)
+
 2024.09.12, v4.5.2
 
 fix:
