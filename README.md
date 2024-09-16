@@ -72,6 +72,7 @@ You can also pass options to `minify`. Here is list of default options:
 
 ```js
 ({
+    quotes: `'`,
     fixCount: 1, // the more fixCount - less output size
     conditions: false,
     mangleClassNames: true,

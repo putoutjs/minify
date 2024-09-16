@@ -7,6 +7,11 @@ const match = {
         '@stylistic/js/no-extra-parens': 'off',
         'prefer-arrow-callback': 'off',
     },
+    '**/*-fix.*': {
+        '@stylistic/js/quotes': 'off',
+        '@stylistic/js/eol-last': 'off',
+        '@stylistic/js/space-infix-ops': 'off',
+    },
 };
 
 export default [

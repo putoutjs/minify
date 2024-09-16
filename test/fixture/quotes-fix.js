@@ -1,1 +1,1 @@
-var a='hello\'x';(()=>a)(a);
+console.log("hello\'x");console.log("Can't start parsing from rule \""+"hello"+"\".");

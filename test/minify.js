@@ -391,7 +391,13 @@ test('@putout/minify: increment', (t) => {
 });
 
 test('@putout/minify: quotes', (t) => {
-    t.minify('quotes');
+    t.minify('quotes', {
+        quote: '"',
+        expected: [
+            `hello'x`,
+            `Can't start parsing from rule "hello".`,
+        ],
+    });
     t.end();
 });
 
