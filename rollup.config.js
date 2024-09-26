@@ -35,6 +35,7 @@ export default {
             ].map(createReplacement)],
         }),
         commonjs({
+            strictRequires: 'auto',
             defaultIsModuleExports: false,
             exclude: [
                 'os',
