@@ -10,7 +10,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/putoutjs/minify.git"
+    "url": "git+https://github.com/putoutjs/minify.git"
   },
   "dependencies": {
     "@putout/minify": "^4.1.0",

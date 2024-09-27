@@ -1,6 +1,6 @@
 {
   "name": "@putout/minify",
-  "version": "4.6.1",
+  "version": "4.7.0",
   "type": "module",
   "author": "coderaiser <mnemonic.enemy@gmail.com> (https://github.com/coderaiser)",
   "description": "🐊Putout-based minifier",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/putoutjs/minify.git"
+    "url": "git+https://github.com/putoutjs/minify.git"
   },
   "scripts": {
     "wisdom": "madrun wisdom",
