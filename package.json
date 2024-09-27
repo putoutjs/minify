@@ -48,7 +48,7 @@
     "@putout/plugin-apply-shorthand-properties": "^5.1.0",
     "@putout/plugin-apply-template-literals": "^3.0.0",
     "@putout/plugin-conditions": "^5.0.0",
-    "@putout/plugin-convert-arguments-to-rest": "^2.0.0",
+    "@putout/plugin-convert-arguments-to-rest": "^3.0.0",
     "@putout/plugin-convert-to-arrow-function": "^4.0.0",
     "@putout/plugin-declare": "^4.0.0",
     "@putout/plugin-for-of": "^6.0.0",
