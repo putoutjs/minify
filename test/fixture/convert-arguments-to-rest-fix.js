@@ -1,1 +1,1 @@
-(function(){'use strict';function a(...args){for(let i=0;i<args.length;i++)console.log(args[i])}a(1,2)})();
+(function(){'use strict';function a(...args){for(let i=0;i<args.length;i++)console.log(args[i])}a(1,2);function b(){'use strict';console.log(arguments[0])}b(3)})();

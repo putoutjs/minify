@@ -8,4 +8,12 @@
     }
     
     createElement(1, 2);
+    
+    function strict() {
+        'use strict';
+        
+        console.log(arguments[0]);
+    }
+    
+    strict(3);
 })();

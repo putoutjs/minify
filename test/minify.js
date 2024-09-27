@@ -295,7 +295,7 @@ test('@putout/minify: before-init', (t) => {
 
 test('@putout/minify: convert-arguments-to-rest', (t) => {
     t.minify('convert-arguments-to-rest', {
-        expected: [1, 2],
+        expected: [1, 2, 3],
     });
     t.end();
 });
