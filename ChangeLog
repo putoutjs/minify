@@ -1,3 +1,9 @@
+2024.09.27, v4.7.1
+
+feature:
+- 1d8e67c @putout/minify: @putout/plugin-convert-arguments-to-rest v3.1.0 (#28)
+- 787cf00 @putout/minify: @putout/plugin-nodejs v12.0.0
+
 2024.09.27, v4.7.0
 
 feature:
