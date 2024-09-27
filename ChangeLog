@@ -1,3 +1,9 @@
+2024.09.27, v4.7.0
+
+feature:
+- b2eacc9 @putout/minify: convert-arguments-to-reset: improve support (#28)
+- a92ab77 @putout/minify: @putout/plugin-convert-arguments-to-rest v3.0.0
+
 2024.09.26, v4.6.1
 
 feature:
