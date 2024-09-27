@@ -1,1 +1,1 @@
-function a(...args){for(var x=0;x<args.length;x++)console.log(x)}
+(function(){'use strict';function a(...args){for(let i=0;i<args.length;i++)console.log(args[i])}a(1,2)})();
