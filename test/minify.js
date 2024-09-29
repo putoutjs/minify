@@ -547,4 +547,3 @@ test('@putout/minify: for-each-destructuring', (t) => {
     });
     t.end();
 });
-
