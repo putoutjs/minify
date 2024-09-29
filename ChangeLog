@@ -1,3 +1,13 @@
+2024.09.29, v4.7.2
+
+fix:
+- d9737c9 @putout/minify: call-expression: parens (#28)
+
+feature:
+- 18012b5 @putout/minify: @putout/plugin-convert-arguments-to-rest v3.1.0 (#28)
+- 25f253d @putout/minify: @putout/plugin-nodejs v12.0.0
+- 0e593b9 @putout/minify: convert-arguments-to-rest: improve support (#28)
+
 2024.09.27, v4.7.1
 
 feature:
