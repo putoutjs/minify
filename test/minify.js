@@ -45,7 +45,7 @@ test('@putout/minify: comments', (t) => {
 
 test('@putout/minify: parens', (t) => {
     t.minify('parens', {
-        expected: 'application/javascript',
+        expected: ['application/javascript', 'hello'],
     });
     t.end();
 });
@@ -547,3 +547,4 @@ test('@putout/minify: for-each-destructuring', (t) => {
     });
     t.end();
 });
+

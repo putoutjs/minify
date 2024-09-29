@@ -5,3 +5,7 @@ const document = {
 };
 (p = document.createElement('script')).type = 'application/javascript', p.src = url;
 console.log(p.type);
+
+(function() {
+    console.log('hello');
+}.call(this));
