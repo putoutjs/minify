@@ -1,3 +1,14 @@
+2024.12.10, v4.8.0
+
+feature:
+- c0f2a69 @putout/minify: @putout/plugin-merge-destructuring-properties v10.0.0
+- f29c277 @putout/minify: @putout/printer v11.0.0
+- 4c82b28 @putout/minify: @putout/plugin-reuse-duplicate-init v6.0.0
+- d1dea59 @putout/minify: @putout/plugin-logical-expressions v7.0.0
+- ecccfff @putout/minify: minify v12.0.0
+- 4003476 @putout/minify: @putout/plugin-remove-unused-variables v10.1.0
+- 8c0b8ea @putout/minify: @putout/plugin-minify v9.0.0 (coderaiser/minify#132)
+
 2024.09.29, v4.7.2
 
 fix:
