@@ -201,7 +201,7 @@ test('@putout/minify: if: logical', (t) => {
 
 test('@putout/minify: if: no ternary', (t) => {
     t.minify('if-no-ternary', {
-        expected: [false],
+        expected: [true],
     });
     t.end();
 });

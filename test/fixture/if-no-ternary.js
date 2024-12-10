@@ -13,7 +13,7 @@ if (now.getMonth() < 11) {
 const then = new Date();
 then.setFullYear(then.getFullYear() + 1);
 
-const [first] = String(now).split('-');
-const [second] = String(then).split('-');
+const first = now.getFullYear();
+const second = then.getFullYear();
 
 console.log(first === second);
