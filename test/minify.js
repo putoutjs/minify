@@ -199,6 +199,15 @@ test('@putout/minify: if: logical', (t) => {
     t.end();
 });
 
+test('@putout/minify: if: no ternary', (t) => {
+    t.minify('if-no-ternary', {
+        expected: [
+            false,
+        ],
+    });
+    t.end();
+});
+
 test('@putout/minify: apply-template-literals', (t) => {
     t.minify('apply-template-literals', {
         expected: ['("hello")'],
