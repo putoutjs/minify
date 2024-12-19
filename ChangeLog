@@ -1,3 +1,8 @@
+2024.12.19, v4.8.2
+
+feature:
+- cef224a @putout/minify: @putout/plugin-promises v16.0.0
+
 2024.12.15, v4.8.1
 
 feature:
