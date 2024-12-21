@@ -50,18 +50,18 @@
     "@putout/plugin-convert-arguments-to-rest": "^3.1.0",
     "@putout/plugin-convert-to-arrow-function": "^4.0.0",
     "@putout/plugin-declare": "^4.0.0",
+    "@putout/plugin-esm": "^1.0.1",
     "@putout/plugin-for-of": "^6.0.0",
     "@putout/plugin-logical-expressions": "^7.0.0",
     "@putout/plugin-merge-destructuring-properties": "^10.0.0",
     "@putout/plugin-merge-duplicate-functions": "^2.0.0",
-    "@putout/plugin-merge-duplicate-imports": "^11.0.0",
     "@putout/plugin-minify": "^9.0.0",
     "@putout/plugin-new": "^3.0.1",
     "@putout/plugin-promises": "^16.0.0",
     "@putout/plugin-regexp": "^9.0.0",
     "@putout/plugin-remove-console": "^6.0.0",
     "@putout/plugin-remove-debugger": "^7.0.0",
-    "@putout/plugin-remove-empty": "^12.1.0",
+    "@putout/plugin-remove-empty": "^13.0.0",
     "@putout/plugin-remove-nested-blocks": "^6.3.0",
     "@putout/plugin-remove-unreachable-code": "^1.2.0",
     "@putout/plugin-remove-unreferenced-variables": "^4.0.0",
@@ -107,5 +107,6 @@
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "dependencies": {}
 }
