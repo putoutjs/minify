@@ -1,3 +1,8 @@
+2024.12.21, v4.8.3
+
+feature:
+- 20191a4 @putout/minify: merge-duplicate-imports -> esm/merge-duplicate-imports
+
 2024.12.19, v4.8.2
 
 feature:
