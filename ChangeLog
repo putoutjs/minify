@@ -1,3 +1,11 @@
+2025.01.10, v4.9.0
+
+feature:
+- 21407d1 @putout/minify: @putout/plugin-remove-useless-arguments v10.1.0
+- 699d026 @putout/minify: @putout/plugin-types v6.1.0
+- 8717a75 @putout/minify: @putout/plugin-for-of v7.1.0
+- 30da16f @putout/minify: @putout/plugin-conditions v6.6.0
+
 2024.12.24, v4.8.4
 
 fix:
