@@ -1,1 +1,1 @@
-var a=new Date;a.setDate(1);a.getMonth()<11?(a.setMonth(a.getMonth()+1)):(a.setMonth(0),a.setFullYear(a.getFullYear()+1));var b=new Date;b.setFullYear(b.getFullYear()+1);var c=a.getFullYear(),d=b.getFullYear();console.log(c===d);
+var a=new Date;a.setDate(1);let b=0;a.getMonth()<11?(a.setMonth(a.getMonth()+1),b=1):(a.setMonth(0),a.setFullYear(a.getFullYear()+1));var c=new Date;c.setFullYear(c.getFullYear()+1);var d=a.getFullYear(),e=c.getFullYear();console.log(d+b===e);
