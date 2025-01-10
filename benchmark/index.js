@@ -72,9 +72,7 @@ function downloadFile(url, dest) {
     });
 }
 
-function fileFromUrl(url) {
-    return `./source/${url}.js`;
-}
+const fileFromUrl = (url) => `./source/${url}.js`;
 
 async function download() {
     for (const [key, value] of Object.entries(listFiles)) {
@@ -147,12 +145,10 @@ function compareTask(file) {
     return result;
 }
 
-function convertMap(fn, obj) {
-    return Object.fromEntries(Object
-        .entries(obj)
-        .map(([k, v]) => [k, fn(v, k, obj)])
-        .filter(([k, v]) => v !== undefined));
-}
+const convertMap = (fn, obj) => Object.fromEntries(Object
+    .entries(obj)
+    .map(([k, v]) => [k, fn(v, k, obj)])
+    .filter(([k, v]) => v));
 
 function convertTable(obj, key) {
     return convertMap(convertMap.bind(null, (v) => v[key]), obj);
