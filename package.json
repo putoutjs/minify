@@ -51,7 +51,7 @@
     "@putout/plugin-convert-to-arrow-function": "^4.0.0",
     "@putout/plugin-declare": "^4.0.0",
     "@putout/plugin-esm": "^1.1.0",
-    "@putout/plugin-for-of": "^6.0.0",
+    "@putout/plugin-for-of": "^7.1.0",
     "@putout/plugin-logical-expressions": "^7.0.0",
     "@putout/plugin-merge-destructuring-properties": "^10.0.0",
     "@putout/plugin-merge-duplicate-functions": "^2.0.0",
