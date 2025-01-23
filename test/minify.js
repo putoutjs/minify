@@ -278,6 +278,13 @@ test('@putout/minify: merge-destructuring-properties', (t) => {
     t.end();
 });
 
+test('@putout/minify: new', (t) => {
+    t.minify('new', {
+        expected: [20],
+    });
+    t.end();
+});
+
 test('@putout/minify: void', (t) => {
     t.minify('void', {
         expected: [{

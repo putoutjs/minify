@@ -1,0 +1,1 @@
+var a=new Date().getFullYear()/100;console.log(~~a);
