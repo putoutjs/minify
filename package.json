@@ -62,7 +62,7 @@
     "@putout/plugin-remove-console": "^6.0.0",
     "@putout/plugin-remove-debugger": "^7.0.0",
     "@putout/plugin-remove-empty": "^13.0.0",
-    "@putout/plugin-remove-nested-blocks": "^6.3.0",
+    "@putout/plugin-remove-nested-blocks": "^7.0.0",
     "@putout/plugin-remove-unreachable-code": "^1.2.0",
     "@putout/plugin-remove-unreferenced-variables": "^4.0.0",
     "@putout/plugin-remove-unused-expressions": "^9.0.0",
