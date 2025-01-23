@@ -1,3 +1,12 @@
+2025.01.23, v4.10.0
+
+feature:
+- 415c3a7 @putout/minify: @putout/plugin-remove-unused-expressions v10.0.0
+- e42af03 @putout/minify: @putout/plugin-remove-unused-variables v11.0.0
+- f53d321 @putout/minify: @putout/plugin-remove-unreachable-code v2.0.0
+- c9728d7 @putout/minify: @putout/plugin-remove-nested-blocks v7.0.0
+- 9a18c48 @putout/minify: @putout/plugin-conditions v7.1.0
+
 2025.01.14, v4.9.1
 
 feature:
