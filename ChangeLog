@@ -1,3 +1,10 @@
+2025.01.29, v4.11.0
+
+feature:
+- feab63e @putout/minify: @putout/plugin-return v1.1.2
+- 51631d8 @putout/minify: eslint-plugin-putout v24.0.0
+- dd21173 @putout/minify: putout v38.0.0
+
 2025.01.23, v4.10.0
 
 feature:
