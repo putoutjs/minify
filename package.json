@@ -69,7 +69,7 @@
     "@putout/plugin-remove-unused-variables": "^11.0.0",
     "@putout/plugin-remove-useless-arguments": "^10.1.0",
     "@putout/plugin-remove-useless-else": "^2.0.0",
-    "@putout/plugin-remove-useless-spread": "^11.0.0",
+    "@putout/plugin-remove-useless-spread": "^12.0.0",
     "@putout/plugin-remove-useless-variables": "^12.5.0",
     "@putout/plugin-return": "^1.1.2",
     "@putout/plugin-reuse-duplicate-init": "^6.0.0",
