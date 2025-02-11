@@ -1,3 +1,14 @@
+2025.02.11, v4.12.0
+
+feature:
+- bd28642 @putout/minify: minify v13.0.0
+- ea5dca5 @putout/minify: @putout/plugin-remove-unused-expressions v11.0.0
+- 97b9366 @putout/minify: @putout/plugin-remove-empty v14.0.0
+- 879cd5c @putout/minify: @putout/plugin-apply-template-literals v4.0.0
+- bcff09a @putout/minify: @putout/plugin-esm v2.0.0
+- a7a230b @putout/minify: @putout/plugin-remove-unused-variables v12.0.0
+- 70ffaba @putout/minify: @putout/plugin-remove-useless-spread v12.0.0
+
 2025.01.29, v4.11.0
 
 feature:
