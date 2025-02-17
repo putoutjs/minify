@@ -1,3 +1,13 @@
+2025.02.17, v4.12.2
+
+feature:
+- a987c3b @putout/minify: @putout/printer v13.0.0
+- eef1edf @putout/minify: @putout/plugin-remove-useless-arguments v11.0.0
+- cc744b1 @putout/minify: @putout/plugin-remove-nested-blocks v8.0.0
+- efe7b33 @putout/minify: @putout/plugin-declare v5.0.0
+- 98684ba @putout/minify: @putout/plugin-for-of v8.0.0
+- 8600ffb @putout/minify: @putout/plugin-types v7.0.0
+
 2025.02.11, v4.12.1
 
 feature:
