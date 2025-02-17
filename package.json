@@ -49,7 +49,7 @@
     "@putout/plugin-conditions": "^7.1.0",
     "@putout/plugin-convert-arguments-to-rest": "^3.1.0",
     "@putout/plugin-convert-to-arrow-function": "^4.0.0",
-    "@putout/plugin-declare": "^4.0.0",
+    "@putout/plugin-declare": "^5.0.0",
     "@putout/plugin-esm": "^2.0.0",
     "@putout/plugin-for-of": "^8.0.0",
     "@putout/plugin-logical-expressions": "^7.0.0",
