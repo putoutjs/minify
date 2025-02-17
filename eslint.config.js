@@ -1,7 +1,10 @@
 import {safeAlign} from 'eslint-plugin-putout/config';
-import {matchToFlat} from '@putout/eslint-flat';
+import {
+    matchToFlat,
+    createESLintConfig,
+} from '@putout/eslint-flat';
 
-const match = {
+export default createESLintConfig([safeAlign, matchToFlat({
     '**/fixture/*.js': {
         'arrow-parens': ['error', 'as-needed'],
         '@stylistic/js/no-extra-parens': 'off',
@@ -12,9 +15,4 @@ const match = {
         '@stylistic/js/eol-last': 'off',
         '@stylistic/js/space-infix-ops': 'off',
     },
-};
-
-export default [
-    ...safeAlign,
-    ...matchToFlat(match),
-];
+})]);
