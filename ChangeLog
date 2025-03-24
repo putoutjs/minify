@@ -1,3 +1,20 @@
+2025.03.24, v5.0.0
+
+feature:
+- 226d386 @putout/minify: drop support of node < 20
+- 498c3a6 @putout/minify: supertape v11.0.3
+- 5b1b01b @putout/minify: redlint v4.0.0
+- 323a299 @putout/minify: putout v39.0.11
+- 62dfd1b @putout/minify: madrun v11.0.0
+- 5bf66b9 @putout/minify: eslint-plugin-putout v26.1.0
+- 62d8c40 @putout/minify: @putout/printer v14.1.1
+- 459bdec @putout/minify: @putout/plugin-reuse-duplicate-init v7.0.0
+- cfdb84a @putout/minify: @putout/plugin-remove-useless-variables v13.0.2
+- f76f24c @putout/minify: @putout/plugin-remove-unreferenced-variables v5.0.0
+- 50a7225 @putout/minify: @putout/plugin-regexp v10.0.0
+- acfa07c @putout/minify: @putout/plugin-for-of v9.0.0
+- fb17a08 @putout/minify: @putout/eslint-flat v3.0.0
+
 2025.02.27, v4.12.3
 
 feature:
