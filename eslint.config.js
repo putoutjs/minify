@@ -1,10 +1,8 @@
 import {safeAlign} from 'eslint-plugin-putout';
-import {
-    matchToFlat,
-    createESLintConfig,
-} from '@putout/eslint-flat';
+import {matchToFlat} from '@putout/eslint-flat';
+import {defineConfig} from 'eslint/config';
 
-export default createESLintConfig([safeAlign, matchToFlat({
+export default defineConfig([safeAlign, matchToFlat({
     '**/fixture/*.js': {
         'arrow-parens': ['error', 'as-needed'],
         '@stylistic/js/no-extra-parens': 'off',
