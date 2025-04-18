@@ -19,6 +19,9 @@ export default {
     plugins: [
         alias({
             entries: [{
+                find: 'fullstore',
+                replacement: './stub/fullstore.js',
+            }, {
                 find: './loader.mjs',
                 replacement: './stub/loader.js',
             }, {
@@ -69,7 +72,7 @@ export default {
         replace({
             preventAssignment: true,
             values: {
-                //'process.env.BABEL_TYPES_8_BREAKING': true,
+                'process.env.BABEL_TYPES_8_BREAKING': true,
                 'Buffer.isBuffer': 'Array.isArray',
                 'process.platform': '"unix"',
                 'process.env.BABEL_TYPES_8_BREAKING = true': '',
