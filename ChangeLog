@@ -1,3 +1,17 @@
+2025.04.18, v5.0.1
+
+feature:
+- de16e19 @putout/minify: putout v40.0.9
+- 80fd948 @putout/minify: @putout/plugin-types v8.0.0
+- 3b96431 @putout/minify: @putout/plugin-return v2.0.0
+- 2dbc754 @putout/minify: @putout/plugin-regexp v11.0.0
+- d933e36 @putout/minify: @putout/plugin-promises v17.0.0
+- cd85293 @putout/minify: @putout/plugin-new v4.0.0
+- 51d91a7 @putout/minify: @putout/plugin-merge-duplicate-functions v3.0.0
+- 307dc26 @putout/minify: @putout/plugin-merge-destructuring-properties v11.0.0
+- 758a5eb @putout/minify: @putout/plugin-esm v4.2.2
+- 3aea02b @putout/minify: minify v14.0.0
+
 2025.03.24, v5.0.0
 
 feature:
