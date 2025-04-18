@@ -71,7 +71,7 @@
     "@putout/plugin-remove-useless-else": "^2.0.0",
     "@putout/plugin-remove-useless-spread": "^12.0.0",
     "@putout/plugin-remove-useless-variables": "^13.0.2",
-    "@putout/plugin-return": "^1.1.2",
+    "@putout/plugin-return": "^2.0.0",
     "@putout/plugin-reuse-duplicate-init": "^7.0.0",
     "@putout/plugin-simplify-ternary": "^7.0.0",
     "@putout/plugin-types": "^7.0.0",
