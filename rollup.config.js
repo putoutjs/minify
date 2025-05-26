@@ -1,3 +1,4 @@
+import {resolve} from 'node:path';
 import commonjs from '@rollup/plugin-commonjs';
 import {nodeResolve} from '@rollup/plugin-node-resolve';
 import json from '@rollup/plugin-json';
@@ -20,7 +21,7 @@ export default {
         alias({
             entries: [{
                 find: 'fullstore',
-                replacement: './stub/fullstore.js',
+                replacement: resolve('./stub/fullstore.js'),
             }, {
                 find: './loader.mjs',
                 replacement: './stub/loader.js',
@@ -82,3 +83,4 @@ export default {
         }),
     ],
 };
+
