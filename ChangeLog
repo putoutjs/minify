@@ -1,3 +1,8 @@
+2025.05.26, v5.1.2
+
+fix:
+- 3a86b6d minify: rm replace
+
 2025.05.26, v5.1.1
 
 fix:
