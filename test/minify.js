@@ -23,6 +23,13 @@ test('@putout/minify: assign', (t) => {
     t.end();
 });
 
+test('@putout/minify: array', (t) => {
+    t.minify('array', {
+        expected: 21,
+    });
+    t.end();
+});
+
 test('@putout/minify: apply-optional-chainig', (t) => {
     t.minify('apply-optional-chaining', {
         expected: 1,
