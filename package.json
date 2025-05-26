@@ -73,7 +73,7 @@
     "@putout/plugin-remove-useless-variables": "^14.0.0",
     "@putout/plugin-return": "^2.0.0",
     "@putout/plugin-reuse-duplicate-init": "^8.0.0",
-    "@putout/plugin-simplify-ternary": "^7.0.0",
+    "@putout/plugin-simplify-ternary": "^8.0.0",
     "@putout/plugin-types": "^8.0.0",
     "@putout/printer": "^14.1.1",
     "@rollup/plugin-alias": "^5.0.0",
