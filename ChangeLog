@@ -1,3 +1,18 @@
+2025.05.26, v5.1.0
+
+feature:
+- 42433b9 @putout/minify: @putout/printer v14.8.0 (coderaiser/minify#137)
+- 5880057 @putout/minify: eslint-plugin-putout v27.0.0
+- 8244643 @putout/minify: @putout/plugin-simplify-ternary v8.0.0
+- 62f7636 @putout/minify: @putout/plugin-reuse-duplicate-init v8.0.0
+- b5a322e @putout/minify: @putout/plugin-remove-useless-variables v14.0.0
+- b1a17e4 @putout/minify: @putout/plugin-remove-useless-spread v13.0.0
+- 0d19c5a @putout/minify: @putout/plugin-remove-useless-arguments v12.0.0
+- 202b4dc @putout/minify: @putout/plugin-remove-unused-variables v13.0.0
+- 0de609f @putout/minify: @putout/plugin-remove-unused-expressions v12.0.0
+- d583801 @putout/minify: @putout/plugin-remove-nested-blocks v9.0.0
+- e3bcafc @putout/minify: @putout/plugin-merge-duplicate-functions v4.0.0
+
 2025.04.18, v5.0.1
 
 feature:
