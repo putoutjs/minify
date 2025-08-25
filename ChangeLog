@@ -1,3 +1,22 @@
+2025.08.25, v5.2.0
+
+feature:
+- d769d7f @putout/minify: @putout/plugin-convert-arguments-to-rest v4.0.0
+- 72a71cb @putout/minify: update dependencies (coderaiser/minify#141)
+- 46c7b86 @putout/minify: @putout/printer v15.20.0
+- 49b2903 @putout/minify: @putout/plugin-remove-unused-variables v14.1.0
+- a28b485 @putout/minify: @putout/plugin-remove-unreferenced-variables v6.0.0
+- e810f3b @putout/minify: @putout/plugin-remove-unreachable-code v3.0.0
+- 0e88740 @putout/minify: @putout/plugin-remove-empty v15.0.0
+- 604791e @putout/minify: @putout/plugin-regexp v12.2.2
+- 5fa07ee @putout/minify: @putout/plugin-promises v18.3.0
+- 93ec52d @putout/minify: @putout/plugin-minify v11.0.0
+- 7b8778f @putout/minify: @putout/plugin-merge-destructuring-properties v12.3.0
+- 5ec57af @putout/minify: @putout/plugin-logical-expressions v8.0.0
+- 2d6fac1 @putout/minify: @putout/plugin-esm v5.0.0
+- b74712e @putout/minify: @putout/plugin-conditions v8.1.0
+- 3b8959b @putout/minify: eslint-plugin-putout v28.0.4
+
 2025.05.26, v5.1.2
 
 fix:
