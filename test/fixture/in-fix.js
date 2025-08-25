@@ -1,1 +1,1 @@
-var a={};'xxx' in a;
+let a={};'xxx' in a;

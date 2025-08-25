@@ -1,1 +1,1 @@
-var a=({push})=>({ObjectExpression(A){push(A)}});
+let a=({push})=>({ObjectExpression(A){push(A)}});

@@ -1,1 +1,1 @@
-var a='x',b;console.log({DEV:b,on:a});
+let a='x',b;console.log({DEV:b,on:a});

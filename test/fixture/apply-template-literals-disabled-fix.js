@@ -1,1 +1,1 @@
-var a='hello',b='("'+a+'")';
+let a='hello',b='("'+a+'")';

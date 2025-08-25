@@ -1,1 +1,1 @@
-var a='a';console.log(`${a}`);let b='b1';b='b2';var c=`${b}`;console.log(`${c}`);
+let a='a';console.log(`${a}`);let b='b1';b='b2';let c=`${b}`;console.log(`${c}`);

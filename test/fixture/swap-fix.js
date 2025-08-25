@@ -1,1 +1,1 @@
-var a=[1,2],[,b]=a;a[1]=a[0];a[0]=b;console.log(a);
+let a=[1,2],[,b]=a;a[1]=a[0];a[0]=b;console.log(a);

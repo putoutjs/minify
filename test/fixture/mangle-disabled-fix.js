@@ -1,1 +1,1 @@
-function everywhere(){}function cool(){var list=[1];for(const item of list)everywhere(item)}
+function everywhere(){}function cool(){let list=[1];for(const item of list)everywhere(item)}

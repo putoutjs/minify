@@ -1,1 +1,1 @@
-var c=e=>e.w,w=c=>c;function f(e){const{n}=e;e.w=n;var q=c(e);return q&&w(q)}console.log(f({n:1}));
+let c=e=>e.w,w=c=>c;function f(e){const{n}=e;e.w=n;let q=c(e);return q&&w(q)}console.log(f({n:1}));

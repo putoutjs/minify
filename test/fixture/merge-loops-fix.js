@@ -1,1 +1,1 @@
-var a=[1],b=[2];for(const A of [...a,...b,...a])console.log(A);for(const B of b)console.log(B);
+let a=[1],b=[2];for(const A of [...a,...b,...a])console.log(A);for(const B of b)console.log(B);

@@ -1,1 +1,1 @@
-var l=[{l:2}],w=console.log;for(const e of l)e.o,e.l=w(e.l);
+let l=[{l:2}],w=console.log;for(const e of l)e.o,e.l=w(e.l);
