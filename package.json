@@ -58,7 +58,7 @@
     "@putout/plugin-minify": "^11.0.0",
     "@putout/plugin-new": "^4.0.0",
     "@putout/plugin-promises": "^18.3.0",
-    "@putout/plugin-regexp": "^11.0.0",
+    "@putout/plugin-regexp": "^12.2.2",
     "@putout/plugin-remove-console": "^6.0.0",
     "@putout/plugin-remove-debugger": "^7.0.0",
     "@putout/plugin-remove-empty": "^14.0.0",
