@@ -55,7 +55,7 @@
     "@putout/plugin-logical-expressions": "^8.0.0",
     "@putout/plugin-merge-destructuring-properties": "^12.3.0",
     "@putout/plugin-merge-duplicate-functions": "^4.0.0",
-    "@putout/plugin-minify": "^10.0.0",
+    "@putout/plugin-minify": "^11.0.0",
     "@putout/plugin-new": "^4.0.0",
     "@putout/plugin-promises": "^17.0.0",
     "@putout/plugin-regexp": "^11.0.0",
