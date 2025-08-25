@@ -63,7 +63,7 @@
     "@putout/plugin-remove-debugger": "^7.0.0",
     "@putout/plugin-remove-empty": "^15.0.0",
     "@putout/plugin-remove-nested-blocks": "^9.0.0",
-    "@putout/plugin-remove-unreachable-code": "^2.0.0",
+    "@putout/plugin-remove-unreachable-code": "^3.0.0",
     "@putout/plugin-remove-unreferenced-variables": "^5.0.0",
     "@putout/plugin-remove-unused-expressions": "^12.0.0",
     "@putout/plugin-remove-unused-variables": "^13.0.0",
