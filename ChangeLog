@@ -1,3 +1,9 @@
+2025.09.23, v5.3.0
+
+feature:
+- d2e6172 @putout/minify: rollup: commonjs (coderaiser/minify#142)
+- e8ea52f @putout/minify: @putout/plugin-declare v6.0.0
+
 2025.08.25, v5.2.0
 
 feature:
