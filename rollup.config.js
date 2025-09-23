@@ -40,7 +40,7 @@ export default {
         }),
         commonjs({
             strictRequires: 'auto',
-            defaultIsModuleExports: false,
+            defaultIsModuleExports: 'auto',
             exclude: [
                 'os',
                 'path',

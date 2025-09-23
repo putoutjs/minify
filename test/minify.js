@@ -30,7 +30,7 @@ test('@putout/minify: array', (t) => {
     t.end();
 });
 
-test('@putout/minify: apply-optional-chainig', (t) => {
+test('@putout/minify: apply-optional-chaining', (t) => {
     t.minify('apply-optional-chaining', {
         expected: 1,
     });
@@ -234,6 +234,13 @@ test('@putout/minify: logical-expressions', (t) => {
 
 test('@putout/minify: regexp', (t) => {
     t.minify('regexp');
+    t.end();
+});
+
+test('@putout/minify: regexp: bundle', (t) => {
+    t.minify('regexp', {
+        bundle: true,
+    });
     t.end();
 });
 
