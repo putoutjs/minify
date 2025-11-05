@@ -29,6 +29,7 @@
     "coverage:html": "madrun coverage:html",
     "report": "madrun report",
     "build": "madrun build",
+    "build:stats": "madrun build:stats",
     "minify": "madrun minify"
   },
   "keywords": [
@@ -96,6 +97,7 @@
     "redlint": "^4.0.0",
     "rendy": "^4.1.3",
     "rollup": "^4.5.0",
+    "rollup-plugin-bundle-stats": "^4.21.6",
     "rollup-plugin-node-externals": "^8.0.0",
     "rollup-plugin-polyfill-node": "^0.13.0",
     "supertape": "^11.0.3",

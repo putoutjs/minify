@@ -6,3 +6,4 @@ coverage
 .idea
 bundle
 .DS_Store
+*.html

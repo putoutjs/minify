@@ -1,6 +1,9 @@
 import {run, cutEnv} from 'madrun';
 
 const env = {};
+const statsEnv = {
+    STATS: 1,
+};
 
 export default {
     'wisdom': () => run([
@@ -19,5 +22,6 @@ export default {
     'coverage:html': async () => [env, `c8 --reporter=lcov ${await cutEnv('test')}`],
     'report': () => 'c8 report --reporter=lcov',
     'build': () => 'rollup -c',
+    'build:stats': async () => [statsEnv, await run('build')],
     'minify': () => 'minify bundle/minify.js > bundle/minify.min.js',
 };
