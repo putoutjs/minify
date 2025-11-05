@@ -76,7 +76,6 @@
     "@putout/plugin-reuse-duplicate-init": "^8.0.0",
     "@putout/plugin-simplify-ternary": "^8.0.0",
     "@putout/plugin-types": "^8.0.0",
-    "@putout/printer": "^15.20.0",
     "@rollup/plugin-alias": "^6.0.0",
     "@rollup/plugin-commonjs": "^29.0.0",
     "@rollup/plugin-json": "^6.0.0",
