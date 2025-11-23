@@ -1,3 +1,8 @@
+2025.11.24, v5.5.2
+
+feature:
+- 6d84cb0 @putout/minify: @putout/plugin-apply-shorthand-properties v7.2.0
+
 2025.11.12, v5.5.1
 
 feature:
