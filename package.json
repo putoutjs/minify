@@ -46,7 +46,7 @@
     "@putout/bundle": "^4.8.0",
     "@putout/eslint-flat": "^3.0.0",
     "@putout/plugin-apply-optional-chaining": "^6.0.0",
-    "@putout/plugin-apply-shorthand-properties": "^6.1.0",
+    "@putout/plugin-apply-shorthand-properties": "^7.2.0",
     "@putout/plugin-apply-template-literals": "^4.2.0",
     "@putout/plugin-conditions": "^8.1.0",
     "@putout/plugin-convert-arguments-to-rest": "^4.0.0",
