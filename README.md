@@ -37,7 +37,7 @@ Here is list of supported 🐊**Putout** transformations:
 - ✅ [`remove-unused-expressions`](https://github.com/coderaiser/putout/tree/v29.0.0/packages/plugin-remove-unused-expressions#readme);
 - ✅ [`arguments`](https://github.com/coderaiser/putout/tree/v41.0.0/packages/plugin-arguments#readme);
 - ✅ [`remove-useless-else`](https://github.com/coderaiser/putout/tree/master/packages/plugin-remove-useless-else#readme);
-- ✅ [`return`](https://github.com/coderaiser/putout/tree/v29.0.0/packages/plugin-remove-useless-return#readme);
+- ✅ [`return/remove-useless`](https://github.com/coderaiser/putout/tree/v41.0.0/packages/plugin-return#remove-useless);
 - ✅ [`remove-useless-spread`](https://github.com/coderaiser/putout/tree/v29.0.0/packages/plugin-remove-useless-spread/#readme);
 - ✅ [`variables`](https://github.com/coderaiser/putout/tree/v41.0.0/packages/plugin-variables#readme);
 - ✅ [`remove-console`](https://github.com/coderaiser/putout/tree/v29.0.0/packages/plugin-remove-console#readme);
