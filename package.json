@@ -52,7 +52,7 @@
     "@putout/plugin-convert-arguments-to-rest": "^4.0.0",
     "@putout/plugin-convert-to-arrow-function": "^4.0.0",
     "@putout/plugin-declare": "^6.0.0",
-    "@putout/plugin-esm": "^5.0.0",
+    "@putout/plugin-esm": "^6.0.0",
     "@putout/plugin-for-of": "^10.0.0",
     "@putout/plugin-logical-expressions": "^8.0.0",
     "@putout/plugin-merge-destructuring-properties": "^12.3.0",
