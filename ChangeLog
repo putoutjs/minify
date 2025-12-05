@@ -1,3 +1,13 @@
+2025.12.05, v5.6.0
+
+feature:
+- fcdebd9 @putout/minify: @putout/bundle v5.0.0
+- abf3456 @putout/plugin-minify: 🐊Putout v411
+- 0a08232 @putout/minify: putout v41.0.0
+- f576fc5 @putout/minify: eslint-plugin-putout v29.0.2
+- 95af934 @putout/minify: @putout/plugin-esm v6.0.0
+- 5817905 @putout/minify-benchmark: esbuild v0.27.0
+
 2025.11.24, v5.5.2
 
 feature:
