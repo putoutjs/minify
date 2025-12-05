@@ -1,6 +1,6 @@
 {
     "rules": {
         "remove-console": "off",
-        "remove-useless-arguments/arguments": "off"
+        "arguments/remove-useless": "off"
     }
 }
