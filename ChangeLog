@@ -1,3 +1,9 @@
+2025.12.31, v5.7.1
+
+feature:
+- c268f11 @putout/minify: try-catch v4.0.4
+- fb46cb7 @putout/minify: @putout/plugin-new v5.0.0
+
 2025.12.31, v5.7.0
 
 feature:
