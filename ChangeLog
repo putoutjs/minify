@@ -1,3 +1,14 @@
+2026.01.04, v6.0.0
+
+fix:
+- 0a008c3 minify: obug
+
+feature:
+- ffc0b8c drop support of node < 22
+- 60e1cc8 @putout/minify: supertape v12.0.0
+- 8f67e88 @putout/minify: redlint v5.0.2
+- e8a6b45 @putout/minify: madrun v12.1.0
+
 2025.12.31, v5.7.1
 
 feature:
