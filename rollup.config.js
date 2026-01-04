@@ -1,5 +1,4 @@
 import {resolve} from 'node:path';
-import {createRequire} from 'node:module';
 import process from 'node:process';
 import commonjs from '@rollup/plugin-commonjs';
 import {nodeResolve} from '@rollup/plugin-node-resolve';
@@ -8,8 +7,6 @@ import nodePolyfills from 'rollup-plugin-polyfill-node';
 import replace from '@rollup/plugin-replace';
 import alias from '@rollup/plugin-alias';
 import {bundleStats} from 'rollup-plugin-bundle-stats';
-
-const require = createRequire(import.meta.url);
 
 const createReplacement = (a) => ({
     find: `node:${a}`,
@@ -39,7 +36,7 @@ export default {
                 find: 'acorn-stage3',
                 replacement: new URL('./stub/acorn-stage3.js', import.meta.url).pathname,
             }, {
-              find: 'obug',
+                find: 'obug',
                 replacement: new URL('./stub/debug.js', import.meta.url).pathname,
             },
             ...[

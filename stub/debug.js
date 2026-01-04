@@ -1,3 +1,1 @@
-export function createDebug() {
-    return () => {}
-}
+export const createDebug = () => () => {};
