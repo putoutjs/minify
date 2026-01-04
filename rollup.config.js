@@ -39,8 +39,8 @@ export default {
                 find: 'acorn-stage3',
                 replacement: new URL('./stub/acorn-stage3.js', import.meta.url).pathname,
             }, {
-                find: 'putout',
-                replacement: require.resolve('@putout/bundle/slim'),
+              find: 'obug',
+                replacement: new URL('./stub/debug.js', import.meta.url).pathname,
             },
             ...[
                 'process',
