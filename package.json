@@ -72,7 +72,7 @@
     "@putout/plugin-remove-useless-else": "^2.0.0",
     "@putout/plugin-return": "^3.0.0",
     "@putout/plugin-reuse-duplicate-init": "^8.0.0",
-    "@putout/plugin-simplify-ternary": "^8.0.0",
+    "@putout/plugin-simplify-ternary": "^9.0.0",
     "@putout/plugin-spread": "^1.2.0",
     "@putout/plugin-types": "^8.0.0",
     "@putout/plugin-variables": "^1.3.1",
