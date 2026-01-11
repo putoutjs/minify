@@ -1,4 +1,3 @@
-import {resolve} from 'node:path';
 import process from 'node:process';
 import commonjs from '@rollup/plugin-commonjs';
 import {nodeResolve} from '@rollup/plugin-node-resolve';
@@ -24,9 +23,6 @@ export default {
     plugins: [
         alias({
             entries: [{
-                find: 'fullstore',
-                replacement: resolve('./stub/fullstore.js'),
-            }, {
                 find: './loader.mjs',
                 replacement: './stub/loader.js',
             }, {
