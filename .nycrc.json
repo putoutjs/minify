@@ -3,17 +3,17 @@
     "all": true,
     "exclude": [
         "**/*.spec.*",
-        "**/fixture",
-        "test",
-        "**/debug.js",
-        "**/coverage",
+        "**/*.config.*",
         "**/.*.*",
+        "**/debug.js",
         "**/fixture.js",
+        "**/fixture",
+        "**/coverage",
         "**/bundle",
         "**/stub",
         "rollup.config.js",
-        "benchmark",
-        "**/*.config.*"
+        "test",
+        "benchmark"
     ],
     "branches": 100,
     "lines": 100,

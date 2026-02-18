@@ -1,14 +1,17 @@
-.*
 *.spec.js
-test
-yarn-error.log
+*.config.*
+*.html
+*.log
+*.loc
 
-coverage
-fixture
+.*
+
 fixture.js
-rules
 rollup.config.js
 lib/*.js
-*.config.*
+
+test
+coverage
+fixture
+rules
 benchmark
-*.html

@@ -1,7 +1,11 @@
-source/*
-!source/example*
-result
-.idea
 *.swp
-yarn-error.log
+*.log
+*.lock
+
+.idea
+
+source/*
+result
 coverage
+
+!source/example*
