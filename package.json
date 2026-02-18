@@ -81,7 +81,7 @@
     "@rollup/plugin-node-resolve": "^16.0.0",
     "@rollup/plugin-replace": "^6.0.1",
     "c8": "^10.1.2",
-    "eslint": "^9.2.0",
+    "eslint": "^10.0.0",
     "eslint-plugin-putout": "^30.0.1",
     "fullstore": "^4.0.0",
     "just-kebab-case": "^4.2.0",
