@@ -86,7 +86,7 @@
     "fullstore": "^4.0.0",
     "just-kebab-case": "^4.2.0",
     "just-snake-case": "^3.2.0",
-    "madrun": "^12.1.0",
+    "madrun": "^13.0.0",
     "minify": "^15.0.0",
     "mock-require": "^3.0.3",
     "montag": "^1.0.0",
