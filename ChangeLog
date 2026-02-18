@@ -1,3 +1,22 @@
+2026.02.19, v6.0.3
+
+feature:
+- 0f7457f @putout/minify: rendy v5.0.0
+- 4bb1d54 @putout/minify: redlint v6.1.0
+- de7e08f @putout/minify: putout v42.0.8
+- c4e04c9 @putout/minify: madrun v13.0.0
+- 73fa395 @putout/minify: eslint-plugin-putout v31.0.0
+- 1508add @putout/minify: eslint v10.0.0
+- 8f94dc0 @putout/minify: @putout/plugin-types v10.0.0
+- 43b2efa @putout/minify: @putout/plugin-spread v3.0.0
+- 00d7f85 @putout/minify: @putout/plugin-promises v19.0.0
+- b63aae1 @putout/minify: @putout/plugin-esm v10.0.0
+- 9905bc4 @putout/minify: @putout/plugin-declare v8.0.0
+- 21c5b65 @putout/minify: @putout/plugin-remove-debugger v8.0.0
+- fb5751b @putout/minify: @putout/plugin-remove-console v7.0.0
+- 91eb545 @putout/minify: @putout/plugin-convert-to-arrow-function v5.0.1
+- f722b67 @putout/minify: @putout/plugin-apply-template-literals v5.0.0
+
 2026.01.28, v6.0.2
 
 feature:
