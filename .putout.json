@@ -4,6 +4,9 @@
             "eslint/convert-rc-to-flat": "on"
         }
     },
+    "rules": {
+        "putout/remove-useless-source-argument": "on"
+    },
     "ignore": [
         "bundle",
         "benchmark/result",
