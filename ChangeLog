@@ -1,3 +1,12 @@
+2026.03.04, v6.0.4
+
+feature:
+- 49bfbbc @putout/minify: @putout/plugin-variables v2.2.0
+- 642381e @putout/minify: @putout/plugin-for-of v12.0.0
+- b90eb82 @putout/minify: @putout/plugin-destructuring v2.0.0
+- 174fa4a @putout/minify: @putout/plugin-conditions v9.0.2
+- d459bad @putout/minify: superc8 v12.2.4
+
 2026.02.19, v6.0.3
 
 feature:
