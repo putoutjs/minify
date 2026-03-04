@@ -80,7 +80,6 @@
     "@rollup/plugin-json": "^6.0.0",
     "@rollup/plugin-node-resolve": "^16.0.0",
     "@rollup/plugin-replace": "^6.0.1",
-    "c8": "^10.1.2",
     "eslint": "^10.0.0",
     "eslint-plugin-putout": "^31.0.0",
     "fullstore": "^4.0.0",
@@ -97,6 +96,7 @@
     "rollup-plugin-bundle-stats": "^4.21.6",
     "rollup-plugin-node-externals": "^8.0.0",
     "rollup-plugin-polyfill-node": "^0.13.0",
+    "superc8": "^12.2.4",
     "supertape": "^12.0.0",
     "try-catch": "^4.0.4"
   },
