@@ -53,7 +53,7 @@
     "@putout/plugin-declare": "^8.0.0",
     "@putout/plugin-destructuring": "^2.0.0",
     "@putout/plugin-esm": "^10.0.0",
-    "@putout/plugin-for-of": "^11.0.0",
+    "@putout/plugin-for-of": "^12.0.0",
     "@putout/plugin-logical-expressions": "^8.0.0",
     "@putout/plugin-merge-destructuring-properties": "^12.3.0",
     "@putout/plugin-merge-duplicate-functions": "^4.0.0",
