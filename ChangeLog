@@ -1,3 +1,10 @@
+2026.03.13, v6.0.6
+
+feature:
+- 3b7fd0a @putout/minify: remove-useless-spread: exclude querySelectorAll (#30)
+- c615a96 @putout/minify: @putout/plugin-return v4.0.0
+- c054b74 @putout/minify: @putout/plugin-regexp v14.0.0
+
 2026.03.08, v6.0.5
 
 feature:
