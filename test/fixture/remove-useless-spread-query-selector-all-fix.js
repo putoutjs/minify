@@ -1,0 +1,1 @@
+let a={querySelectorAll:selector=>new Set([1])},b=[...a.querySelectorAll('div')];for(const e of b)console.log(e);

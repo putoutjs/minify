@@ -177,6 +177,13 @@ test('@putout/minify: remove-useless-spread', (t) => {
     t.end();
 });
 
+test('@putout/minify: remove-useless-spread: query-selector-all', (t) => {
+    t.minify('remove-useless-spread-query-selector-all', {
+        expected: 1,
+    });
+    t.end();
+});
+
 test('@putout/minify: remove-useless-spread: disabled', (t) => {
     t.minify('remove-useless-spread-disabled', {
         removeUselessSpread: false,
