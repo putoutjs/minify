@@ -69,7 +69,7 @@
     "@putout/plugin-remove-unreferenced-variables": "^6.0.0",
     "@putout/plugin-remove-unused-expressions": "^12.0.0",
     "@putout/plugin-remove-useless-else": "^2.0.0",
-    "@putout/plugin-return": "^3.0.0",
+    "@putout/plugin-return": "^4.0.0",
     "@putout/plugin-reuse-duplicate-init": "^8.0.0",
     "@putout/plugin-simplify-ternary": "^9.0.0",
     "@putout/plugin-spread": "^3.0.0",
