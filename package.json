@@ -94,7 +94,7 @@
     "redlint": "^6.1.0",
     "rollup": "^4.5.0",
     "rollup-plugin-bundle-stats": "^4.21.6",
-    "rollup-plugin-node-externals": "^8.0.0",
+    "rollup-plugin-node-externals": "^9.0.1",
     "rollup-plugin-polyfill-node": "^0.13.0",
     "superc8": "^12.2.4",
     "supertape": "^12.0.0",
