@@ -62,7 +62,7 @@
     "@putout/plugin-promises": "^20.0.0",
     "@putout/plugin-regexp": "^14.0.0",
     "@putout/plugin-remove-console": "^7.0.0",
-    "@putout/plugin-remove-debugger": "^8.0.0",
+    "@putout/plugin-remove-debugger": "^9.0.0",
     "@putout/plugin-remove-empty": "^15.0.0",
     "@putout/plugin-remove-nested-blocks": "^9.0.0",
     "@putout/plugin-remove-unreachable-code": "^3.0.0",
