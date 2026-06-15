@@ -1,3 +1,16 @@
+2026.06.15, v6.1.0
+
+fix:
+- 2b3c4a1 @putout/minify: discarding forEach on return statement (#31)
+
+feature:
+- b33130f @putout/minify: supertape v13.2.0
+- a809fef @putout/minify: rollup-plugin-node-externals v9.0.1
+- d7e9b5a @putout/minify: montag v2.0.1
+- 52e2a17 @putout/minify: @putout/plugin-remove-debugger v9.0.0
+- 3a190e3 @putout/minify: @putout/plugin-promises v20.0.0
+- 82b8f43 @putout/minify: @putout/plugin-arguments v2.1.0
+
 2026.03.14, v6.0.7
 
 feature:
