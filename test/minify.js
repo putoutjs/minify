@@ -98,7 +98,9 @@ test('@putout/minify: boolean', (t) => {
 
 test('@putout/minify: swap', (t) => {
     t.minify('swap', {
-        expected: [[2, 1]],
+        expected: [
+            [2, 1],
+        ],
     });
     t.end();
 });
@@ -483,6 +485,13 @@ test('@putout/minify: return-arrow', (t) => {
 test('@putout/minify: switch', (t) => {
     t.minify('switch', {
         expected: ['bar'],
+    });
+    t.end();
+});
+
+test('@putout/minify: return-object-entries', (t) => {
+    t.minify('return-object-entries', {
+        expected: [1],
     });
     t.end();
 });

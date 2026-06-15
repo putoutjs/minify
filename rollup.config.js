@@ -84,6 +84,8 @@ export default {
                 'export {load} from "./loader.mjs"': '',
             },
         }),
-        ...STATS ? [bundleStats()] : [],
+        ...STATS ? [
+            bundleStats(),
+        ] : [],
     ],
 };

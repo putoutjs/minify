@@ -1,0 +1,1 @@
+function a(){let A={world:1},h='';switch(h){case'':return Object.entries(A).forEach(([_,b])=>console.log(b))}}a();
