@@ -59,7 +59,7 @@ minify(`
 `);
 ```
 
-```
+```zig
 // returns
 var a=5,b=6;fn(a,b);
 ```
