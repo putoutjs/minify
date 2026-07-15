@@ -1,3 +1,9 @@
+2026.07.15, v6.1.2
+
+feature:
+- 08fc98e @putout/minify: @putout/plugin-declare v8.4.0 (#32)
+- aa0c372 @putout/minify: @putout/plugin-logical-expressions v9.0.0
+
 2026.06.25, v6.1.1
 
 feature:
