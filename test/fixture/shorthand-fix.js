@@ -1,0 +1,1 @@
+'use strict';const{defineProperty:A}=Object;A(b,'__esModule',{value:!0});b.require=b;console.log(b('hello'));function b(a){return a}

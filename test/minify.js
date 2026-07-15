@@ -591,3 +591,10 @@ test('@putout/minify: for-each-destructuring', (t) => {
     });
     t.end();
 });
+
+test('@putout/minify: shorthand', (t) => {
+    t.minify('shorthand', {
+        expected: ['hello'],
+    });
+    t.end();
+});
