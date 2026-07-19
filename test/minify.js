@@ -30,6 +30,13 @@ test('@putout/minify: array', (t) => {
     t.end();
 });
 
+test('@putout/minify: array-reuse', (t) => {
+    t.minify('array-reuse', {
+        expected: [1],
+    });
+    t.end();
+});
+
 test('@putout/minify: apply-optional-chaining', (t) => {
     t.minify('apply-optional-chaining', {
         expected: 1,
