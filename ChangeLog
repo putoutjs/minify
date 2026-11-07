@@ -1,3 +1,11 @@
+2026.11.07, v6.2.0
+
+fix:
+- b9ea6cb @putout/minify: minifying typeof x === 'number' generates a call to undeclared isNumber (#33)
+
+feature:
+- 05d3117 @putoutjs/minify: rollup -> rspack
+
 2026.07.19, v6.1.3
 
 fix:
