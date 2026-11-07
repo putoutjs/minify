@@ -1,3 +1,8 @@
+2026.11.07, v6.3.0
+
+feature:
+- 6accd58 @putout/minify: options: convertTypeofToIsType (#33)
+
 2026.11.07, v6.2.0
 
 fix:
