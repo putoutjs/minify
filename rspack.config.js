@@ -41,7 +41,9 @@ export default {
             'acorn-stage3': resolve('./stub/acorn-stage3.js'),
             'obug': resolve('./stub/debug.js'),
             // browser field points to index.dom.js that needs `document`
-            'decode-named-character-reference$': import.meta.resolve('decode-named-character-reference').replace('file://', ''),
+            'decode-named-character-reference$': import.meta
+                .resolve('decode-named-character-reference')
+                .replace('file://', ''),
         },
     },
     plugins: [
@@ -52,17 +54,19 @@ export default {
         new rspack.DefinePlugin({
             'process.env.BABEL_TYPES_8_BREAKING': 'true',
         }),
-        ...STATS ? [
-            new RsdoctorRspackPlugin({
-                disableClientServer: true,
-                output: {
-                    mode: 'brief',
-                    options: {
-                        type: ['html'],
+        ...STATS
+            ? [
+                new RsdoctorRspackPlugin({
+                    disableClientServer: true,
+                    output: {
+                        mode: 'brief',
+                        options: {
+                            type: ['html'],
+                        },
                     },
-                },
-            }),
-        ] : [],
+                }),
+            ]
+            : [],
     ],
     stats: 'errors-only',
 };

@@ -145,10 +145,12 @@ function compareTask(file) {
     return result;
 }
 
-const convertMap = (fn, obj) => Object.fromEntries(Object
-    .entries(obj)
-    .map(([k, v]) => [k, fn(v, k, obj)])
-    .filter(([, v]) => v));
+const convertMap = (fn, obj) => Object.fromEntries(
+    Object
+        .entries(obj)
+        .map(([k, v]) => [k, fn(v, k, obj)])
+        .filter(([, v]) => v),
+);
 
 function convertTable(obj, key) {
     return convertMap(convertMap.bind(null, (v) => v[key]), obj);
