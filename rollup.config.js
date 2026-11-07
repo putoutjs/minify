@@ -1,4 +1,5 @@
 import process from 'node:process';
+import {fileURLToPath} from 'node:url';
 import commonjs from '@rollup/plugin-commonjs';
 import {nodeResolve} from '@rollup/plugin-node-resolve';
 import json from '@rollup/plugin-json';
@@ -31,6 +32,9 @@ export default {
             }, {
                 find: 'acorn-stage3',
                 replacement: new URL('./stub/acorn-stage3.js', import.meta.url).pathname,
+            }, {
+                find: 'decode-named-character-reference',
+                replacement: fileURLToPath(import.meta.resolve('decode-named-character-reference')),
             }, {
                 find: 'obug',
                 replacement: new URL('./stub/debug.js', import.meta.url).pathname,
