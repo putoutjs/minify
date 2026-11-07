@@ -21,7 +21,7 @@ export default {
     'coverage': async () => [env, `c8 ${await cutEnv('test')}`],
     'coverage:html': async () => [env, `c8 --reporter=lcov ${await cutEnv('test')}`],
     'report': () => 'c8 report --reporter=lcov',
-    'build': () => 'rollup -c',
+    'build': () => 'rspack build',
     'build:stats': async () => [statsEnv, await run('build')],
     'minify': () => 'minify bundle/minify.js > bundle/minify.min.js',
 };

@@ -11,7 +11,7 @@
         "**/coverage",
         "**/bundle",
         "**/stub",
-        "rollup.config.js",
+        "rspack.config.js",
         "test",
         "benchmark"
     ],
