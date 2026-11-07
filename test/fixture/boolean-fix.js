@@ -1,1 +1,1 @@
-console.log(!0,!1);const c=!!'hello';
+console.log(!0,!1);const c=Boolean('hello');
