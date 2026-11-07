@@ -81,6 +81,7 @@ You can also pass options to `minify`. Here is list of default options:
     removeUselessSpread: true,
     applyTemplateLiterals: true,
     convertStrictEqualToEqual: false,
+    convertTypeofToIsType: true,
 });
 ```
 

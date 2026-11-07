@@ -351,6 +351,14 @@ test('@putout/minify: convert-typeof-to-is-type', (t) => {
     t.end();
 });
 
+test('@putout/minify: convert-typeof-to-is-type: disabled', (t) => {
+    t.minify('convert-typeof-to-is-type-disabled', {
+        expected: [true],
+        convertTypeofToIsType: false,
+    });
+    t.end();
+});
+
 test('@putout/minify: convert-const-to-var', (t) => {
     t.minify('convert-const-to-var');
     t.end();

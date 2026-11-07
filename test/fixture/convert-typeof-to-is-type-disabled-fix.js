@@ -1,0 +1,1 @@
+function a(v){return typeof v==='number'}console.log(a(1));
