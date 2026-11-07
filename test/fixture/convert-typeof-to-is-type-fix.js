@@ -1,0 +1,1 @@
+let A=a=>!Number.isNaN(a)&&typeof a==='number';function b(v){return A(v)}console.log(b(1));

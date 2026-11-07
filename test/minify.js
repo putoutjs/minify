@@ -344,6 +344,14 @@ test('@putout/minify: convert-arguments-to-rest', (t) => {
     t.end();
 });
 
+test('@putout/minify: convert-typeof-to-is-type', (t) => {
+    t.minify('convert-typeof-to-is-type', {
+        expected: [true],
+    });
+    t.end();
+});
+
+
 test('@putout/minify: convert-const-to-var', (t) => {
     t.minify('convert-const-to-var');
     t.end();
